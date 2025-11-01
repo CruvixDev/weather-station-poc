@@ -613,6 +613,22 @@
     [
       "38eb53bb-294e-46e4-ad59-fd355ca373b9",
       "Root"
+    ],
+    [
+      "336d3e95-9b5f-4d37-8b5a-efff814cf96e",
+      "USB-C"
+    ],
+    [
+      "5f00b1ab-9f48-4782-8810-a8d68b4e6a2f",
+      "MCU"
+    ],
+    [
+      "29574217-d56b-4a63-a2c4-128dfec2758e",
+      "Sensors"
+    ],
+    [
+      "31741ecc-719f-4191-b75e-d75152dfd251",
+      "RadioSubGHz"
     ]
   ],
   "text_variables": {}
