@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "cb29827f-f75b-4607-b5fb-c66593a1cfae")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(date "2025-11-01")
 	)
@@ -793,7 +793,7 @@
 	)
 	(symbol
 		(lib_id "weather-station-poc-sym:BMP581")
-		(at 219.71 146.05 0)
+		(at 128.27 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -802,7 +802,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d55e3c3-e3f5-4fc8-adef-d6b5dd7dd332")
 		(property "Reference" "U3"
-			(at 250.19 139.6298 0)
+			(at 158.75 114.2298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +810,7 @@
 			)
 		)
 		(property "Value" "BMP581"
-			(at 250.19 142.1698 0)
+			(at 158.75 116.7698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,7 +818,7 @@
 			)
 		)
 		(property "Footprint" "BMP581"
-			(at 246.38 230.81 0)
+			(at 154.94 205.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +828,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
-			(at 246.38 330.81 0)
+			(at 154.94 305.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,7 +838,7 @@
 			)
 		)
 		(property "Description" "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA"
-			(at 219.71 146.05 0)
+			(at 128.27 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,7 +847,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 246.38 530.81 0)
+			(at 154.94 505.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,7 +857,7 @@
 			)
 		)
 		(property "Mouser Part Number" "262-BMP581"
-			(at 246.38 630.81 0)
+			(at 154.94 605.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -867,7 +867,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D"
-			(at 246.38 730.81 0)
+			(at 154.94 705.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +877,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "BOSCH"
-			(at 246.38 830.81 0)
+			(at 154.94 805.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +887,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BMP581"
-			(at 246.38 930.81 0)
+			(at 154.94 905.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +937,7 @@
 	)
 	(symbol
 		(lib_id "Sensor:BME280")
-		(at 234.95 110.49 0)
+		(at 143.51 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -946,7 +946,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e6c0847-a987-4ba1-a994-41dce1d2526a")
 		(property "Reference" "U2"
-			(at 223.52 109.2199 0)
+			(at 132.08 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +955,7 @@
 			)
 		)
 		(property "Value" "BME280"
-			(at 223.52 111.7599 0)
+			(at 132.08 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +964,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
-			(at 273.05 121.92 0)
+			(at 181.61 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,7 +973,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
-			(at 234.95 115.57 0)
+			(at 143.51 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +982,7 @@
 			)
 		)
 		(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-			(at 234.95 110.49 0)
+			(at 143.51 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,7 +1025,7 @@
 	)
 	(symbol
 		(lib_id "weather-station-poc-sym:BME690")
-		(at 219.71 83.82 0)
+		(at 128.27 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1034,7 +1034,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8b53cb0-224c-4b79-b68d-276e25cfe29e")
 		(property "Reference" "IC5"
-			(at 234.95 76.2 0)
+			(at 143.51 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1042,7 @@
 			)
 		)
 		(property "Value" "BME690"
-			(at 234.95 78.74 0)
+			(at 143.51 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1050,7 @@
 			)
 		)
 		(property "Footprint" "BME690"
-			(at 246.38 178.74 0)
+			(at 154.94 153.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1060,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme690/#documents"
-			(at 246.38 278.74 0)
+			(at 154.94 253.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1070,7 @@
 			)
 		)
 		(property "Description" "Multiple Function Sensor Modules BME690 is the gas sensor with Artificial Intelligence (AI) and integrated high-linearity and high-accuracy  pressure, humidity and temperature sensors."
-			(at 219.71 83.82 0)
+			(at 128.27 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,7 +1079,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 246.38 478.74 0)
+			(at 154.94 453.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1089,7 @@
 			)
 		)
 		(property "Mouser Part Number" "262-BME690"
-			(at 246.38 578.74 0)
+			(at 154.94 553.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1099,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BME690?qs=%252BXxaIXUDbq38jwlEAGDF7A%3D%3D"
-			(at 246.38 678.74 0)
+			(at 154.94 653.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,7 +1109,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "BOSCH"
-			(at 246.38 778.74 0)
+			(at 154.94 753.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,7 +1119,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BME690"
-			(at 246.38 878.74 0)
+			(at 154.94 853.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

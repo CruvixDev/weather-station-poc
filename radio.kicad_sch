@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "93ea6bea-69ae-49f0-af86-cef5ee34168d")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(date "2025-11-01")
 	)
@@ -577,7 +577,7 @@
 	)
 	(symbol
 		(lib_id "weather-station-poc-sym:S2-LPQTR")
-		(at 132.08 76.2 0)
+		(at 129.54 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -586,7 +586,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf0b5224-20b6-4e41-ac49-ea7119087fac")
 		(property "Reference" "IC4"
-			(at 173.99 69.7798 0)
+			(at 171.45 72.3198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -594,7 +594,7 @@
 			)
 		)
 		(property "Value" "S2-LPQTR"
-			(at 173.99 72.3198 0)
+			(at 171.45 74.8598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,7 +602,7 @@
 			)
 		)
 		(property "Footprint" "QFN50P400X400X100-25N-D"
-			(at 168.91 160.96 0)
+			(at 166.37 163.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,7 +612,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/bd/26/62/81/3d/86/4d/15/DM00339133/files/DM00339133.pdf/jcr:content/translations/en.DM00339133.pdf"
-			(at 168.91 260.96 0)
+			(at 166.37 263.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -622,7 +622,7 @@
 			)
 		)
 		(property "Description" "STMICROELECTRONICS - S2-LPQTR - RF TRANSCEIVER, 1GHZ, QFN-24"
-			(at 132.08 76.2 0)
+			(at 129.54 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -631,7 +631,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 168.91 460.96 0)
+			(at 166.37 463.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -641,7 +641,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-S2-LPQTR"
-			(at 168.91 560.96 0)
+			(at 166.37 563.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -651,7 +651,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/S2-LPQTR?qs=pBOFM1sAujt3j15q4uNAuQ%3D%3D"
-			(at 168.91 660.96 0)
+			(at 166.37 663.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,7 +661,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 168.91 760.96 0)
+			(at 166.37 763.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,7 +671,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S2-LPQTR"
-			(at 168.91 860.96 0)
+			(at 166.37 863.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
