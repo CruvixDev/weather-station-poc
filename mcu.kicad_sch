@@ -3649,6 +3649,47 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 134.62 82.55) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafbc973-4bec-4aa6-9e8a-fff6f1f03fa4")
+	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 134.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48db2e1-e599-4942-845d-f6c197cc387c")
+	)
+	(wire
+		(pts
+			(xy 134.62 91.44) (xy 162.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48bc181-a1b4-4881-82ff-9782c86e59e6")
+	)
+	(hierarchical_label "3V3_MCU"
+		(shape input)
+		(at 139.7 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fec818ef-52c0-4cba-b841-6e5b6fed7edb")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32U5:STM32U5G9ZJTxQ")
 		(at 203.2 139.7 0)
