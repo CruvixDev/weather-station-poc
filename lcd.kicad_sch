@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bdf41c21-2a18-41ac-8868-4eae4e08f30f")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "3V3_LCD"
+		(shape input)
+		(at 128.27 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ae9c29e-6d3c-4661-ad94-edb2db4b7929")
+	)
+	(hierarchical_label "12V_LCD"
+		(shape input)
+		(at 128.27 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ebea4c1-83b6-40f7-ad50-c6455540bbef")
+	)
+)

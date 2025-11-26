@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "94b8b277-f3e3-4305-952f-81b56ef735d2")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "MOSI_Ethernet"
+		(shape input)
+		(at 135.89 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69835c3c-149b-4420-83f5-a2faa202f46f")
+	)
+	(hierarchical_label "~{SS}_Ethernet"
+		(shape input)
+		(at 135.89 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5e6c7c1-18c4-4b33-bfd0-03ee1a710331")
+	)
+	(hierarchical_label "MISO_Ethernet"
+		(shape output)
+		(at 135.89 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be351c08-392a-40ae-afe8-349442d76f3b")
+	)
+	(hierarchical_label "SCLK_Ethernet"
+		(shape input)
+		(at 135.89 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5154d5f-8e8c-4a27-8e14-07bcc99aa8e3")
+	)
+	(hierarchical_label "3V3_Ethernet"
+		(shape input)
+		(at 135.89 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fad5c28b-e509-4c12-9b14-f2078e43e353")
+	)
+)

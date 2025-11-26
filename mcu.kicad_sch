@@ -3649,46 +3649,225 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 134.62 82.55) (xy 134.62 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aafbc973-4bec-4aa6-9e8a-fff6f1f03fa4")
-	)
-	(wire
-		(pts
-			(xy 139.7 82.55) (xy 134.62 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c48db2e1-e599-4942-845d-f6c197cc387c")
-	)
-	(wire
-		(pts
-			(xy 134.62 91.44) (xy 162.56 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f48bc181-a1b4-4881-82ff-9782c86e59e6")
-	)
-	(hierarchical_label "3V3_MCU"
-		(shape input)
-		(at 139.7 82.55 0)
+	(hierarchical_label "MISO_MCU_Slave"
+		(shape output)
+		(at 134.62 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fec818ef-52c0-4cba-b841-6e5b6fed7edb")
+		(uuid "2a9cc0ba-9a9e-4202-ab27-2f84990533f1")
+	)
+	(hierarchical_label "Tx_MCU"
+		(shape output)
+		(at 120.65 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f4ac2bb-d02d-4050-b274-6684ed553b68")
+	)
+	(hierarchical_label "CC1_MCU"
+		(shape input)
+		(at 91.44 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32a4c4e9-2a09-48cf-bae8-7179e2e27bc6")
+	)
+	(hierarchical_label "~{SS}_Radio_MCU"
+		(shape output)
+		(at 102.87 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "338e3191-4da0-4301-9c1a-0508fb27fc5c")
+	)
+	(hierarchical_label "SDA_MCU"
+		(shape bidirectional)
+		(at 120.65 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e46e2da-295e-4494-9509-919a96f167fd")
+	)
+	(hierarchical_label "CAN_L_MCU"
+		(shape bidirectional)
+		(at 134.62 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4531e770-38c0-437a-845e-7f674ec64e86")
+	)
+	(hierarchical_label "SCL_MCU"
+		(shape output)
+		(at 120.65 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62b277cf-e40b-42d1-b2ad-4f367135bb1b")
+	)
+	(hierarchical_label "CC2_MCU"
+		(shape input)
+		(at 91.44 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7053a573-f070-4604-b14c-a653e4b9df9c")
+	)
+	(hierarchical_label "MOSI_MCU_Master"
+		(shape output)
+		(at 102.87 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7faa542d-a758-463e-8ee7-77a5f1fdde89")
+	)
+	(hierarchical_label "SCLK_MCU_Slave"
+		(shape input)
+		(at 134.62 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "839aa7d4-ea89-4222-af0d-9a24d14c5dff")
+	)
+	(hierarchical_label "3V3_MCU"
+		(shape input)
+		(at 91.44 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "853751b2-a932-4d85-8270-df96c4b5cca6")
+	)
+	(hierarchical_label "~{SS}_MCU_Slave"
+		(shape output)
+		(at 134.62 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86f39ded-5cd0-4f66-9474-beae144f1a89")
+	)
+	(hierarchical_label "DN_MCU"
+		(shape input)
+		(at 91.44 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "928a062b-7b17-4711-bf90-db55a1fddbd2")
+	)
+	(hierarchical_label "MOSI_MCU_Slave"
+		(shape input)
+		(at 134.62 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a402de57-e0a0-48da-a043-25dcafbe392b")
+	)
+	(hierarchical_label "Rx_MCU"
+		(shape input)
+		(at 120.65 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6364395-179d-4607-a9f8-8097eb37a21f")
+	)
+	(hierarchical_label "MISO_MCU_Master"
+		(shape input)
+		(at 102.87 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c141e818-a6b3-4698-b4a3-a73b8a350df3")
+	)
+	(hierarchical_label "SCLK_MCU_Master"
+		(shape output)
+		(at 102.87 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c707c447-a33c-4323-8fef-9700f2c35e93")
+	)
+	(hierarchical_label "CAN_H_MCU"
+		(shape bidirectional)
+		(at 120.65 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d87f5659-fa49-48a5-b7bf-dc796690af44")
+	)
+	(hierarchical_label "~{SS}_Ethernet_MCU"
+		(shape output)
+		(at 102.87 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1f7a1dd-45e4-4780-85da-d7a7119f2987")
+	)
+	(hierarchical_label "DP_MCU"
+		(shape input)
+		(at 91.44 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fffd0e7f-10d9-425c-b982-d89396210f64")
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32U5:STM32U5G9ZJTxQ")
@@ -3701,7 +3880,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb952487-56f9-421a-82fa-dcf96d818115")
 		(property "Reference" "U1"
-			(at 210.4233 226.06 0)
+			(at 210.4409 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3889,7 @@
 			)
 		)
 		(property "Value" "STM32U5G9ZJTxQ"
-			(at 210.4233 228.6 0)
+			(at 210.4409 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

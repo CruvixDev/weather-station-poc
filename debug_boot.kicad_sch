@@ -1,0 +1,129 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1a9eb2ea-c7bf-49b4-bd13-6ebbc3a2eb99")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "~{SS}_Debug"
+		(shape output)
+		(at 116.84 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fe39510-8f29-48b1-aab3-a276903dacab")
+	)
+	(hierarchical_label "3V3_Debug"
+		(shape input)
+		(at 132.08 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "110606f5-c054-44ec-a82b-adc2c1bae264")
+	)
+	(hierarchical_label "SDA_Debug"
+		(shape bidirectional)
+		(at 132.08 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11e2af89-d9af-492d-a4e1-ea2384a6a28d")
+	)
+	(hierarchical_label "MOSI_Debug"
+		(shape output)
+		(at 116.84 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43c53315-b56e-4c5d-8bf4-a043dd0cf4d2")
+	)
+	(hierarchical_label "SCL_Debug"
+		(shape input)
+		(at 132.08 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ace9f3a-cb78-499a-91f8-13e9c1c4ab8b")
+	)
+	(hierarchical_label "CAN_H_Debug"
+		(shape bidirectional)
+		(at 132.08 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65159f12-cfb3-4b19-8e16-93eef6067f1e")
+	)
+	(hierarchical_label "Rx_Debug"
+		(shape output)
+		(at 116.84 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73723512-48b4-4b11-92e2-1bf98c2788f5")
+	)
+	(hierarchical_label "SCLK_Debug"
+		(shape output)
+		(at 116.84 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99af9700-a18e-464a-8e6a-aad329191b50")
+	)
+	(hierarchical_label "Tx_Debug"
+		(shape input)
+		(at 116.84 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0a3919e-88da-482e-8af4-4f2d80a16d49")
+	)
+	(hierarchical_label "CAN_L_Debug"
+		(shape bidirectional)
+		(at 132.08 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4b20969-d074-48e0-abb9-c771d513aecd")
+	)
+	(hierarchical_label "MISO_Debug"
+		(shape input)
+		(at 116.84 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f86f1f51-b5a5-46bd-84e3-977b5594ef63")
+	)
+)

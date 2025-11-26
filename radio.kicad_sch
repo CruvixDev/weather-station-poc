@@ -575,6 +575,61 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "MISO_Radio"
+		(shape output)
+		(at 92.71 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26a2a3b6-7bb1-4691-b3aa-cd3e44d44bf6")
+	)
+	(hierarchical_label "SCLK_Radio"
+		(shape input)
+		(at 92.71 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99ef2587-43cf-4f92-b4a2-75624c919b14")
+	)
+	(hierarchical_label "~{SS}_Radio"
+		(shape input)
+		(at 92.71 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c79d4836-7b62-400c-a0af-d340bec7b4f1")
+	)
+	(hierarchical_label "MOSI_Radio"
+		(shape input)
+		(at 92.71 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc88874c-41ab-48a3-920e-11d9203e1172")
+	)
+	(hierarchical_label "3V3_Radio"
+		(shape input)
+		(at 92.71 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e419fd33-21ec-4d88-b603-cc396e3bbcd3")
+	)
 	(symbol
 		(lib_id "weather-station-poc-sym:S2-LPQTR")
 		(at 129.54 78.74 0)

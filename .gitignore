@@ -2,3 +2,4 @@ fp-info-cache
 /weather-station-poc-backups
 *.bak
 ~weather-station-poc.kicad_sch.lck
+~weather-station-poc.kicad_pcb.lck

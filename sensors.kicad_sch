@@ -791,6 +791,39 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "3V3_Sensors"
+		(shape input)
+		(at 90.17 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14a7937c-2e42-4e34-92b5-c44fa3d4889d")
+	)
+	(hierarchical_label "SCL_Sensors"
+		(shape input)
+		(at 90.17 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7349b1f7-e624-4d14-bf8b-9eaba458e087")
+	)
+	(hierarchical_label "SDA_Sensors"
+		(shape bidirectional)
+		(at 90.17 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe38698a-58ee-484b-8196-4583bab7b695")
+	)
 	(symbol
 		(lib_id "weather-station-poc-sym:BMP581")
 		(at 128.27 120.65 0)
