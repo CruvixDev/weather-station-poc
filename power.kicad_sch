@@ -658,19 +658,9 @@
 		)
 		(uuid "df70a049-7499-40c5-8b0c-1132084c29d5")
 	)
-	(label "5V_USB"
-		(at 182.88 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b3c1c2c-8b38-46ea-83ba-d3c015b7e0f3")
-	)
 	(hierarchical_label "12V_Power"
 		(shape output)
-		(at 73.66 77.47 0)
+		(at 203.2 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -692,7 +682,7 @@
 	)
 	(hierarchical_label "5V_Power"
 		(shape input)
-		(at 73.66 73.66 0)
+		(at 182.88 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
