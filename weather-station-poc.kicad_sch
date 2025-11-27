@@ -35,7 +35,7 @@
 	)
 	(text "Synoptic"
 		(exclude_from_sim no)
-		(at 87.376 54.356 0)
+		(at 87.63 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2178,7 +2178,7 @@
 		)
 	)
 	(sheet
-		(at 85.852 60.706)
+		(at 86.36 60.96)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2194,7 +2194,7 @@
 		)
 		(uuid "bccf0967-a584-4b88-b7d3-b70102dc048b")
 		(property "Sheetname" "BlockDiagram"
-			(at 85.852 59.9944 0)
+			(at 86.36 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2203,7 @@
 			)
 		)
 		(property "Sheetfile" "block-diagram.kicad_sch"
-			(at 85.852 65.1006 0)
+			(at 86.36 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
