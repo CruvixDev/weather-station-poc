@@ -575,6 +575,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Sub-GHz radio"
+		(exclude_from_sim no)
+		(at 148.844 25.908 0)
+		(effects
+			(font
+				(size 10 10)
+			)
+		)
+		(uuid "5890ddf4-f354-470b-baeb-35699b3b927d")
+	)
 	(hierarchical_label "MISO_Radio"
 		(shape output)
 		(at 92.71 81.28 0)

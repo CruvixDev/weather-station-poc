@@ -1303,6 +1303,16 @@
 		)
 		(uuid d1f06249-5538-44ec-9d3d-4e677c3f59c0)
 	)
+	(text "Power supplies"
+		(exclude_from_sim no)
+		(at 153.162 23.622 0)
+		(effects
+			(font
+				(size 10 10)
+			)
+		)
+		(uuid "0446a5a3-b9fb-4db0-9af5-add9a2170fcc")
+	)
 	(text "LED driver"
 		(exclude_from_sim no)
 		(at 68.58 101.346 0)

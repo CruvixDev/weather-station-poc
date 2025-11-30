@@ -5,6 +5,16 @@
 	(uuid "94b8b277-f3e3-4305-952f-81b56ef735d2")
 	(paper "A4")
 	(lib_symbols)
+	(text "Ethernet PHY"
+		(exclude_from_sim no)
+		(at 145.288 23.114 0)
+		(effects
+			(font
+				(size 10 10)
+			)
+		)
+		(uuid "c7ec0c36-14c1-4076-a15c-b32422396c79")
+	)
 	(hierarchical_label "MOSI_Ethernet"
 		(shape input)
 		(at 135.89 81.28 0)

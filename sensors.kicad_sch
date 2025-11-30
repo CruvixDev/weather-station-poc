@@ -791,6 +791,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Sensors"
+		(exclude_from_sim no)
+		(at 149.352 26.67 0)
+		(effects
+			(font
+				(size 10 10)
+			)
+		)
+		(uuid "e4e0f9c0-c50b-4ac5-a2b7-c5df190ac783")
+	)
 	(hierarchical_label "3V3_Sensors"
 		(shape input)
 		(at 90.17 73.66 0)

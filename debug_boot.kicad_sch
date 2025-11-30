@@ -5,6 +5,16 @@
 	(uuid "1a9eb2ea-c7bf-49b4-bd13-6ebbc3a2eb99")
 	(paper "A4")
 	(lib_symbols)
+	(text "Debug"
+		(exclude_from_sim no)
+		(at 151.892 25.146 0)
+		(effects
+			(font
+				(size 10 10)
+			)
+		)
+		(uuid "06db8011-19eb-4a80-9eb0-a5c302a9ac58")
+	)
 	(hierarchical_label "~{SS}_Debug"
 		(shape output)
 		(at 116.84 85.09 0)

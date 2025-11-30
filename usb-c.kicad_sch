@@ -2351,7 +2351,7 @@
 		)
 		(uuid "612e54b5-46c7-492b-873d-53e262f93b4b")
 	)
-	(text "USB-C power supply"
+	(text "USB-C"
 		(exclude_from_sim no)
 		(at 145.796 24.13 0)
 		(effects
