@@ -737,17 +737,6 @@
 		)
 		(uuid "1666a90a-2c24-4654-96fc-54a3a58b482b")
 	)
-	(hierarchical_label "12V_LCD"
-		(shape input)
-		(at 128.27 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ebea4c1-83b6-40f7-ad50-c6455540bbef")
-	)
 	(hierarchical_label "B0_LCD"
 		(shape input)
 		(at 158.75 99.06 0)
@@ -802,6 +791,17 @@
 			(justify left)
 		)
 		(uuid "453f0456-17d8-436c-a2e4-83fb56a4bc5c")
+	)
+	(hierarchical_label "VLED+_LCD"
+		(shape input)
+		(at 128.27 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ac781a0-9d88-4d0b-ba33-c80af5695386")
 	)
 	(hierarchical_label "G2_LCD"
 		(shape input)
@@ -879,6 +879,17 @@
 			(justify left)
 		)
 		(uuid "61b87219-ac95-44b1-b6d2-f1ae2aab49f2")
+	)
+	(hierarchical_label "VLED-_LCD"
+		(shape output)
+		(at 139.7 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63a60cb2-fd41-4f48-8c99-59d35499ac49")
 	)
 	(hierarchical_label "R0_LCD"
 		(shape input)

@@ -3,3 +3,4 @@ fp-info-cache
 *.bak
 ~weather-station-poc.kicad_sch.lck
 ~weather-station-poc.kicad_pcb.lck
+\#auto_saved_files\#

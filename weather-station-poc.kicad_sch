@@ -12,7 +12,7 @@
 	)
 	(lib_symbols)
 	(rectangle
-		(start 83.82 55.88)
+		(start 83.82 53.34)
 		(end 222.25 158.115)
 		(stroke
 			(width 0)
@@ -25,7 +25,7 @@
 	)
 	(text "Weather station POC"
 		(exclude_from_sim no)
-		(at 149.606 24.13 0)
+		(at 149.86 24.13 0)
 		(effects
 			(font
 				(size 10 10)
@@ -109,6 +109,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 77.47) (xy 167.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091cb38a-fd68-4a11-9aff-9074f07cc170")
+	)
+	(wire
+		(pts
 			(xy 124.46 146.05) (xy 116.84 146.05)
 		)
 		(stroke
@@ -156,6 +166,16 @@
 			(type default)
 		)
 		(uuid "174442b0-769d-49e5-be33-4fe6c91a957b")
+	)
+	(wire
+		(pts
+			(xy 165.1 100.33) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182ee02f-9360-41d7-9128-92fc0403b168")
 	)
 	(wire
 		(pts
@@ -239,6 +259,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 80.01) (xy 170.18 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277b7346-dd0a-4ac7-82e8-8e4dea53d5dc")
+	)
+	(wire
+		(pts
 			(xy 190.5 80.01) (xy 193.04 80.01)
 		)
 		(stroke
@@ -249,6 +279,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 59.69) (xy 193.04 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350b2b5c-d2dc-455f-93a4-9318f0c56374")
+	)
+	(wire
+		(pts
 			(xy 198.12 95.25) (xy 187.96 95.25)
 		)
 		(stroke
@@ -256,6 +296,16 @@
 			(type default)
 		)
 		(uuid "358d4f11-a679-4c77-a380-8777d9726bbe")
+	)
+	(wire
+		(pts
+			(xy 158.75 77.47) (xy 167.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360a3794-edbe-488a-9066-85f1610326af")
 	)
 	(wire
 		(pts
@@ -326,6 +376,16 @@
 			(type default)
 		)
 		(uuid "5002cd78-c172-4736-bb61-e55dbbc6e946")
+	)
+	(wire
+		(pts
+			(xy 170.18 62.23) (xy 193.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5024fb4f-8f60-416b-84dc-2fe838d37b6a")
 	)
 	(wire
 		(pts
@@ -429,6 +489,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 82.55) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b63bfe-357b-4f36-8017-8a3620c16a2c")
+	)
+	(wire
+		(pts
 			(xy 132.08 129.54) (xy 127 129.54)
 		)
 		(stroke
@@ -449,16 +519,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 90.17) (xy 170.18 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abc18a3b-2144-4711-a6a5-2cb0ef10aff0")
-	)
-	(wire
-		(pts
 			(xy 119.38 140.97) (xy 116.84 140.97)
 		)
 		(stroke
@@ -469,7 +529,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 97.79) (xy 125.73 92.71)
+			(xy 125.73 97.79) (xy 125.73 88.9)
 		)
 		(stroke
 			(width 0)
@@ -589,17 +649,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 62.23) (xy 193.04 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d254595f-20ab-43fc-9a5e-9ec905786d30")
-	)
-	(wire
-		(pts
-			(xy 125.73 92.71) (xy 138.43 92.71)
+			(xy 125.73 88.9) (xy 138.43 88.9)
 		)
 		(stroke
 			(width 0)
@@ -629,13 +679,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 90.17) (xy 170.18 62.23)
+			(xy 168.91 100.33) (xy 168.91 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5cc50b0-b9f6-4ce0-aefa-b723b57f0bbb")
+		(uuid "ec351f18-1235-4ed9-8723-7a4ccb97a980")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 170.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcb0d68-d1a7-4a36-b2b5-32718d25cb5b")
 	)
 	(bus
 		(pts
@@ -1165,30 +1225,8 @@
 		)
 	)
 	(global_label "3V3"
-		(shape output)
-		(at 158.75 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6fcf51c9-8eea-40c8-95d2-446fafb42db6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.3231 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
 		(shape input)
-		(at 132.08 104.14 180)
+		(at 132.08 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1198,7 +1236,7 @@
 		)
 		(uuid "7936396d-c8b8-48e5-a984-62c6db49f49b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.5069 104.14 0)
+			(at 126.5069 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,14 +1356,35 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 138.43 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e91f0a6d-c27f-409d-8b59-3c207e056274")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.8569 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(sheet
-		(at 138.43 87.63)
-		(size 20.32 7.62)
+		(at 138.43 74.93)
+		(size 20.32 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1335,7 +1394,7 @@
 		)
 		(uuid "12325ae0-3782-4eae-9f35-258d08cb4f7e")
 		(property "Sheetname" "Power"
-			(at 138.43 86.9184 0)
+			(at 138.43 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1403,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 138.43 95.8346 0)
+			(at 138.43 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,17 +1412,17 @@
 			)
 		)
 		(pin "3V3_Power" output
-			(at 158.75 92.71 0)
+			(at 138.43 86.36 180)
 			(uuid "dd47cd16-23f2-465d-b292-893327ddd5a0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "5V_Power" input
-			(at 138.43 92.71 180)
+			(at 138.43 88.9 180)
 			(uuid "e7e9efb1-032d-431b-a859-e759a779d4ab")
 			(effects
 				(font
@@ -1372,9 +1431,29 @@
 				(justify left)
 			)
 		)
-		(pin "12V_Power" output
-			(at 158.75 90.17 0)
-			(uuid "763da95c-3916-42c0-be2f-4cecdb9cc79c")
+		(pin "VLED+_Power" output
+			(at 158.75 77.47 0)
+			(uuid "8fe4f706-3a99-4c1a-9691-c439e72f9ba6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VLED-_Power" input
+			(at 158.75 80.01 0)
+			(uuid "53ef5a5d-762a-4d65-bccf-d95df6ce2fb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Brightness_PWM_Power" input
+			(at 158.75 82.55 0)
+			(uuid "e92be71d-4034-4d28-9e14-d76aa454b6f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1494,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 198.12 101.346 0)
+			(at 198.12 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,7 +1656,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-c.kicad_sch"
-			(at 91.567 111.252 0)
+			(at 91.44 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,8 +1723,8 @@
 		)
 	)
 	(sheet
-		(at 132.08 101.6)
-		(size 33.02 40.64)
+		(at 132.08 97.79)
+		(size 33.02 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1659,7 +1738,7 @@
 		)
 		(uuid "5f00b1ab-9f48-4782-8810-a8d68b4e6a2f")
 		(property "Sheetname" "MCU"
-			(at 132.08 100.8884 0)
+			(at 132.08 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1747,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 132.08 143.256 0)
+			(at 132.08 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1756,7 @@
 			)
 		)
 		(pin "3V3_MCU" input
-			(at 132.08 104.14 180)
+			(at 132.08 100.33 180)
 			(uuid "0e838ce8-09d0-4fa9-9604-5df6d0e4b26c")
 			(effects
 				(font
@@ -1906,6 +1985,16 @@
 				(justify right)
 			)
 		)
+		(pin "Brightness_PWM_MCU" output
+			(at 165.1 100.33 0)
+			(uuid "db0a70f9-aca1-452e-a07d-fc7737f1f649")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
@@ -1915,13 +2004,12 @@
 		)
 	)
 	(sheet
-		(at 193.04 59.69)
-		(size 13.97 22.86)
+		(at 193.04 57.15)
+		(size 13.97 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1931,7 +2019,7 @@
 		)
 		(uuid "887aec76-5086-421b-8a43-0ed64a6cc9fd")
 		(property "Sheetname" "LCD"
-			(at 193.04 58.9784 0)
+			(at 193.04 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +2028,7 @@
 			)
 		)
 		(property "Sheetfile" "lcd.kicad_sch"
-			(at 193.04 83.1346 0)
+			(at 193.04 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,16 +2039,6 @@
 		(pin "3V3_LCD" input
 			(at 193.04 64.77 180)
 			(uuid "90e5f6da-e11c-48a0-93a9-6553c6f65318")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "12V_LCD" input
-			(at 193.04 62.23 180)
-			(uuid "d09cd29b-218b-4e4e-bf1e-707e624e74ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,6 +2089,26 @@
 		(pin "LCD_G[0..7]" output
 			(at 193.04 71.12 180)
 			(uuid "dc0c5f3f-fb95-455c-8356-564fdb136c3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLED+_LCD" input
+			(at 193.04 59.69 180)
+			(uuid "baf9c5e5-3706-49e2-acfe-6e2d603f23d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLED-_LCD" output
+			(at 193.04 62.23 180)
+			(uuid "2561a94a-9af2-4071-9678-bd9c6a193a02")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,7 +2282,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2203,7 +2300,7 @@
 			)
 		)
 		(property "Sheetfile" "block-diagram.kicad_sch"
-			(at 86.36 65.3546 0)
+			(at 86.36 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)

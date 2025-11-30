@@ -4711,6 +4711,17 @@
 		)
 		(uuid "b6364395-179d-4607-a9f8-8097eb37a21f")
 	)
+	(hierarchical_label "Brightness_PWM_MCU"
+		(shape output)
+		(at 69.85 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0b38f77-7c23-4e8d-9801-d59bd668ca6a")
+	)
 	(hierarchical_label "MISO_MCU_Master"
 		(shape input)
 		(at 102.87 85.09 0)
