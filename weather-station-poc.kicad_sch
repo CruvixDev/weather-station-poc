@@ -2005,7 +2005,7 @@
 	)
 	(sheet
 		(at 193.04 57.15)
-		(size 13.97 25.4)
+		(size 24.13 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2114,6 +2114,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "DCLK_LCD" input
+			(at 217.17 59.69 0)
+			(uuid "1f8781dc-d2b7-4442-a524-421096a8ae0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISP_LCD" input
+			(at 217.17 62.23 0)
+			(uuid "557a07be-da46-415b-b43b-66f1f8777db6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DE_LCD" input
+			(at 217.17 64.77 0)
+			(uuid "10d51e01-5d4a-4ff5-8a52-683cb2b7b71b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HSYNC_LCD" input
+			(at 217.17 67.31 0)
+			(uuid "17aed4b6-7d08-4361-a8d8-b1e5b31ade8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSYNC_LCD" input
+			(at 217.17 69.85 0)
+			(uuid "b34e0791-3085-43e0-9e06-8818f4e7570f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_RST_LCD" input
+			(at 217.17 72.39 0)
+			(uuid "47421104-af3b-4647-9a42-345a54f14c81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_INT_LCD" output
+			(at 217.17 74.93 0)
+			(uuid "2b89402b-f350-477a-9b90-e9d24416fd2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
