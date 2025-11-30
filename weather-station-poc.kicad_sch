@@ -35,7 +35,7 @@
 	)
 	(text "Synoptic"
 		(exclude_from_sim no)
-		(at 87.63 54.61 0)
+		(at 87.376 51.816 0)
 		(effects
 			(font
 				(size 1.27 1.27)
