@@ -4565,6 +4565,28 @@
 		)
 		(uuid "e9c0a391-bea6-4596-a4a3-aa03c5912d08")
 	)
+	(hierarchical_label "I2C_INT_MCU"
+		(shape input)
+		(at 55.88 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e9d25d1-8957-4b26-ab86-ce5a99aff0a9")
+	)
+	(hierarchical_label "DCLK_MCU"
+		(shape output)
+		(at 77.47 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28117b18-5f5e-48a7-940e-120395aaeec3")
+	)
 	(hierarchical_label "MISO_MCU_Slave"
 		(shape output)
 		(at 134.62 85.09 0)
@@ -4586,6 +4608,17 @@
 			(justify left)
 		)
 		(uuid "2f4ac2bb-d02d-4050-b274-6684ed553b68")
+	)
+	(hierarchical_label "DISP_MCU"
+		(shape output)
+		(at 77.47 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32595fad-3973-461e-bf47-12d75290e761")
 	)
 	(hierarchical_label "CC1_MCU"
 		(shape input)
@@ -4631,6 +4664,17 @@
 		)
 		(uuid "4531e770-38c0-437a-845e-7f674ec64e86")
 	)
+	(hierarchical_label "VSYNC_MCU"
+		(shape output)
+		(at 77.47 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58cc793e-4273-4d27-b820-c1c55c00febb")
+	)
 	(hierarchical_label "MCU_R[0..7]"
 		(shape output)
 		(at 80.01 105.41 180)
@@ -4652,6 +4696,17 @@
 			(justify left)
 		)
 		(uuid "62b277cf-e40b-42d1-b2ad-4f367135bb1b")
+	)
+	(hierarchical_label "HSYNC_MCU"
+		(shape output)
+		(at 77.47 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64359849-cf57-46fb-a6a2-1f7fce00525f")
 	)
 	(hierarchical_label "CC2_MCU"
 		(shape input)
@@ -4708,6 +4763,17 @@
 		)
 		(uuid "86f39ded-5cd0-4f66-9474-beae144f1a89")
 	)
+	(hierarchical_label "DE_MCU"
+		(shape output)
+		(at 77.47 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c18d910-f7bb-4051-ab87-6fde686db9c4")
+	)
 	(hierarchical_label "MCU_G[0..7]"
 		(shape output)
 		(at 102.87 105.41 180)
@@ -4754,7 +4820,7 @@
 	)
 	(hierarchical_label "Brightness_PWM_MCU"
 		(shape output)
-		(at 69.85 77.47 0)
+		(at 55.88 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4773,6 +4839,17 @@
 			(justify left)
 		)
 		(uuid "c141e818-a6b3-4698-b4a3-a73b8a350df3")
+	)
+	(hierarchical_label "I2C_RST_MCU"
+		(shape output)
+		(at 55.88 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1a95f85-334f-451b-88f9-8561f2d764d9")
 	)
 	(hierarchical_label "SCLK_MCU_Master"
 		(shape output)
