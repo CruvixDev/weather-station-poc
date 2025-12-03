@@ -4576,6 +4576,17 @@
 		)
 		(uuid "0e9d25d1-8957-4b26-ab86-ce5a99aff0a9")
 	)
+	(hierarchical_label "~{Reset}_MCU"
+		(shape input)
+		(at 77.47 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27431c8b-4add-46e5-ba86-11eac74da8cf")
+	)
 	(hierarchical_label "DCLK_MCU"
 		(shape output)
 		(at 77.47 77.47 0)
@@ -4608,6 +4619,17 @@
 			(justify left)
 		)
 		(uuid "2f4ac2bb-d02d-4050-b274-6684ed553b68")
+	)
+	(hierarchical_label "SWO_MCU"
+		(shape output)
+		(at 77.47 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31aeb8f2-30f9-4faf-8367-dbda7793f8d8")
 	)
 	(hierarchical_label "DISP_MCU"
 		(shape output)
@@ -4718,6 +4740,17 @@
 			(justify left)
 		)
 		(uuid "7053a573-f070-4604-b14c-a653e4b9df9c")
+	)
+	(hierarchical_label "SWDIO_MCU"
+		(shape bidirectional)
+		(at 77.47 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e8a9246-6ccd-4e0b-b670-db531816cbe4")
 	)
 	(hierarchical_label "MOSI_MCU_Master"
 		(shape output)
@@ -4883,6 +4916,17 @@
 			(justify left)
 		)
 		(uuid "d87f5659-fa49-48a5-b7bf-dc796690af44")
+	)
+	(hierarchical_label "SWCLK_MCU"
+		(shape input)
+		(at 77.47 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddbdb793-170e-4284-956c-3b6e32210cb3")
 	)
 	(hierarchical_label "~{SS}_Ethernet_MCU"
 		(shape output)
