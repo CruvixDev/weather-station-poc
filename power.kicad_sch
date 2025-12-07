@@ -1152,7 +1152,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 30.48 -5.08 180)
 					(length 5.08)
 					(name "VOUT"
@@ -2436,8 +2436,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c73c647-c497-4290-bac0-5a20ef676a82")
+		(uuid "3202e641-c0bf-4637-9fb1-1d07ecff6d4a")
 		(property "Reference" "PS2"
 			(at 166.37 50.8 0)
 			(effects
@@ -2533,29 +2532,29 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "6b6d7b28-7bdc-4064-bd57-be870ab84efe")
-		)
-		(pin "1"
-			(uuid "325337c4-cb90-43ac-ab7d-9e54f911a804")
+		(pin "6"
+			(uuid "dc4520db-8da5-4663-bebb-659675f5b8a2")
 		)
 		(pin "3"
-			(uuid "5e726800-623a-4ef2-b13a-284c1c7bdee5")
+			(uuid "9fcc7874-b90d-4c19-b5b7-6f642a3ffb01")
 		)
-		(pin "5"
-			(uuid "e10a04ef-1083-452c-bfbb-224a9c0f9663")
-		)
-		(pin "2"
-			(uuid "1d5383d1-d948-4f40-8bc9-b259de681a94")
+		(pin "1"
+			(uuid "f2792f27-e121-430f-9e74-ca08c66c4686")
 		)
 		(pin "7"
-			(uuid "47d925b6-a87b-421d-bf42-f85f894b955d")
+			(uuid "c1a20c6d-830b-464e-b78e-ad8f2da211f2")
 		)
-		(pin "6"
-			(uuid "800ef523-1bf5-4fdd-9199-e8fd0844915c")
+		(pin "5"
+			(uuid "2e4ebdc0-30e4-44ab-bdb8-8010fb141736")
+		)
+		(pin "4"
+			(uuid "1bcbe7d9-fb99-4d0d-848e-bf766f603130")
+		)
+		(pin "2"
+			(uuid "95af5dec-564f-45c2-a343-2dcf6025c28c")
 		)
 		(instances
-			(project "weather-station-poc"
+			(project ""
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
 					(reference "PS2")
 					(unit 1)

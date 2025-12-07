@@ -3609,7 +3609,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 30.48 -5.08 180)
 				(length 5.08)
 				(name "VOUT"
@@ -3761,7 +3761,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 5.08)
 				(name "SMPS1"
@@ -3779,7 +3779,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
 				(name "SMPS2"
@@ -3887,7 +3887,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 15.24 17.78 270)
 				(length 5.08)
 				(name "VR_DIG"
@@ -3905,7 +3905,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 15.24 -38.1 90)
 				(length 5.08)
 				(name "VR_SYNTH"
@@ -3941,7 +3941,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 17.78 -38.1 90)
 				(length 5.08)
 				(name "VREF_VCO"
@@ -4049,7 +4049,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 25.4 -38.1 90)
 				(length 5.08)
 				(name "VR_RF"

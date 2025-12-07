@@ -1145,7 +1145,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "SMPS1"
@@ -1163,7 +1163,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "SMPS2"
@@ -1271,7 +1271,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 17.78 270)
 					(length 5.08)
 					(name "VR_DIG"
@@ -1289,7 +1289,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 -38.1 90)
 					(length 5.08)
 					(name "VR_SYNTH"
@@ -1325,7 +1325,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 17.78 -38.1 90)
 					(length 5.08)
 					(name "VREF_VCO"
@@ -1433,7 +1433,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 25.4 -38.1 90)
 					(length 5.08)
 					(name "VR_RF"
@@ -4560,6 +4560,195 @@
 		)
 	)
 	(symbol
+		(lib_id "weather-station-poc-sym:S2-LPQTR")
+		(at 127 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad74b868-ff0f-4785-aec1-c716b9b6d204")
+		(property "Reference" "IC4"
+			(at 167.64 68.4745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S2-LPQTR"
+			(at 167.64 71.0145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "weather-station-poc-fp:QFN50P400X400X100-25N-D"
+			(at 163.83 159.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/bd/26/62/81/3d/86/4d/15/DM00339133/files/DM00339133.pdf/jcr:content/translations/en.DM00339133.pdf"
+			(at 163.83 259.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMICROELECTRONICS - S2-LPQTR - RF TRANSCEIVER, 1GHZ, QFN-24"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 163.83 459.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-S2-LPQTR"
+			(at 163.83 559.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/S2-LPQTR?qs=pBOFM1sAujt3j15q4uNAuQ%3D%3D"
+			(at 163.83 659.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 163.83 759.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S2-LPQTR"
+			(at 163.83 859.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "e1878e98-9b90-44a1-965d-b6d766308f54")
+		)
+		(pin "12"
+			(uuid "c9e58525-7d60-4c39-9667-67094c8ede50")
+		)
+		(pin "14"
+			(uuid "824caf04-b7dd-4a03-b911-6f092acb23e6")
+		)
+		(pin "20"
+			(uuid "21fef5fb-f6c6-42e2-81dc-2048b4439c8f")
+		)
+		(pin "23"
+			(uuid "d931118f-8c52-43ad-8a67-cf9aad77b311")
+		)
+		(pin "8"
+			(uuid "46e4e796-0d2b-43b7-958b-c368589a3c44")
+		)
+		(pin "22"
+			(uuid "3d55d5b4-6c6a-4baa-8f1c-d2fdaf6ec522")
+		)
+		(pin "17"
+			(uuid "0725ac2d-7cdf-4494-ba0c-1c39a4eabeb2")
+		)
+		(pin "19"
+			(uuid "1ddc74d6-618a-4d5f-a20f-76bc47003e50")
+		)
+		(pin "6"
+			(uuid "0fc32620-0374-464a-889c-8e7a7dbc9d88")
+		)
+		(pin "25"
+			(uuid "90814c26-22b4-47e6-a115-12a092ffa092")
+		)
+		(pin "21"
+			(uuid "7e1d8f7d-abee-4db9-8c18-3c2b43830b25")
+		)
+		(pin "3"
+			(uuid "607e8254-6747-4e16-9a73-0e7314a7828b")
+		)
+		(pin "10"
+			(uuid "d3bfa2a0-a298-4985-af07-a785e37d78ce")
+		)
+		(pin "18"
+			(uuid "2f51f0e9-1e61-40e1-834f-0b08e060eae2")
+		)
+		(pin "2"
+			(uuid "501715a1-7a2f-4b29-8ae9-8cf78f9d9c1d")
+		)
+		(pin "4"
+			(uuid "6d5beeaa-fc52-495f-b075-f6d910c66b05")
+		)
+		(pin "9"
+			(uuid "941909ff-8322-4bfa-9049-51770b9c3e81")
+		)
+		(pin "13"
+			(uuid "7e40259f-9f0d-4180-938e-0f5054b51557")
+		)
+		(pin "11"
+			(uuid "5e34faa6-b644-4a30-b8eb-24b631cc9ad8")
+		)
+		(pin "16"
+			(uuid "92379aa1-9a79-4fb8-ba90-3da219eef18a")
+		)
+		(pin "1"
+			(uuid "0e9d74df-0c98-44cb-8c96-99d42954a6cc")
+		)
+		(pin "7"
+			(uuid "fb882e2d-7064-4170-9c6d-8be90cff047b")
+		)
+		(pin "15"
+			(uuid "0c742a20-6b10-4b96-836c-6beea8466500")
+		)
+		(pin "5"
+			(uuid "17cbca1b-0ebd-4398-9779-30b56cd780b7")
+		)
+		(instances
+			(project ""
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 107.95 0)
 		(unit 1)
@@ -4823,195 +5012,6 @@
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
 					(reference "C58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "weather-station-poc-sym:S2-LPQTR")
-		(at 127 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf0b5224-20b6-4e41-ac49-ea7119087fac")
-		(property "Reference" "IC4"
-			(at 168.91 68.5098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "S2-LPQTR"
-			(at 168.91 71.0498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "weather-station-poc-fp:QFN50P400X400X100-25N-D"
-			(at 163.83 159.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/bd/26/62/81/3d/86/4d/15/DM00339133/files/DM00339133.pdf/jcr:content/translations/en.DM00339133.pdf"
-			(at 163.83 259.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "STMICROELECTRONICS - S2-LPQTR - RF TRANSCEIVER, 1GHZ, QFN-24"
-			(at 127 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 163.83 459.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-S2-LPQTR"
-			(at 163.83 559.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/S2-LPQTR?qs=pBOFM1sAujt3j15q4uNAuQ%3D%3D"
-			(at 163.83 659.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 163.83 759.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S2-LPQTR"
-			(at 163.83 859.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "17"
-			(uuid "4efe4b08-3430-456c-80cb-013f474e71c5")
-		)
-		(pin "22"
-			(uuid "2d936ed2-1d76-417e-a0a8-f6bcbcf0d71c")
-		)
-		(pin "12"
-			(uuid "4bd3b711-be81-4241-a88d-ab3c129e5548")
-		)
-		(pin "5"
-			(uuid "6079901e-24a7-4916-b49d-db817d587a3f")
-		)
-		(pin "25"
-			(uuid "a1bf0bdc-44a6-4fc8-b2e7-08e7ed400e70")
-		)
-		(pin "23"
-			(uuid "3571c40a-5a3d-4b95-9db7-45d66b0bd381")
-		)
-		(pin "11"
-			(uuid "b313c8e8-16d1-40b6-95d5-bfdf17cc3b43")
-		)
-		(pin "16"
-			(uuid "08c44d21-8420-4950-9caa-8a067f63e0a5")
-		)
-		(pin "3"
-			(uuid "d5c1bfee-a71c-4aed-bc5d-2b72a9e16903")
-		)
-		(pin "13"
-			(uuid "95836e22-75b0-47e1-869e-7180e53a9f20")
-		)
-		(pin "9"
-			(uuid "e7524b84-ce37-4745-80fc-44abc7907799")
-		)
-		(pin "2"
-			(uuid "fa1cd479-e65c-49e3-9911-5cb83ca5a45e")
-		)
-		(pin "20"
-			(uuid "b1d706be-5296-405e-8993-abff89ae725f")
-		)
-		(pin "10"
-			(uuid "62f7529a-c525-49e8-8fe0-bb60c8423608")
-		)
-		(pin "8"
-			(uuid "e934e150-6d4f-4254-87a7-9c49bbf2ac38")
-		)
-		(pin "15"
-			(uuid "5a60bd5f-86c8-4887-a605-5f5aaeca272c")
-		)
-		(pin "7"
-			(uuid "f1e98190-a15f-48b1-8b90-2f6c867b7eb6")
-		)
-		(pin "18"
-			(uuid "2bfa7d8d-4b0b-4d79-a6d8-8f3410fe2df9")
-		)
-		(pin "14"
-			(uuid "a46eefe7-3a01-43b3-89a3-8ec8a7e39c0b")
-		)
-		(pin "19"
-			(uuid "f12d64bf-9147-4b74-a221-1b8b99f58aa8")
-		)
-		(pin "24"
-			(uuid "65f5f810-6cd3-49ea-af39-a006120430ac")
-		)
-		(pin "1"
-			(uuid "8ba6e53e-b362-4132-9e83-678a3b929d38")
-		)
-		(pin "4"
-			(uuid "ec8328a4-f382-44c7-b28c-c86a44c159bb")
-		)
-		(pin "6"
-			(uuid "a5016b64-56d5-48a6-83be-074636a90fba")
-		)
-		(pin "21"
-			(uuid "97130309-5814-400d-8675-1c8b6b61fdc4")
-		)
-		(instances
-			(project "weather-station-poc"
-				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "IC4")
 					(unit 1)
 				)
 			)
