@@ -919,7 +919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X100-33N-D"
+		(property "Footprint" "weather-station-poc-fp:QFN50P500X500X100-33N-D"
 			(at 160.02 193.98 0)
 			(effects
 				(font

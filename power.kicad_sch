@@ -2454,7 +2454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON95P300X300X100-7N-D"
+		(property "Footprint" "weather-station-poc-fp:SON95P300X300X100-7N-D"
 			(at 154.94 153.34 0)
 			(effects
 				(font
@@ -3621,7 +3621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-5N"
+		(property "Footprint" "weather-station-poc-fp:SOT65P210X110-5N"
 			(at 163.83 218.11 0)
 			(effects
 				(font

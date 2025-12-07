@@ -2139,7 +2139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMP581"
+		(property "Footprint" "weather-station-poc-fp:BMP581"
 			(at 134.62 191.44 0)
 			(effects
 				(font
@@ -2912,7 +2912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BME690"
+		(property "Footprint" "weather-station-poc-fp:BME690"
 			(at 134.62 157.15 0)
 			(effects
 				(font

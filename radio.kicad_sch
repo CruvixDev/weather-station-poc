@@ -4209,7 +4209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BALFSPI201D3"
+		(property "Footprint" "weather-station-poc-fp:BALFSPI201D3"
 			(at 213.36 180.01 0)
 			(effects
 				(font
@@ -4884,7 +4884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X100-25N-D"
+		(property "Footprint" "weather-station-poc-fp:QFN50P400X400X100-25N-D"
 			(at 163.83 159.69 0)
 			(effects
 				(font

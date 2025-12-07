@@ -2930,7 +2930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "687140149022"
+		(property "Footprint" "weather-station-poc-fp:687140149022"
 			(at 114.3 143.18 0)
 			(effects
 				(font
@@ -3237,7 +3237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "687110149022"
+		(property "Footprint" "weather-station-poc-fp:687110149022"
 			(at 186.69 173.66 0)
 			(effects
 				(font

@@ -2496,18 +2496,6 @@
 		(uuid "94ec62ad-749a-4c80-be3a-629f130fae5c")
 	)
 	(junction
-		(at 92.71 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b401d06f-1a3f-4b49-b9fd-e342c5531a8f")
-	)
-	(junction
-		(at 92.71 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4413da7-7a01-464a-ad21-c2fd91ad9fc1")
-	)
-	(junction
 		(at 161.29 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2657,16 +2645,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 124.46) (xy 92.71 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ebf2739-6e35-40bf-8508-96b0bc243e76")
-	)
-	(wire
-		(pts
 			(xy 161.29 95.25) (xy 161.29 93.98)
 		)
 		(stroke
@@ -2714,16 +2692,6 @@
 			(type default)
 		)
 		(uuid "3d7fa201-af7f-4cea-854b-006cf77ccd5b")
-	)
-	(wire
-		(pts
-			(xy 85.09 134.62) (xy 92.71 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dbefc35-3f81-46fb-9f31-05863e65c716")
 	)
 	(wire
 		(pts
@@ -2847,16 +2815,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 124.46) (xy 92.71 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cf302b0-38b9-4af0-8fc8-ece169ec446f")
-	)
-	(wire
-		(pts
 			(xy 161.29 81.28) (xy 176.53 81.28)
 		)
 		(stroke
@@ -2947,16 +2905,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 133.35) (xy 95.25 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b74aec13-2ec5-4880-9c57-50fa3b95fbe3")
-	)
-	(wire
-		(pts
 			(xy 93.98 93.98) (xy 93.98 96.52)
 		)
 		(stroke
@@ -2967,7 +2915,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 132.08) (xy 92.71 132.08)
+			(xy 85.09 133.35) (xy 95.25 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2997,7 +2945,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 123.19) (xy 92.71 123.19)
+			(xy 85.09 123.19) (xy 95.25 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3037,16 +2985,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 121.92) (xy 92.71 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7d5e6dd-838f-4072-a862-4d6a0c2b00ca")
-	)
-	(wire
-		(pts
 			(xy 161.29 78.74) (xy 161.29 81.28)
 		)
 		(stroke
@@ -3077,16 +3015,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 123.19) (xy 92.71 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea704dc5-3a50-48af-ad93-4727fb8639e2")
-	)
-	(wire
-		(pts
 			(xy 203.2 81.28) (xy 205.74 81.28)
 		)
 		(stroke
@@ -3094,26 +3022,6 @@
 			(type default)
 		)
 		(uuid "ee2135be-e1ff-468f-9663-4c94e0a2384f")
-	)
-	(wire
-		(pts
-			(xy 92.71 134.62) (xy 92.71 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eefc4607-432f-4880-9c2a-85e8ce4e6ac0")
-	)
-	(wire
-		(pts
-			(xy 92.71 132.08) (xy 92.71 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efa8dc25-4014-4d3d-9944-181f92dbd2a8")
 	)
 	(wire
 		(pts
@@ -3135,7 +3043,7 @@
 		)
 		(uuid "fd14d57d-6e0f-48cf-ab6d-8c76b2d87238")
 	)
-	(label "DN2"
+	(label "DN12"
 		(at 127 71.12 0)
 		(effects
 			(font
@@ -3145,7 +3053,7 @@
 		)
 		(uuid "1e656a48-2f91-4762-a5a8-95238d9c8263")
 	)
-	(label "DP2"
+	(label "DP12"
 		(at 127 68.58 0)
 		(effects
 			(font
@@ -3155,17 +3063,7 @@
 		)
 		(uuid "2c4aac33-1765-4c5c-b8e0-73a8f749fd69")
 	)
-	(label "DN2"
-		(at 85.09 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d407bd3-ddbe-4e95-8189-8e420b61b73a")
-	)
-	(label "DP1"
+	(label "DP12"
 		(at 93.98 78.74 180)
 		(effects
 			(font
@@ -3175,7 +3073,7 @@
 		)
 		(uuid "33f05cdc-24ab-4257-a29a-a08316758a65")
 	)
-	(label "DN1"
+	(label "DN12"
 		(at 93.98 81.28 180)
 		(effects
 			(font
@@ -3184,16 +3082,6 @@
 			(justify right bottom)
 		)
 		(uuid "3a7d23db-f062-4bd6-845e-46466f4678d6")
-	)
-	(label "DN1"
-		(at 85.09 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "496ddec6-8b79-4011-9e63-fafee5a9bb0d")
 	)
 	(label "VBUS"
 		(at 93.98 73.66 180)
@@ -3204,16 +3092,6 @@
 			(justify right bottom)
 		)
 		(uuid "4b590a7b-bd35-4464-b350-4d2023219831")
-	)
-	(label "DP2"
-		(at 85.09 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "636e3218-728c-4b1f-960d-0eba6a7c974e")
 	)
 	(label "CC1c"
 		(at 163.83 104.14 180)
@@ -3275,8 +3153,18 @@
 		)
 		(uuid "c4fbe63c-8ea2-4582-9e8e-63adbf4ab4fb")
 	)
-	(label "DP1"
-		(at 85.09 132.08 0)
+	(label "DN12"
+		(at 85.09 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9b28220-0a1f-4c97-bcd1-e93b318beb05")
+	)
+	(label "DP12"
+		(at 85.09 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3452,7 +3340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "632723100011"
+		(property "Footprint" "weather-station-poc-fp:632723100011"
 			(at 123.19 160.96 0)
 			(effects
 				(font
@@ -3799,7 +3687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STL20N6F7"
+		(property "Footprint" "weather-station-poc-fp:STL20N6F7"
 			(at 184.15 -23.8 0)
 			(effects
 				(font
@@ -4355,7 +4243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P300X300X100-13N-D"
+		(property "Footprint" "weather-station-poc-fp:QFN50P300X300X100-13N-D"
 			(at 167.64 21.92 0)
 			(effects
 				(font
@@ -5129,7 +5017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-6N"
+		(property "Footprint" "weather-station-poc-fp:SOT95P280X145-6N"
 			(at 124.46 220.65 0)
 			(effects
 				(font
