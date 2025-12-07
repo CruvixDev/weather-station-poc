@@ -1598,28 +1598,10 @@
 		(uuid "23c7a1bb-4290-4122-8508-a2c162e1b759")
 	)
 	(junction
-		(at 33.02 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25b13f5f-15d5-40d0-8087-f3a3fdeff7b4")
-	)
-	(junction
 		(at 99.06 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c6c3b37-654d-440c-a57b-9d2a9b2cd9cc")
-	)
-	(junction
-		(at 36.83 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63ed3224-277d-4f53-a511-dd57d2973b65")
-	)
-	(junction
-		(at 33.02 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77e64ac3-cb26-4b56-9205-974e361dcd10")
 	)
 	(junction
 		(at 149.86 130.81)
@@ -1628,22 +1610,16 @@
 		(uuid "8fac5992-0bdd-43b4-bca9-74fc09e04718")
 	)
 	(junction
-		(at 33.02 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "937c7a57-94cc-4e1d-8596-3da747c7668e")
-	)
-	(junction
 		(at 165.1 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9af550cf-c706-4f48-96d9-ab2915e96529")
 	)
 	(junction
-		(at 33.02 116.84)
+		(at 36.83 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd53e43e-9543-414f-aec5-9fbfd98126e5")
+		(uuid "cef6b2c5-e6e3-4900-85b2-82a52381baf7")
 	)
 	(junction
 		(at 36.83 134.62)
@@ -1809,16 +1785,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 152.4) (xy 33.02 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49521ae9-20fe-4857-a32e-c450990918b9")
-	)
-	(wire
-		(pts
 			(xy 33.02 134.62) (xy 36.83 134.62)
 		)
 		(stroke
@@ -1826,36 +1792,6 @@
 			(type default)
 		)
 		(uuid "5328f5d8-3558-4e9b-8003-28d89d76c42d")
-	)
-	(wire
-		(pts
-			(xy 33.02 152.4) (xy 36.83 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5476e45e-57ec-4e49-a374-c8c275eb4ac6")
-	)
-	(wire
-		(pts
-			(xy 33.02 97.79) (xy 33.02 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a7a08f7-ce1a-423a-80df-aac3ea7adc88")
-	)
-	(wire
-		(pts
-			(xy 33.02 78.74) (xy 33.02 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4b0bda-b718-406d-81f2-e42d66b1507d")
 	)
 	(wire
 		(pts
@@ -1929,16 +1865,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 116.84) (xy 33.02 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9400faf4-8ec9-4124-a2eb-6da7bc3e7607")
-	)
-	(wire
-		(pts
 			(xy 135.89 113.03) (xy 135.89 125.73)
 		)
 		(stroke
@@ -1979,16 +1905,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 134.62) (xy 33.02 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a33fefea-b61e-4990-a7b6-5ecb91e67619")
-	)
-	(wire
-		(pts
 			(xy 162.56 140.97) (xy 165.1 140.97)
 		)
 		(stroke
@@ -2016,6 +1932,16 @@
 			(type default)
 		)
 		(uuid "afdb42d8-91e5-40b4-8755-3ea52bd5254a")
+	)
+	(wire
+		(pts
+			(xy 33.02 152.4) (xy 36.83 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b053d2fd-877a-4d3d-a807-477cc1228465")
 	)
 	(wire
 		(pts
@@ -2288,6 +2214,17 @@
 		)
 		(uuid "13d32be8-edaa-41b5-aeb8-1105f666a2f6")
 	)
+	(hierarchical_label "3V3_Radio"
+		(shape input)
+		(at 33.02 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "266fcd16-43d4-4c56-b495-8994990cd190")
+	)
 	(hierarchical_label "MISO_Radio"
 		(shape output)
 		(at 167.64 80.01 0)
@@ -2299,6 +2236,28 @@
 		)
 		(uuid "26a2a3b6-7bb1-4691-b3aa-cd3e44d44bf6")
 	)
+	(hierarchical_label "3V3_Radio"
+		(shape input)
+		(at 33.02 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66c3fa50-5c8b-46dd-b1c1-177fb8b51f06")
+	)
+	(hierarchical_label "3V3_Radio"
+		(shape input)
+		(at 33.02 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6823ce2a-b3b1-479f-a780-cb06815720f6")
+	)
 	(hierarchical_label "SCLK_Radio"
 		(shape input)
 		(at 167.64 74.93 0)
@@ -2309,6 +2268,17 @@
 			(justify left)
 		)
 		(uuid "99ef2587-43cf-4f92-b4a2-75624c919b14")
+	)
+	(hierarchical_label "3V3_Radio"
+		(shape input)
+		(at 33.02 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1d638f5-e2b8-415f-9613-4c8ed87db434")
 	)
 	(hierarchical_label "~{SS}_Radio"
 		(shape input)
@@ -2334,7 +2304,7 @@
 	)
 	(hierarchical_label "3V3_Radio"
 		(shape input)
-		(at 26.67 152.4 180)
+		(at 33.02 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
