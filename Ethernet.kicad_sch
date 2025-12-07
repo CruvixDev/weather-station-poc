@@ -726,58 +726,170 @@
 		)
 		(uuid "c7ec0c36-14c1-4076-a15c-b32422396c79")
 	)
+	(no_connect
+		(at 163.83 129.54)
+		(uuid "0003c74f-23ea-40cb-bb3c-cfcc453b8ecf")
+	)
+	(no_connect
+		(at 123.19 121.92)
+		(uuid "021ea2be-0364-43db-87fd-a93df2ce6f85")
+	)
+	(no_connect
+		(at 148.59 147.32)
+		(uuid "074dcaca-4f7d-4f0a-8f60-101268237a3e")
+	)
+	(no_connect
+		(at 133.35 91.44)
+		(uuid "195316b1-4655-4dc8-9d6d-8e4f6ceabf48")
+	)
+	(no_connect
+		(at 163.83 114.3)
+		(uuid "3129286b-a1d7-4cc0-a1e8-6718f8168508")
+	)
+	(no_connect
+		(at 151.13 147.32)
+		(uuid "53e36ea4-fe72-454b-98b4-e506974fab79")
+	)
+	(no_connect
+		(at 163.83 116.84)
+		(uuid "5a1ae15e-85d3-47f7-88ad-3c8b36b9088c")
+	)
+	(no_connect
+		(at 133.35 147.32)
+		(uuid "5a983e73-7d11-4e69-8270-e3d02294c02c")
+	)
+	(no_connect
+		(at 163.83 124.46)
+		(uuid "60ee2517-96ad-4ae1-afb2-134d06e14334")
+	)
+	(no_connect
+		(at 123.19 114.3)
+		(uuid "6a450a38-28de-4f20-94df-0c2220bf82a3")
+	)
+	(no_connect
+		(at 151.13 91.44)
+		(uuid "747f3b1b-8349-465f-b29a-c5d00cc1463d")
+	)
+	(no_connect
+		(at 148.59 91.44)
+		(uuid "8de3063c-c540-47ad-87eb-80633da2810e")
+	)
+	(no_connect
+		(at 153.67 91.44)
+		(uuid "8fbb630c-794a-4acf-bb84-32e3afb05fb6")
+	)
+	(no_connect
+		(at 146.05 147.32)
+		(uuid "908ae565-78e0-47f0-8a71-f2abd30658fa")
+	)
+	(no_connect
+		(at 123.19 111.76)
+		(uuid "90f25c13-3a41-48ca-804b-565dd633d55e")
+	)
+	(no_connect
+		(at 140.97 91.44)
+		(uuid "b5a7ceb3-f9c9-4010-a5fe-51498673cb41")
+	)
+	(no_connect
+		(at 138.43 91.44)
+		(uuid "bc871580-aa76-4d5f-afca-f95907a239ae")
+	)
+	(no_connect
+		(at 123.19 116.84)
+		(uuid "c230885c-db59-4407-9583-8005d53d2ec2")
+	)
+	(no_connect
+		(at 163.83 111.76)
+		(uuid "c3de07f8-b065-46e7-84c2-3784359b4785")
+	)
+	(no_connect
+		(at 163.83 121.92)
+		(uuid "c76afb23-597f-4f36-86e3-8494cbe9569d")
+	)
+	(no_connect
+		(at 123.19 124.46)
+		(uuid "c95aeec3-d3f4-4fac-92be-6afff8a0cd63")
+	)
+	(no_connect
+		(at 143.51 91.44)
+		(uuid "c9bbe854-aaf7-4531-9780-cf5f76934821")
+	)
+	(no_connect
+		(at 123.19 129.54)
+		(uuid "e168dfb1-4382-485b-99cb-5178cd8001eb")
+	)
+	(no_connect
+		(at 123.19 119.38)
+		(uuid "e520ab17-3607-4479-a3c4-e6a43239a359")
+	)
+	(no_connect
+		(at 135.89 91.44)
+		(uuid "e640af9e-9836-4b76-a50d-260468b22f56")
+	)
+	(no_connect
+		(at 163.83 127)
+		(uuid "e7aa44ff-ad92-43af-8337-bb5bf1f14a88")
+	)
+	(no_connect
+		(at 146.05 91.44)
+		(uuid "efda4948-cb2a-4ebd-af6a-f4e0cf507998")
+	)
+	(no_connect
+		(at 163.83 119.38)
+		(uuid "f3090c29-79f4-4263-992b-639e050fa82a")
+	)
 	(hierarchical_label "MOSI_Ethernet"
 		(shape input)
-		(at 135.89 81.28 0)
+		(at 143.51 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "69835c3c-149b-4420-83f5-a2faa202f46f")
 	)
 	(hierarchical_label "~{SS}_Ethernet"
 		(shape input)
-		(at 135.89 86.36 0)
+		(at 138.43 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a5e6c7c1-18c4-4b33-bfd0-03ee1a710331")
 	)
 	(hierarchical_label "MISO_Ethernet"
 		(shape output)
-		(at 135.89 83.82 0)
+		(at 135.89 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "be351c08-392a-40ae-afe8-349442d76f3b")
 	)
 	(hierarchical_label "SCLK_Ethernet"
 		(shape input)
-		(at 135.89 78.74 0)
+		(at 140.97 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e5154d5f-8e8c-4a27-8e14-07bcc99aa8e3")
 	)
 	(hierarchical_label "3V3_Ethernet"
 		(shape input)
-		(at 135.89 76.2 0)
+		(at 123.19 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fad5c28b-e509-4c12-9b14-f2078e43e353")
 	)

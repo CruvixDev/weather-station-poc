@@ -2490,6 +2490,12 @@
 		(uuid "90bd1e1e-fcdc-43e4-bb2b-28f629002807")
 	)
 	(junction
+		(at 191.77 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94ec62ad-749a-4c80-be3a-629f130fae5c")
+	)
+	(junction
 		(at 92.71 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2518,12 +2524,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9ed33bc-9b62-4697-ab86-3d610dbb7121")
-	)
-	(junction
-		(at 175.26 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df315246-6655-4008-a497-62381fc7951a")
 	)
 	(junction
 		(at 127 83.82)
@@ -2727,16 +2727,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 68.58) (xy 180.34 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a06af6-13e1-4d99-8efc-90f5f8908e38")
-	)
-	(wire
-		(pts
 			(xy 179.07 71.12) (xy 180.34 71.12)
 		)
 		(stroke
@@ -2817,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 68.58) (xy 175.26 68.58)
+			(xy 161.29 68.58) (xy 180.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2837,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 81.28) (xy 203.2 81.28)
+			(xy 181.61 81.28) (xy 191.77 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3034,6 +3024,16 @@
 			(type default)
 		)
 		(uuid "cb579c6c-486d-4085-ad52-78320b89b17b")
+	)
+	(wire
+		(pts
+			(xy 191.77 81.28) (xy 203.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07a7a41-666b-4367-88a9-c17f35331fd7")
 	)
 	(wire
 		(pts
@@ -4972,7 +4972,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 175.26 68.58 0)
+		(at 191.77 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4981,7 +4981,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8d43ff6-4ae4-4423-9c21-4f138d5c5ca6")
 		(property "Reference" "#FLG01"
-			(at 175.26 66.675 0)
+			(at 191.77 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +4990,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 175.26 63.5 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +4998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 68.58 0)
+			(at 191.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +5007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 68.58 0)
+			(at 191.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,7 +5016,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 175.26 68.58 0)
+			(at 191.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,7 +5028,7 @@
 			(uuid "f8ad0c85-025f-4d32-9745-cf9bb7328df8")
 		)
 		(instances
-			(project ""
+			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/336d3e95-9b5f-4d37-8b5a-efff814cf96e"
 					(reference "#FLG01")
 					(unit 1)
