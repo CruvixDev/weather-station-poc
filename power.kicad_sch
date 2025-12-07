@@ -931,6 +931,246 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "weather-station-poc-sym:HSMG-C150"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "HSMG-C150"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC3216X120N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Broadcom2.2 V Green LED 3216 (1206)  SMD, HSMG-C150"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "630-HSMG-C150"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Avago Technologies"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "HSMG-C150"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "HSMG-C150_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "weather-station-poc-sym:LD39050PU33R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1381,8 +1621,8 @@
 		)
 	)
 	(rectangle
-		(start 106.045 41.275)
-		(end 191.77 92.075)
+		(start 133.985 39.37)
+		(end 219.71 92.71)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1391,6 +1631,18 @@
 			(type none)
 		)
 		(uuid 73134a7a-6d21-43e5-897e-b3d06b7e82ff)
+	)
+	(rectangle
+		(start 77.47 39.37)
+		(end 130.81 92.71)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f158dc8-dc24-4b93-8214-c69269779271)
 	)
 	(rectangle
 		(start 64.77 102.87)
@@ -1426,13 +1678,23 @@
 	)
 	(text "LDO 5V -> 3.3V"
 		(exclude_from_sim no)
-		(at 111.76 39.37 0)
+		(at 139.7 37.846 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "8908dbbb-b074-4db1-9e50-c1acbc0e60f7")
+	)
+	(text "Power LED status"
+		(exclude_from_sim no)
+		(at 83.82 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9bff858-5584-47c1-8714-84871894f3ff")
 	)
 	(text_box "The TPS61169 WLED (White LED) driver is a boost converter\nregulated in current through FB pin. The driver uses a 204mV\nvoltage reference and the resistor on FB pin set the current\nthreshold -> 204mV / 1.5 ohm = 136 mA. To have full brightness on\n5\" Riverdi screen, 140 mA are needed. To control the brightness,\na PWM signal is injected on CTRL pin. 100% duty cycle is full\nbrightness, 50% half brightness and so on ... "
 		(exclude_from_sim no)
@@ -1461,13 +1723,19 @@
 		(uuid "04151b76-233f-4389-889b-019036f9bfb0")
 	)
 	(junction
+		(at 82.55 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07fb30ef-9c1f-433b-8ac1-f053f562566b")
+	)
+	(junction
 		(at 140.97 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08653245-7adb-4b1f-82e1-cebeef7e1f81")
 	)
 	(junction
-		(at 140.97 74.93)
+		(at 168.91 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21c1f7fa-cdd8-49b7-be72-3b812c0db11b")
@@ -1491,7 +1759,7 @@
 		(uuid "41b3efdc-a70a-4707-a748-7370475d9b84")
 	)
 	(junction
-		(at 130.81 74.93)
+		(at 158.75 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4679f454-1036-40a0-a2f8-a7c0a2ca6e33")
@@ -1539,7 +1807,7 @@
 		(uuid "bcb8e773-5c18-4849-b9ed-28e1b54b9cbf")
 	)
 	(junction
-		(at 140.97 58.42)
+		(at 168.91 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bff6e181-f251-441a-a0cd-c79070a90ada")
@@ -1563,7 +1831,7 @@
 		(uuid "cf670032-6372-42b4-87dc-d07c78acddd9")
 	)
 	(junction
-		(at 130.81 58.42)
+		(at 158.75 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efe08d86-ca18-4465-999d-512ddd3cbefd")
@@ -1587,7 +1855,7 @@
 		(uuid "f551e7f1-bc46-4b46-a961-fffabbd97757")
 	)
 	(no_connect
-		(at 181.61 63.5)
+		(at 209.55 63.5)
 		(uuid "5af2110e-c261-4009-a51a-c411fd2809fd")
 	)
 	(wire
@@ -1602,7 +1870,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 58.42) (xy 140.97 58.42)
+			(xy 158.75 58.42) (xy 168.91 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 140.97 74.93)
+			(xy 175.26 74.93) (xy 168.91 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +1910,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 46.99) (xy 140.97 58.42)
+			(xy 168.91 46.99) (xy 168.91 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 58.42) (xy 184.15 46.99)
+			(xy 212.09 58.42) (xy 212.09 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1709,6 +1977,16 @@
 			(type default)
 		)
 		(uuid "4d7646ee-99e9-413c-b868-040d23446164")
+	)
+	(wire
+		(pts
+			(xy 82.55 63.5) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61625109-8294-472e-a99e-dfaa1c164d16")
 	)
 	(wire
 		(pts
@@ -1782,6 +2060,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 49.53) (xy 82.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839df6c9-91b5-46ba-be98-dc923dc9ea9e")
+	)
+	(wire
+		(pts
 			(xy 200.66 119.38) (xy 205.74 119.38)
 		)
 		(stroke
@@ -1792,7 +2080,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 63.5) (xy 147.32 63.5)
+			(xy 179.07 63.5) (xy 175.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1852,7 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 46.99) (xy 140.97 46.99)
+			(xy 212.09 46.99) (xy 168.91 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1902,13 +2190,33 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 74.93) (xy 130.81 74.93)
+			(xy 146.05 74.93) (xy 158.75 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "abb012b9-c87e-4fda-b295-cdc89d8d97f5")
+	)
+	(wire
+		(pts
+			(xy 82.55 67.31) (xy 82.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ee5d95-b1ff-4b66-bed4-40fe3c454847")
+	)
+	(wire
+		(pts
+			(xy 82.55 78.74) (xy 82.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb41697-7bd7-4a91-9c07-fbb9fabfea1b")
 	)
 	(wire
 		(pts
@@ -1942,7 +2250,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 58.42) (xy 184.15 58.42)
+			(xy 209.55 58.42) (xy 212.09 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +2270,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 58.42) (xy 151.13 58.42)
+			(xy 168.91 58.42) (xy 179.07 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +2290,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 74.93) (xy 130.81 74.93)
+			(xy 168.91 74.93) (xy 158.75 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2002,7 +2310,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 58.42) (xy 130.81 58.42)
+			(xy 147.32 58.42) (xy 158.75 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2012,13 +2320,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 63.5) (xy 147.32 74.93)
+			(xy 175.26 63.5) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df70a049-7499-40c5-8b0c-1132084c29d5")
+	)
+	(wire
+		(pts
+			(xy 114.3 53.34) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e533285c-ce04-44fd-8257-aaefaf1f56ca")
 	)
 	(wire
 		(pts
@@ -2030,9 +2348,19 @@
 		)
 		(uuid "f59aabfb-7be6-4aab-8d00-b93069fde581")
 	)
+	(wire
+		(pts
+			(xy 82.55 59.69) (xy 82.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddae775-3040-4789-832b-d5cfbfc9049f")
+	)
 	(hierarchical_label "3V3_Power"
 		(shape output)
-		(at 118.11 74.93 180)
+		(at 146.05 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2043,7 +2371,7 @@
 	)
 	(hierarchical_label "5V_Power"
 		(shape input)
-		(at 119.38 58.42 180)
+		(at 147.32 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2051,6 +2379,17 @@
 			(justify right)
 		)
 		(uuid "43c239a6-98f3-4d61-9dba-472f9e40b6a5")
+	)
+	(hierarchical_label "3V3_Power"
+		(shape output)
+		(at 114.3 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81d8e8c1-52e6-4605-a7a7-cee10aec5b38")
 	)
 	(hierarchical_label "5V_Power"
 		(shape input)
@@ -2062,6 +2401,17 @@
 			(justify right)
 		)
 		(uuid "89e3b5be-fab6-4652-ba94-d8673cd09131")
+	)
+	(hierarchical_label "5V_Power"
+		(shape input)
+		(at 82.55 49.53 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9680d649-7866-4cfc-8a36-245a9e35120f")
 	)
 	(hierarchical_label "Brightness_PWM_Power"
 		(shape input)
@@ -2167,6 +2517,143 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 114.3 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09403ed4-c0ed-49fe-9e71-2b696e354452")
+		(property "Reference" "#PWR043"
+			(at 114.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "085f4fe0-1919-4dbf-85ac-0552963d3aad")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a3b30dd-96cb-4fdd-8ddb-fae2689711d5")
+		(property "Reference" "R16"
+			(at 85.09 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k"
+			(at 85.09 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 84.328 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b678c7ae-0573-4dbb-a2f1-e39c4e43268e")
+		)
+		(pin "1"
+			(uuid "c62ad462-670e-4f34-8bec-7c4449a40bde")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SS26")
 		(at 194.31 111.76 180)
 		(unit 1)
@@ -2229,6 +2716,73 @@
 			(project ""
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17b39be6-4b8d-4951-ae9a-18d62dd08f70")
+		(property "Reference" "#PWR0108"
+			(at 93.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ab5d11d-c703-4afd-870e-5e3078548543")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -2304,7 +2858,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 82.55 0)
+		(at 168.91 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2314,7 +2868,7 @@
 		(fields_autoplaced yes)
 		(uuid "206e17c2-295f-493b-bd18-b7fbebc6f518")
 		(property "Reference" "#PWR020"
-			(at 140.97 88.9 0)
+			(at 168.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2877,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 87.63 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 82.55 0)
+			(at 168.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 82.55 0)
+			(at 168.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,7 +2903,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 82.55 0)
+			(at 168.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2925,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 66.04 0)
+		(at 168.91 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2381,7 +2935,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a2b189c-791d-463a-bca2-956d42b7824e")
 		(property "Reference" "#PWR019"
-			(at 140.97 72.39 0)
+			(at 168.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 71.12 0)
+			(at 168.91 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 66.04 0)
+			(at 168.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 66.04 0)
+			(at 168.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 66.04 0)
+			(at 168.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,8 +2991,129 @@
 		)
 	)
 	(symbol
+		(lib_id "weather-station-poc-sym:HSMG-C150")
+		(at 93.98 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c956e02-514a-481e-9afa-05bd07dfb19b")
+		(property "Reference" "LED1"
+			(at 97.79 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HSMG-C150"
+			(at 97.79 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LEDC3216X120N"
+			(at 187.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
+			(at 287.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Broadcom2.2 V Green LED 3216 (1206)  SMD, HSMG-C150"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 487.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HSMG-C150"
+			(at 587.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D"
+			(at 687.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Avago Technologies"
+			(at 787.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HSMG-C150"
+			(at 887.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c7629b0-5d5d-4a58-8d36-7407d8c46170")
+		)
+		(pin "2"
+			(uuid "2af376af-3a47-4380-bf69-eebe44e9a641")
+		)
+		(instances
+			(project ""
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "weather-station-poc-sym:LD39050PU33R")
-		(at 181.61 58.42 0)
+		(at 209.55 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2447,7 +3122,7 @@
 		(dnp no)
 		(uuid "3202e641-c0bf-4637-9fb1-1d07ecff6d4a")
 		(property "Reference" "PS2"
-			(at 166.37 50.8 0)
+			(at 194.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +3130,7 @@
 			)
 		)
 		(property "Value" "LD39050PU33R"
-			(at 166.37 53.34 0)
+			(at 194.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +3138,7 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:SON95P300X300X100-7N-D"
-			(at 154.94 153.34 0)
+			(at 182.88 153.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +3148,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/LD39050PU33R.pdf"
-			(at 154.94 253.34 0)
+			(at 182.88 253.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +3158,7 @@
 			)
 		)
 		(property "Description" "STMICROELECTRONICS - LD39050PU33R - LDO, FIXED, 3.3V, 0.5A, DFN-6"
-			(at 181.61 58.42 0)
+			(at 209.55 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +3167,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 154.94 453.34 0)
+			(at 182.88 453.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +3177,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-LD39050PU33R"
-			(at 154.94 553.34 0)
+			(at 182.88 553.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +3187,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LD39050PU33R?qs=5HwTSiuA5HCrgw9sKi%2FGcQ%3D%3D"
-			(at 154.94 653.34 0)
+			(at 182.88 653.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +3197,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 154.94 753.34 0)
+			(at 182.88 753.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +3207,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LD39050PU33R"
-			(at 154.94 853.34 0)
+			(at 182.88 853.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +3248,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 78.74 0)
+		(at 158.75 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2583,7 +3258,7 @@
 		(fields_autoplaced yes)
 		(uuid "32461090-4610-4ae6-afdf-50d4d270b26d")
 		(property "Reference" "C9"
-			(at 127 77.4699 0)
+			(at 154.94 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +3267,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 127 80.0099 0)
+			(at 154.94 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +3276,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 129.8448 82.55 0)
+			(at 157.7848 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +3285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 78.74 0)
+			(at 158.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +3294,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 78.74 0)
+			(at 158.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,6 +3458,143 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 82.55 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e94a360-55f6-4b86-b1d6-8250d4f67a6e")
+		(property "Reference" "#PWR0109"
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40909b13-2e98-40ce-8509-82925e0ff246")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ff8426d-442b-48ac-8ed3-399c078274f5")
+		(property "Reference" "R14"
+			(at 116.84 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 116.84 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.522 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76d64013-7ebc-4fb8-8ff9-983eeed26898")
+		)
+		(pin "1"
+			(uuid "67ae18cf-9ed3-45fd-a611-9c2937d640ee")
+		)
+		(instances
+			(project ""
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 149.86 129.54 0)
 		(unit 1)
@@ -2847,6 +3659,127 @@
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "weather-station-poc-sym:HSMG-C150")
+		(at 114.3 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a0b6fea-e7db-4e60-a5f6-f11ae24a8e20")
+		(property "Reference" "LED2"
+			(at 118.11 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HSMG-C150"
+			(at 118.11 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LEDC3216X120N"
+			(at 207.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
+			(at 307.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Broadcom2.2 V Green LED 3216 (1206)  SMD, HSMG-C150"
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 507.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HSMG-C150"
+			(at 607.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D"
+			(at 707.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Avago Technologies"
+			(at 807.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HSMG-C150"
+			(at 907.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48573bd4-6c53-4e4a-92ca-224437bba160")
+		)
+		(pin "2"
+			(uuid "31e48fe9-c868-48b8-839b-a98f81059973")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -2921,7 +3854,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 140.97 78.74 0)
+		(at 168.91 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2931,7 +3864,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b24ecc6-cd01-4b2c-b176-c4a1c4a66e57")
 		(property "Reference" "C7"
-			(at 137.16 77.4699 0)
+			(at 165.1 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +3873,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 137.16 80.0099 0)
+			(at 165.1 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +3882,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 140.0048 82.55 0)
+			(at 167.9448 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +3891,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 78.74 0)
+			(at 168.91 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +3900,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 140.97 78.74 0)
+			(at 168.91 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +3925,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 78.74 0)
+		(at 194.31 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3002,7 +3935,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bc098be-10e3-4fe7-ae0a-560b2c6383e1")
 		(property "Reference" "#PWR018"
-			(at 166.37 85.09 0)
+			(at 194.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +3944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 83.82 0)
+			(at 194.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 78.74 0)
+			(at 194.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +3961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 78.74 0)
+			(at 194.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +3970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 78.74 0)
+			(at 194.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3992,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 66.04 0)
+		(at 158.75 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3069,7 +4002,7 @@
 		(fields_autoplaced yes)
 		(uuid "6047476b-8b87-42e5-8462-80e953ecb08a")
 		(property "Reference" "#PWR021"
-			(at 130.81 72.39 0)
+			(at 158.75 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3078,7 +4011,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 71.12 0)
+			(at 158.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,7 +4019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 66.04 0)
+			(at 158.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3095,7 +4028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 66.04 0)
+			(at 158.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +4037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 66.04 0)
+			(at 158.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +4195,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 140.97 62.23 0)
+		(at 168.91 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3272,7 +4205,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b8645c5-4225-43ce-9404-303dcf25f756")
 		(property "Reference" "C6"
-			(at 137.16 60.9599 0)
+			(at 165.1 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +4214,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 137.16 63.4999 0)
+			(at 165.1 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +4223,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 140.0048 66.04 0)
+			(at 167.9448 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +4232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 62.23 0)
+			(at 168.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +4241,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 140.97 62.23 0)
+			(at 168.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,6 +4259,76 @@
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ff3d76f-7b57-4bda-a10a-95edcdb8c62d")
+		(property "Reference" "R15"
+			(at 85.09 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 85.09 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 84.328 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01e081e2-58bf-45a3-b538-81255584aece")
+		)
+		(pin "1"
+			(uuid "f281a64e-eb6e-4d0f-91a2-5367029623e7")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3537,7 +4540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 60.96 90)
+		(at 209.55 60.96 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3547,7 +4550,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c8540ea-04e9-43a9-b682-2e0ba91e5ca4")
 		(property "Reference" "#PWR017"
-			(at 187.96 60.96 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +4559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 60.9599 90)
+			(at 213.36 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +4568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 60.96 0)
+			(at 209.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +4577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 60.96 0)
+			(at 209.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +4586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 60.96 0)
+			(at 209.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +4873,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 82.55 0)
+		(at 158.75 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3880,7 +4883,7 @@
 		(fields_autoplaced yes)
 		(uuid "cda2e8e3-5f68-4857-bb8c-100289c3b61b")
 		(property "Reference" "#PWR022"
-			(at 130.81 88.9 0)
+			(at 158.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +4892,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 87.63 0)
+			(at 158.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +4900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +4909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +4918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 82.55 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +5150,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 62.23 0)
+		(at 158.75 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4157,7 +5160,7 @@
 		(fields_autoplaced yes)
 		(uuid "e82a64a5-da25-4a5d-9e72-6c8a8f216cb8")
 		(property "Reference" "C8"
-			(at 127 60.9599 0)
+			(at 154.94 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +5169,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 127 63.4999 0)
+			(at 154.94 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +5178,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 129.8448 66.04 0)
+			(at 157.7848 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +5187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 62.23 0)
+			(at 158.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +5196,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 62.23 0)
+			(at 158.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
