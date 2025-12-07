@@ -1311,6 +1311,50 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 83.82 38.1)
+		(end 151.13 152.4)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f923fde-003b-4bd6-901b-4cab91507c39)
+	)
+	(rectangle
+		(start 156.21 68.58)
+		(end 203.2 106.68)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b2d8f64e-db91-4b35-a296-8b68bba042de)
+	)
+	(text "TFT LCD 40 pins driver connector"
+		(exclude_from_sim no)
+		(at 95.758 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74d28a3e-51df-4007-8ea0-64c2a6e81047")
+	)
+	(text "TFT LCD 10 pins touch connector"
+		(exclude_from_sim no)
+		(at 168.148 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd0aa179-c109-49f1-8602-3b66a8b8d4e5")
+	)
 	(text "TFT LCD screen"
 		(exclude_from_sim no)
 		(at 149.352 24.638 0)

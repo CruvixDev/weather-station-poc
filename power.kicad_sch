@@ -1434,16 +1434,25 @@
 		)
 		(uuid "8908dbbb-b074-4db1-9e50-c1acbc0e60f7")
 	)
-	(text "The TPS61169 WLED (White LED) driver is a boost converter\nregulated in current through FB pin. The driver uses a 204mV\nvoltage reference and the resistor on FB pin set the current\nthreshold -> 204mV / 1.5 ohm = 136 mA. To have full brightness on\n5\" Riverdi screen, 140 mA are needed. To control the brightness,\na PWM signal is injected on CTRL pin. 100% duty cycle is full\nbrightness, 50% half brightness and so on ... "
+	(text_box "The TPS61169 WLED (White LED) driver is a boost converter\nregulated in current through FB pin. The driver uses a 204mV\nvoltage reference and the resistor on FB pin set the current\nthreshold -> 204mV / 1.5 ohm = 136 mA. To have full brightness on\n5\" Riverdi screen, 140 mA are needed. To control the brightness,\na PWM signal is injected on CTRL pin. 100% duty cycle is full\nbrightness, 50% half brightness and so on ... "
 		(exclude_from_sim no)
-		(at 65.024 151.892 0)
+		(at 64.77 144.78 0)
+		(size 53.34 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
-		(uuid "cfe45cf6-ecda-493b-8fec-6089e8f9d3d2")
+		(uuid "46da6dd3-cad8-430a-932f-733e4de729c2")
 	)
 	(junction
 		(at 210.82 111.76)
