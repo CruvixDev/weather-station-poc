@@ -2329,7 +2329,7 @@
 		)
 		(uuid "24fb5f84-bc5b-4e35-a386-823d6fa3a78d")
 	)
-	(label "TXRP"
+	(label "TRXP"
 		(at 142.24 69.85 90)
 		(effects
 			(font
