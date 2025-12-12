@@ -139,7 +139,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 67.31) (xy 107.95 67.31)
+			(xy 114.3 67.31) (xy 107.95 67.31)
 		)
 		(stroke
 			(width 0)
@@ -419,16 +419,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 58.42) (xy 146.05 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "360a3794-edbe-488a-9066-85f1610326af")
-	)
-	(wire
-		(pts
 			(xy 144.78 106.68) (xy 177.8 106.68)
 		)
 		(stroke
@@ -526,6 +516,16 @@
 			(type default)
 		)
 		(uuid "4b1b7fdc-ab6c-4596-845a-1d1889cfa48b")
+	)
+	(wire
+		(pts
+			(xy 142.24 58.42) (xy 146.05 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca7fb37-b4b6-4f4c-91d0-9c951b751525")
 	)
 	(wire
 		(pts
@@ -679,7 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 67.31) (xy 67.31 67.31)
+			(xy 67.31 67.31) (xy 107.95 67.31)
 		)
 		(stroke
 			(width 0)
@@ -796,16 +796,6 @@
 			(type default)
 		)
 		(uuid "90077262-bde4-4f97-8750-bc36294b9626")
-	)
-	(wire
-		(pts
-			(xy 148.59 63.5) (xy 138.43 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b63bfe-357b-4f36-8017-8a3620c16a2c")
 	)
 	(wire
 		(pts
@@ -959,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 78.74) (xy 105.41 69.85)
+			(xy 101.6 78.74) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1109,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 78.74) (xy 105.41 78.74)
+			(xy 83.82 78.74) (xy 101.6 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1149,7 +1139,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 69.85) (xy 118.11 69.85)
+			(xy 142.24 60.96) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6722860-31f2-4c34-9119-f501f0994a58")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 114.3 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1216,6 +1216,16 @@
 			(type default)
 		)
 		(uuid "e68a7428-32e3-4f8f-a4e6-81570543deed")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5) (xy 148.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e732b0f0-d629-4a34-9d36-949993b96214")
 	)
 	(wire
 		(pts
@@ -1306,16 +1316,6 @@
 			(type default)
 		)
 		(uuid "ef961b0a-8107-4bbb-b6db-209a4d6ed49b")
-	)
-	(wire
-		(pts
-			(xy 138.43 60.96) (xy 148.59 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efcb0d68-d1a7-4a36-b2b5-32718d25cb5b")
 	)
 	(bus
 		(pts
@@ -1885,8 +1885,8 @@
 		)
 	)
 	(sheet
-		(at 118.11 55.88)
-		(size 20.32 16.51)
+		(at 114.3 55.88)
+		(size 27.94 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1900,7 +1900,7 @@
 		)
 		(uuid "12325ae0-3782-4eae-9f35-258d08cb4f7e")
 		(property "Sheetname" "Power"
-			(at 118.11 55.1684 0)
+			(at 114.3 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1909,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 118.11 73.152 0)
+			(at 114.3 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1918,7 @@
 			)
 		)
 		(pin "3V3_Power" output
-			(at 118.11 67.31 180)
+			(at 114.3 67.31 180)
 			(uuid "dd47cd16-23f2-465d-b292-893327ddd5a0")
 			(effects
 				(font
@@ -1928,7 +1928,7 @@
 			)
 		)
 		(pin "5V_Power" input
-			(at 118.11 69.85 180)
+			(at 114.3 69.85 180)
 			(uuid "e7e9efb1-032d-431b-a859-e759a779d4ab")
 			(effects
 				(font
@@ -1938,7 +1938,7 @@
 			)
 		)
 		(pin "VLED+_Power" output
-			(at 138.43 58.42 0)
+			(at 142.24 58.42 0)
 			(uuid "8fe4f706-3a99-4c1a-9691-c439e72f9ba6")
 			(effects
 				(font
@@ -1948,7 +1948,7 @@
 			)
 		)
 		(pin "VLED-_Power" input
-			(at 138.43 60.96 0)
+			(at 142.24 60.96 0)
 			(uuid "53ef5a5d-762a-4d65-bccf-d95df6ce2fb6")
 			(effects
 				(font
@@ -1958,8 +1958,28 @@
 			)
 		)
 		(pin "Brightness_PWM_Power" input
-			(at 138.43 63.5 0)
+			(at 142.24 63.5 0)
 			(uuid "e92be71d-4034-4d28-9e14-d76aa454b6f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_Power_Sleep" output
+			(at 142.24 67.31 0)
+			(uuid "5300d5df-513f-4120-a838-4192c0c711c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_Power_Sleep" input
+			(at 142.24 69.85 0)
+			(uuid "ec066ef7-b70e-4a7f-8a93-c15eabf544bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3104,7 @@
 	)
 	(sheet
 		(at 71.12 119.38)
-		(size 25.4 15.24)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3107,7 +3127,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 71.12 135.382 0)
+			(at 71.12 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,6 +3178,56 @@
 		(pin "MISO_Ethernet" output
 			(at 96.52 127 0)
 			(uuid "dfcab76c-a8ee-4eda-9010-1d6889f2c41a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET_N_Ethernet" input
+			(at 96.52 132.08 0)
+			(uuid "92156f84-6cdb-4f78-8942-556911e48c5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IRQ_N_Ethernet" output
+			(at 96.52 134.62 0)
+			(uuid "155c3c48-8a31-4089-b6e4-445b93f9197b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_Ethernet_Sleep" input
+			(at 96.52 137.16 0)
+			(uuid "7fac1bc3-2c68-42f0-8b78-56bac9472ddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WAKE_OUT_Ethernet" output
+			(at 96.52 139.7 0)
+			(uuid "12b9f8d8-0bfc-4415-9b60-5a8b6478177e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INH_Ethernet" output
+			(at 96.52 142.24 0)
+			(uuid "42eb3acf-b737-4690-a12e-3cc2ac5e964e")
 			(effects
 				(font
 					(size 1.27 1.27)
