@@ -3062,6 +3062,88 @@
 		)
 	)
 	(sheet
+		(at 68.58 50.8)
+		(size 31.75 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a031817-cce8-41f5-9861-f61338edb684")
+		(property "Sheetname" "SecureElement"
+			(at 68.58 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SecureElement.kicad_sch"
+			(at 68.58 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{RESET}_STSAFEA110" input
+			(at 100.33 53.34 0)
+			(uuid "36b1121a-a114-468b-aa2d-1271756b0927")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_STSAFEA110" bidirectional
+			(at 100.33 55.88 0)
+			(uuid "b50c3e99-8605-4051-acca-e4247d28004f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_STSAFEA110" input
+			(at 100.33 58.42 0)
+			(uuid "904b7e42-63e2-4f35-a118-b6835f853192")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_STSAFEA110" input
+			(at 68.58 53.34 180)
+			(uuid "47e78389-d1fc-4b4b-8171-0de382511350")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 64.77 38.1)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
