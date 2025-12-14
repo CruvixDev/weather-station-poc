@@ -3463,7 +3463,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEDC3216X120N"
+		(property "Footprint" "weather-station-poc-fp:LEDC3216X120N"
 			(at 136.83 69.85 0)
 			(effects
 				(font
@@ -4339,7 +4339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEDC3216X120N"
+		(property "Footprint" "weather-station-poc-fp:LEDC3216X120N"
 			(at 157.15 69.85 0)
 			(effects
 				(font

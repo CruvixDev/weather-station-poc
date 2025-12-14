@@ -667,6 +667,38 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 100.33 80.01)
+		(end 179.07 106.68)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9be3fc7a-c2ea-4879-b07a-434589ed3380)
+	)
+	(text "STSAFE-A110"
+		(exclude_from_sim no)
+		(at 105.156 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a2d2f56-1b64-413a-9a6e-5ad1c7229ceb")
+	)
+	(text "Secure element (STSAFE)"
+		(exclude_from_sim no)
+		(at 140.716 23.368 0)
+		(effects
+			(font
+				(size 10 10)
+			)
+		)
+		(uuid "edd41e60-b6d2-4e73-bb83-b0a3b98a4336")
+	)
 	(junction
 		(at 125.73 91.44)
 		(diameter 0)
@@ -787,7 +819,7 @@
 		)
 		(uuid "ee3b5546-6ef7-4c64-ab2a-7e12e029f436")
 	)
-	(hierarchical_label "3V3_STSAFEA110"
+	(hierarchical_label "3V3_STSAFE"
 		(shape input)
 		(at 111.76 91.44 180)
 		(effects
@@ -798,7 +830,7 @@
 		)
 		(uuid "076d4f8c-6e47-4880-97f0-23e7d16b3d3d")
 	)
-	(hierarchical_label "SCL_STSAFEA110"
+	(hierarchical_label "SCL_STSAFE"
 		(shape input)
 		(at 166.37 92.71 0)
 		(effects
@@ -809,7 +841,7 @@
 		)
 		(uuid "1896caa4-c2dd-45b0-9100-acd712df3b43")
 	)
-	(hierarchical_label "~{RESET}_STSAFEA110"
+	(hierarchical_label "~{RESET}_STSAFE"
 		(shape input)
 		(at 134.62 88.9 180)
 		(effects
@@ -820,7 +852,7 @@
 		)
 		(uuid "39e207fe-0ffc-4784-a3a0-eda954c09021")
 	)
-	(hierarchical_label "SDA_STSAFEA110"
+	(hierarchical_label "SDA_STSAFE"
 		(shape bidirectional)
 		(at 166.37 97.79 0)
 		(effects
@@ -923,7 +955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "weather-station-poc-fp:SOIC127P600X175-8N"
 			(at 162.56 185.09 0)
 			(effects
 				(font

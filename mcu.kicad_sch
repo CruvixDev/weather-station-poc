@@ -5652,10 +5652,6 @@
 		(uuid "1cd0094f-f02d-47a1-8539-73b781703156")
 	)
 	(no_connect
-		(at 247.65 87.63)
-		(uuid "24de72a4-54cb-475d-88c0-301222866996")
-	)
-	(no_connect
 		(at 247.65 82.55)
 		(uuid "28cf3576-4ced-4bcb-91cd-07d71d0f0a00")
 	)
@@ -5748,10 +5744,6 @@
 		(uuid "89770f8d-b95a-4eff-9f06-b0bc9dee4477")
 	)
 	(no_connect
-		(at 247.65 90.17)
-		(uuid "8e286826-c128-438e-af81-84c11965e275")
-	)
-	(no_connect
 		(at 328.93 128.27)
 		(uuid "9057cabe-bfc5-400a-9a16-6ed556da4431")
 	)
@@ -5808,16 +5800,8 @@
 		(uuid "d7bad279-45a9-4928-a53d-f68db0514e47")
 	)
 	(no_connect
-		(at 247.65 92.71)
-		(uuid "dfbea0e2-7bfb-4c83-9846-c0d6bb331fd8")
-	)
-	(no_connect
 		(at 328.93 123.19)
 		(uuid "e45616e7-4e00-4855-a079-954cd3b29f8b")
-	)
-	(no_connect
-		(at 328.93 77.47)
-		(uuid "e9d2857e-a7e3-48e3-b944-7ef7ed8d2881")
 	)
 	(no_connect
 		(at 328.93 151.13)
@@ -8234,6 +8218,28 @@
 		)
 		(uuid "b17c4bb4-268e-42e5-9919-769ab1e5d231")
 	)
+	(hierarchical_label "~{IRQ}_Ethernet_MCU"
+		(shape input)
+		(at 247.65 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4bafd90-3738-49da-a248-bbb8f9a87282")
+	)
+	(hierarchical_label "~{RESET}_STSAFE_MCU"
+		(shape output)
+		(at 328.93 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b56fcf54-1ac5-4a36-9ebe-770abe6fd84c")
+	)
 	(hierarchical_label "Rx_MCU"
 		(shape input)
 		(at 328.93 59.69 0)
@@ -8277,6 +8283,17 @@
 			(justify right)
 		)
 		(uuid "c1a95f85-334f-451b-88f9-8561f2d764d9")
+	)
+	(hierarchical_label "~{RESET}_Ethernet_MCU"
+		(shape output)
+		(at 247.65 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c31f47fc-6e76-4c15-b680-f611c1368a95")
 	)
 	(hierarchical_label "SCLK_MCU_Master"
 		(shape output)
@@ -8332,6 +8349,17 @@
 			(justify right)
 		)
 		(uuid "d87f5659-fa49-48a5-b7bf-dc796690af44")
+	)
+	(hierarchical_label "WAKE_OUT_Ethernet_MCU"
+		(shape input)
+		(at 247.65 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d911108e-d1af-449f-a6fa-78e98d33229a")
 	)
 	(hierarchical_label "SWCLK_MCU"
 		(shape input)

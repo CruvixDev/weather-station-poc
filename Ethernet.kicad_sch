@@ -2810,7 +2810,7 @@
 		)
 		(uuid "69835c3c-149b-4420-83f5-a2faa202f46f")
 	)
-	(hierarchical_label "RESET_N_Ethernet"
+	(hierarchical_label "~{RESET}_Ethernet"
 		(shape input)
 		(at 128.27 116.84 180)
 		(effects
@@ -2854,7 +2854,7 @@
 		)
 		(uuid "be351c08-392a-40ae-afe8-349442d76f3b")
 	)
-	(hierarchical_label "IRQ_N_Ethernet"
+	(hierarchical_label "~{IRQ}_Ethernet"
 		(shape output)
 		(at 143.51 134.62 270)
 		(effects
