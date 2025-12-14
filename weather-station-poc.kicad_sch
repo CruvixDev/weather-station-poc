@@ -297,6 +297,18 @@
 		(uuid "ab04693c-2546-4c8f-9a71-f05f5dad913d")
 	)
 	(junction
+		(at 236.22 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17d72b1d-78ba-4233-9e95-235c599070ea")
+	)
+	(junction
+		(at 233.68 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f1dcb06-2741-42c5-9a9e-793b8d059612")
+	)
+	(junction
 		(at 82.55 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -309,22 +321,10 @@
 		(uuid "867397e0-d0b6-4ac1-bfc7-5aad4c8db239")
 	)
 	(junction
-		(at 236.22 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "946054ef-abf4-408e-93ba-acbe6319900e")
-	)
-	(junction
 		(at 233.68 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9db714eb-454d-4a59-b984-e454fdfbc14e")
-	)
-	(junction
-		(at 233.68 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7d1519b-b6e6-4a4a-b36b-3128a5bca6b9")
 	)
 	(junction
 		(at 236.22 140.97)
@@ -402,7 +402,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 83.82) (xy 224.79 83.82)
+			(xy 242.57 85.09) (xy 224.79 85.09)
 		)
 		(stroke
 			(width 0)
@@ -412,7 +412,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 90.17) (xy 233.68 120.65)
+			(xy 233.68 41.91) (xy 233.68 91.44)
 		)
 		(stroke
 			(width 0)
@@ -452,13 +452,23 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 156.21) (xy 240.03 86.36)
+			(xy 240.03 156.21) (xy 240.03 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1f51556f-90f5-4e99-a16e-2f4afb5dd1f1")
+	)
+	(wire
+		(pts
+			(xy 236.22 93.98) (xy 236.22 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc83bc9-cf78-4b9a-8fa3-879d32d2f51d")
 	)
 	(wire
 		(pts
@@ -509,6 +519,16 @@
 			(type default)
 		)
 		(uuid "340771fc-5536-45dd-bc57-68ed34946bfa")
+	)
+	(wire
+		(pts
+			(xy 233.68 91.44) (xy 233.68 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399d4014-ac85-4b8d-a7b0-0c8ed8b33ab3")
 	)
 	(wire
 		(pts
@@ -572,16 +592,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 41.91) (xy 233.68 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bf34656-f415-4510-8445-18d39434f782")
-	)
-	(wire
-		(pts
 			(xy 143.51 127) (xy 82.55 127)
 		)
 		(stroke
@@ -622,23 +632,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 158.75) (xy 242.57 83.82)
+			(xy 242.57 158.75) (xy 242.57 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "68ab1c01-652e-406f-8311-fdb11bd2f5b2")
-	)
-	(wire
-		(pts
-			(xy 236.22 44.45) (xy 236.22 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cac4dff-0d9c-4621-82b2-6a0ce1a2752c")
 	)
 	(wire
 		(pts
@@ -792,7 +792,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 92.71) (xy 236.22 123.19)
+			(xy 236.22 44.45) (xy 236.22 93.98)
 		)
 		(stroke
 			(width 0)
@@ -832,7 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 86.36) (xy 240.03 86.36)
+			(xy 224.79 87.63) (xy 240.03 87.63)
 		)
 		(stroke
 			(width 0)
@@ -902,7 +902,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 90.17) (xy 233.68 90.17)
+			(xy 224.79 91.44) (xy 233.68 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1082,7 +1082,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 92.71) (xy 236.22 92.71)
+			(xy 224.79 93.98) (xy 236.22 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1810,7 +1810,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 224.79 81.28 270)
+		(at 224.79 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1819,7 +1819,7 @@
 		(fields_autoplaced yes)
 		(uuid "555d38f2-09cf-45a2-865c-e3e4d559f3aa")
 		(property "Reference" "#PWR0145"
-			(at 220.98 81.28 0)
+			(at 220.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +1828,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 228.6 81.2799 90)
+			(at 228.6 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 81.28 0)
+			(at 224.79 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 81.28 0)
+			(at 224.79 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 224.79 81.28 0)
+			(at 224.79 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3279,7 @@
 			)
 		)
 		(pin "3V3_LCD" input
-			(at 224.79 81.28 0)
+			(at 224.79 82.55 0)
 			(uuid "90e5f6da-e11c-48a0-93a9-6553c6f65318")
 			(effects
 				(font
@@ -3289,7 +3289,7 @@
 			)
 		)
 		(pin "SCL_LCD" input
-			(at 224.79 90.17 0)
+			(at 224.79 91.44 0)
 			(uuid "1c1a163e-4bcd-41ae-bb7e-0cb6801db5af")
 			(effects
 				(font
@@ -3299,7 +3299,7 @@
 			)
 		)
 		(pin "VLED+_LCD" input
-			(at 224.79 83.82 0)
+			(at 224.79 85.09 0)
 			(uuid "baf9c5e5-3706-49e2-acfe-6e2d603f23d3")
 			(effects
 				(font
@@ -3309,7 +3309,7 @@
 			)
 		)
 		(pin "VLED-_LCD" output
-			(at 224.79 86.36 0)
+			(at 224.79 87.63 0)
 			(uuid "2561a94a-9af2-4071-9678-bd9c6a193a02")
 			(effects
 				(font
@@ -3419,7 +3419,7 @@
 			)
 		)
 		(pin "SDA_LCD" bidirectional
-			(at 224.79 92.71 0)
+			(at 224.79 93.98 0)
 			(uuid "1e52b581-47b4-45cf-aa6e-fd43b0682ea9")
 			(effects
 				(font
