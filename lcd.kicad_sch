@@ -1345,6 +1345,16 @@
 		)
 		(uuid "74d28a3e-51df-4007-8ea0-64c2a6e81047")
 	)
+	(text "TODO: think about ferrite beam on LCD connectors"
+		(exclude_from_sim no)
+		(at 170.434 116.332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7528d5b3-e50e-405d-b310-db3d2edd12c5")
+	)
 	(text "TFT LCD 10 pins touch connector"
 		(exclude_from_sim no)
 		(at 167.64 67.31 0)
