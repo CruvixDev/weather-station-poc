@@ -2039,7 +2039,7 @@
 	)
 	(text "LAN8651 25MHz oscillator"
 		(exclude_from_sim no)
-		(at 239.522 88.646 0)
+		(at 240.03 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2049,7 +2049,7 @@
 	)
 	(text "RJ45 Connector for LAN8651"
 		(exclude_from_sim no)
-		(at 240.284 45.466 0)
+		(at 240.03 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2059,7 +2059,7 @@
 	)
 	(text "External Ethernet PHY"
 		(exclude_from_sim no)
-		(at 112.268 56.896 0)
+		(at 111.76 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2069,7 +2069,7 @@
 	)
 	(text "Ethernet LAN8651 decoupling capacitors"
 		(exclude_from_sim no)
-		(at 37.592 45.466 0)
+		(at 38.1 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2079,7 +2079,7 @@
 	)
 	(text "Ethernet PHY"
 		(exclude_from_sim no)
-		(at 145.288 23.114 0)
+		(at 144.78 22.86 0)
 		(effects
 			(font
 				(size 10 10)
@@ -2128,16 +2128,16 @@
 		(uuid "be7f1718-c474-479c-9f10-bad4453786f9")
 	)
 	(junction
+		(at 129.54 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "096c8e3c-4e34-4a1b-be4c-9073fb8ef030")
+	)
+	(junction
 		(at 187.96 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c52780d-da44-47fc-85d3-a44f8e4954e6")
-	)
-	(junction
-		(at 130.81 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11a886d5-e5e7-4014-bf33-d4261f0efaef")
 	)
 	(junction
 		(at 46.99 50.8)
@@ -2357,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 106.68) (xy 190.5 106.68)
+			(xy 173.99 106.68) (xy 187.96 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 116.84) (xy 130.81 116.84)
+			(xy 125.73 116.84) (xy 129.54 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 116.84) (xy 130.81 118.11)
+			(xy 129.54 116.84) (xy 129.54 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2537,16 +2537,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 116.84) (xy 133.35 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d10468a2-b813-4409-8f7c-905b8dc7d1e0")
-	)
-	(wire
-		(pts
 			(xy 125.73 99.06) (xy 129.54 99.06)
 		)
 		(stroke
@@ -2554,6 +2544,16 @@
 			(type default)
 		)
 		(uuid "d1a5dd73-507c-4ce6-96dc-a76a03cff4f0")
+	)
+	(wire
+		(pts
+			(xy 129.54 116.84) (xy 133.35 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83354b2-197b-477a-b8d1-325aeed5345d")
 	)
 	(wire
 		(pts
@@ -2812,7 +2812,7 @@
 	)
 	(hierarchical_label "~{RESET}_Ethernet"
 		(shape input)
-		(at 128.27 116.84 180)
+		(at 125.73 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3025,7 +3025,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 110.49 0)
+		(at 187.96 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3034,7 +3034,7 @@
 		(fields_autoplaced yes)
 		(uuid "10ad91e0-41b3-4351-8a01-fc3f7845af13")
 		(property "Reference" "C74"
-			(at 194.31 109.2199 0)
+			(at 191.77 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3043,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 194.31 111.7599 0)
+			(at 191.77 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.4652 114.3 0)
+			(at 188.9252 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 110.49 0)
+			(at 187.96 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3070,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 190.5 110.49 0)
+			(at 187.96 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3165,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 121.92 0)
+		(at 129.54 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3174,7 +3174,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cefb122-6c23-4e9a-b4b3-a999e4d4e19b")
 		(property "Reference" "R19"
-			(at 133.35 120.6499 0)
+			(at 132.08 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3183,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 133.35 123.1899 0)
+			(at 132.08 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +3192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.032 121.92 90)
+			(at 127.762 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3201,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 121.92 0)
+			(at 129.54 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3210,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 121.92 0)
+			(at 129.54 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3367,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 125.73 0)
+		(at 129.54 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3376,7 +3376,7 @@
 		(fields_autoplaced yes)
 		(uuid "31820b42-f478-46d5-bf9d-4a6983e7c374")
 		(property "Reference" "#PWR0127"
-			(at 130.81 132.08 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +3385,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 130.81 0)
+			(at 129.54 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 125.73 0)
+			(at 129.54 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 125.73 0)
+			(at 129.54 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 125.73 0)
+			(at 129.54 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4934,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 114.3 0)
+		(at 187.96 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4943,7 +4943,7 @@
 		(fields_autoplaced yes)
 		(uuid "b52af84d-f9dc-4e94-bf7f-22f500c3cbfb")
 		(property "Reference" "#PWR0117"
-			(at 190.5 120.65 0)
+			(at 187.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +4952,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 119.38 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +4960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 114.3 0)
+			(at 187.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +4969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 114.3 0)
+			(at 187.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,7 +4978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 114.3 0)
+			(at 187.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)

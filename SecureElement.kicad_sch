@@ -681,7 +681,7 @@
 	)
 	(text "STSAFE-A110"
 		(exclude_from_sim no)
-		(at 105.156 78.486 0)
+		(at 105.41 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -691,7 +691,7 @@
 	)
 	(text "Secure element (STSAFE)"
 		(exclude_from_sim no)
-		(at 140.716 23.368 0)
+		(at 140.97 22.86 0)
 		(effects
 			(font
 				(size 10 10)

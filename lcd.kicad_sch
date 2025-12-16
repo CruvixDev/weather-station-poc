@@ -1337,7 +1337,7 @@
 	)
 	(text "TFT LCD 40 pins driver connector"
 		(exclude_from_sim no)
-		(at 95.758 36.322 0)
+		(at 95.25 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1347,7 +1347,7 @@
 	)
 	(text "TFT LCD 10 pins touch connector"
 		(exclude_from_sim no)
-		(at 168.148 67.056 0)
+		(at 167.64 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1357,7 +1357,7 @@
 	)
 	(text "TFT LCD screen"
 		(exclude_from_sim no)
-		(at 149.352 24.638 0)
+		(at 149.86 24.13 0)
 		(effects
 			(font
 				(size 10 10)
