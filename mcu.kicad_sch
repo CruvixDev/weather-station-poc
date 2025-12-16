@@ -8131,7 +8131,7 @@
 		(uuid "839aa7d4-ea89-4222-af0d-9a24d14c5dff")
 	)
 	(hierarchical_label "~{SS}_MCU_Slave"
-		(shape output)
+		(shape input)
 		(at 328.93 140.97 0)
 		(effects
 			(font
@@ -8164,7 +8164,7 @@
 		(uuid "8eef617a-5013-4314-8330-0537a1e48359")
 	)
 	(hierarchical_label "DN_MCU"
-		(shape input)
+		(shape bidirectional)
 		(at 328.93 85.09 0)
 		(effects
 			(font
@@ -8406,7 +8406,7 @@
 		(uuid "f7380875-5ba1-4ece-b16f-54b9db4ebc40")
 	)
 	(hierarchical_label "DP_MCU"
-		(shape input)
+		(shape bidirectional)
 		(at 328.93 87.63 0)
 		(effects
 			(font

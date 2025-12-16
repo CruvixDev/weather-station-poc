@@ -2970,16 +2970,6 @@
 				(justify right)
 			)
 		)
-		(pin "~{SS}_MCU_Slave" output
-			(at 181.61 59.69 0)
-			(uuid "6fa06fbd-16fa-4417-a349-d653d2aa9c53")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MCU_R[0..7]" output
 			(at 181.61 82.55 0)
 			(uuid "44540922-396b-4f20-b8ae-316a3b9d0bc6")
@@ -3228,6 +3218,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "~{SS}_MCU_Slave" input
+			(at 181.61 59.69 0)
+			(uuid "37afe383-c37f-41cd-bd81-6f04ebdfb324")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

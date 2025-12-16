@@ -1976,7 +1976,7 @@
 		(uuid "66db8159-16b2-4fe4-9551-6711786fdba8")
 	)
 	(hierarchical_label "Rx_Debug"
-		(shape output)
+		(shape input)
 		(at 119.38 104.14 180)
 		(effects
 			(font
@@ -1998,7 +1998,7 @@
 		(uuid "99af9700-a18e-464a-8e6a-aad329191b50")
 	)
 	(hierarchical_label "Tx_Debug"
-		(shape input)
+		(shape output)
 		(at 119.38 101.6 180)
 		(effects
 			(font
