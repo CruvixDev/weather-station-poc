@@ -5718,6 +5718,10 @@
 		(uuid "3a5d0ea1-a29e-4cce-b14f-d96ba5c481f4")
 	)
 	(no_connect
+		(at 238.76 97.79)
+		(uuid "4a9b3bf6-f22d-4d78-99c9-8801278b0fc3")
+	)
+	(no_connect
 		(at 320.04 158.75)
 		(uuid "50047160-72ec-4ef4-96bc-24cd4f313743")
 	)
@@ -5774,6 +5778,10 @@
 		(uuid "9057cabe-bfc5-400a-9a16-6ed556da4431")
 	)
 	(no_connect
+		(at 320.04 72.39)
+		(uuid "a9722146-fb2d-4f84-b181-bd3f21c318cf")
+	)
+	(no_connect
 		(at 238.76 118.11)
 		(uuid "b1204b53-0975-4017-8f14-6af5a70a5780")
 	)
@@ -5788,6 +5796,10 @@
 	(no_connect
 		(at 238.76 82.55)
 		(uuid "b9bbbc14-1d16-4625-acd1-e8e242b5bd9b")
+	)
+	(no_connect
+		(at 238.76 92.71)
+		(uuid "b9d3ef1c-8efd-4a2d-9e5c-320eb7baac73")
 	)
 	(no_connect
 		(at 320.04 115.57)
@@ -5816,6 +5828,10 @@
 	(no_connect
 		(at 238.76 128.27)
 		(uuid "d3be2b1b-48c7-4d59-8b80-c81524aace31")
+	)
+	(no_connect
+		(at 238.76 95.25)
+		(uuid "d3da885e-054c-49e9-b238-9713dc783f6f")
 	)
 	(no_connect
 		(at 238.76 80.01)
@@ -8254,17 +8270,6 @@
 		)
 		(uuid "b17c4bb4-268e-42e5-9919-769ab1e5d231")
 	)
-	(hierarchical_label "~{IRQ}_Ethernet_MCU"
-		(shape input)
-		(at 238.76 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b4bafd90-3738-49da-a248-bbb8f9a87282")
-	)
 	(hierarchical_label "~{RESET}_STSAFE_MCU"
 		(shape output)
 		(at 320.04 82.55 0)
@@ -8319,17 +8324,6 @@
 			(justify right)
 		)
 		(uuid "c1a95f85-334f-451b-88f9-8561f2d764d9")
-	)
-	(hierarchical_label "~{RESET}_Ethernet_MCU"
-		(shape output)
-		(at 238.76 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c31f47fc-6e76-4c15-b680-f611c1368a95")
 	)
 	(hierarchical_label "SCLK_MCU_Master"
 		(shape output)
@@ -8386,17 +8380,6 @@
 		)
 		(uuid "d87f5659-fa49-48a5-b7bf-dc796690af44")
 	)
-	(hierarchical_label "WAKE_OUT_Ethernet_MCU"
-		(shape input)
-		(at 238.76 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d911108e-d1af-449f-a6fa-78e98d33229a")
-	)
 	(hierarchical_label "SWCLK_MCU"
 		(shape input)
 		(at 320.04 97.79 0)
@@ -8418,17 +8401,6 @@
 			(justify right)
 		)
 		(uuid "e9782790-cdc4-404c-9652-4017d3cf286b")
-	)
-	(hierarchical_label "~{SS}_Ethernet_MCU"
-		(shape output)
-		(at 320.04 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f1f7a1dd-45e4-4780-85da-d7a7119f2987")
 	)
 	(hierarchical_label "3V3_MCU"
 		(shape input)
