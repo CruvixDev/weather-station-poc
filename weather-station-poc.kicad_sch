@@ -3776,7 +3776,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Ethernet.kicad_sch"
+		(property "Sheetfile" "ethernet.kicad_sch"
 			(at 88.9 102.362 0)
 			(effects
 				(font

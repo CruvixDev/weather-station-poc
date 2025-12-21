@@ -3155,7 +3155,7 @@
 			(uuid "ec890f54-eea4-400b-bf0e-32038165d7c7")
 		)
 		(instances
-			(project ""
+			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/dba7376c-12da-4b87-819b-9e31ed4c088a"
 					(reference "R23")
 					(unit 1)
@@ -3688,7 +3688,7 @@
 			(uuid "2af9b719-ff10-4613-8b81-ac8158a35cb9")
 		)
 		(instances
-			(project ""
+			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/dba7376c-12da-4b87-819b-9e31ed4c088a"
 					(reference "#PWR0147")
 					(unit 1)
@@ -4171,7 +4171,7 @@
 			(uuid "a67aa7d5-7622-49c0-8f3e-f8b7af98f9b8")
 		)
 		(instances
-			(project ""
+			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/dba7376c-12da-4b87-819b-9e31ed4c088a"
 					(reference "IC7")
 					(unit 1)
@@ -4648,7 +4648,7 @@
 			(uuid "cbd7471b-3f36-4819-8ba9-bc84bd907f2c")
 		)
 		(instances
-			(project ""
+			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/dba7376c-12da-4b87-819b-9e31ed4c088a"
 					(reference "Y4")
 					(unit 1)
@@ -4858,7 +4858,7 @@
 			(uuid "c9b55a14-1bf6-4fa1-87ad-69efcddf4eec")
 		)
 		(instances
-			(project ""
+			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/dba7376c-12da-4b87-819b-9e31ed4c088a"
 					(reference "C90")
 					(unit 1)
@@ -5224,7 +5224,7 @@
 			(uuid "498d6891-1492-4570-a22b-0832cf8eed9f")
 		)
 		(instances
-			(project ""
+			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/dba7376c-12da-4b87-819b-9e31ed4c088a"
 					(reference "J8")
 					(unit 1)
