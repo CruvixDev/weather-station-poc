@@ -532,6 +532,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 45.72) (xy 191.77 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45bea2b9-54e2-48b1-952f-eaab9d290b6a")
+	)
+	(wire
+		(pts
 			(xy 179.07 105.41) (xy 191.77 105.41)
 		)
 		(stroke
@@ -609,6 +619,16 @@
 			(type default)
 		)
 		(uuid "619f5f07-e277-44e1-8ac0-8a1fed9b34f2")
+	)
+	(wire
+		(pts
+			(xy 179.07 48.26) (xy 191.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664071f8-849a-41e6-ac80-74554cc2094a")
 	)
 	(wire
 		(pts
@@ -979,26 +999,6 @@
 			(type default)
 		)
 		(uuid "d2db366f-6dec-4caa-b64d-b3e0c2753666")
-	)
-	(wire
-		(pts
-			(xy 179.07 45.72) (xy 191.77 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4145633-7f5a-4a9b-b75a-cb98fba52520")
-	)
-	(wire
-		(pts
-			(xy 179.07 48.26) (xy 191.77 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6f89f6e-d865-4b0c-8b54-48921998ddf8")
 	)
 	(wire
 		(pts
@@ -1627,7 +1627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "114e79b3-eef5-4df4-a48d-67a899e60ab0")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR06"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -1678,7 +1678,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0143")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1693,7 +1693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1872c7a8-1794-4f17-ae8c-2cebbb905647")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR09"
 			(at 218.44 39.37 0)
 			(effects
 				(font
@@ -1744,7 +1744,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0150")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1759,7 +1759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2076ffd6-5ed5-4c26-a3b6-e6918e726245")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR05"
 			(at 92.71 87.63 0)
 			(effects
 				(font
@@ -1810,7 +1810,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0144")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1826,7 +1826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31bdc7b0-ec71-48b8-8d11-f311aa201d0f")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR04"
 			(at 92.71 63.5 0)
 			(effects
 				(font
@@ -1877,7 +1877,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0148")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1892,7 +1892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f202372-60de-4470-b8fa-55f68b3d8f0f")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR011"
 			(at 218.44 116.84 0)
 			(effects
 				(font
@@ -1943,7 +1943,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0147")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1958,7 +1958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5796154c-e936-4837-b929-6f65c564dd0c")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR012"
 			(at 218.44 134.62 0)
 			(effects
 				(font
@@ -2009,7 +2009,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0142")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2025,7 +2025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f8e708d-1616-4fa6-9abb-05680ce6e30b")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR02"
 			(at 92.71 58.42 0)
 			(effects
 				(font
@@ -2076,7 +2076,7 @@
 		(instances
 			(project ""
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0151")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2091,7 +2091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1f308d5-410e-4b95-8023-150fd981bbc7")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR03"
 			(at 92.71 60.96 0)
 			(effects
 				(font
@@ -2142,7 +2142,7 @@
 		(instances
 			(project ""
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0141")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2158,7 +2158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba17e924-eb19-446c-b8e7-67da59178deb")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR01"
 			(at 92.71 39.37 0)
 			(effects
 				(font
@@ -2209,7 +2209,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0152")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2224,7 +2224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3de9f73-191d-4a3a-b968-77a6724bdc0e")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR08"
 			(at 144.78 149.86 0)
 			(effects
 				(font
@@ -2275,7 +2275,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0146")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2290,7 +2290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f03693c3-a362-483a-84a8-7183eda20566")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR010"
 			(at 218.44 82.55 0)
 			(effects
 				(font
@@ -2341,7 +2341,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0149")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2356,7 +2356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f475332c-0179-4590-bc7c-7c91315b8a90")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR07"
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR0145")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3493,7 +3493,7 @@
 			)
 		)
 		(pin "CAN_H_Debug" bidirectional
-			(at 191.77 48.26 180)
+			(at 191.77 45.72 180)
 			(uuid "216b880e-6afb-458e-9a5d-c8cc1ca9a28b")
 			(effects
 				(font
@@ -3503,7 +3503,7 @@
 			)
 		)
 		(pin "CAN_L_Debug" bidirectional
-			(at 191.77 45.72 180)
+			(at 191.77 48.26 180)
 			(uuid "2ee241ab-783f-4fbc-88cf-4c1584c661ee")
 			(effects
 				(font
