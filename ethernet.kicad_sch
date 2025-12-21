@@ -2037,6 +2037,16 @@
 		)
 		(uuid 5fb2bac1-a1f0-4dc1-b335-e75e31df73ef)
 	)
+	(text "REFACTOR ALL, 10BASE-T1S is not good at all critical error"
+		(exclude_from_sim no)
+		(at 144.272 28.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "032ac585-3229-4693-bf63-89d3e0e0ea8b")
+	)
 	(text "LAN8651 25MHz oscillator"
 		(exclude_from_sim no)
 		(at 240.03 88.9 0)
