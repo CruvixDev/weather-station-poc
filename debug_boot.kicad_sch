@@ -362,406 +362,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x05"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -987,6 +587,382 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "weather-station-poc-sym:61300311121"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "61300311121"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "HDRV3W64P0X254_1X3_762X254X869P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/download/3D_61300311121+%28rev1%29.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.69"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-61300311121"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "61300311121"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "61300311121_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "weather-station-poc-sym:61300511121"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "61300511121"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "HDRV5W64P0X254_1X5_1270X254X854P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/download/3D_61300511121+%28rev1%29.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WR-PHD 2.54 mm Pin Header 5 pins, 1 row, straight, gold plating"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.54"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-61300511121"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300511121?qs=PhR8RmCirEZCsCRHq%252BvfRQ%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "61300511121"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "61300511121_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 100.33 39.37)
@@ -1002,7 +978,7 @@
 	)
 	(rectangle
 		(start 106.68 97.79)
-		(end 191.77 143.51)
+		(end 201.93 134.62)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1032,16 +1008,6 @@
 		)
 		(uuid "266877df-7080-4c12-ac75-7a07c4e7f46e")
 	)
-	(text "TODO: Sub d 9pts connector is very big on a PCB, maybe replace by a pin header"
-		(exclude_from_sim no)
-		(at 165.1 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3b250241-2a92-4f8d-a45a-0ebef57c5190")
-	)
 	(text "SWD connector (MIPI 10)"
 		(exclude_from_sim no)
 		(at 109.22 38.1 0)
@@ -1054,7 +1020,7 @@
 	)
 	(text "Communication interface connectors"
 		(exclude_from_sim no)
-		(at 120.65 96.52 0)
+		(at 120.142 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1069,7 +1035,7 @@
 		(uuid "111ff946-251c-46f0-8b02-ab2e52bcc1e5")
 	)
 	(junction
-		(at 157.48 125.73)
+		(at 165.1 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f0338b6-a6d1-4a15-b7b6-b0c36f70f35a")
@@ -1093,7 +1059,7 @@
 		(uuid "637bd552-9227-42c8-acf6-6a968ced7d85")
 	)
 	(junction
-		(at 157.48 118.11)
+		(at 165.1 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a97a271-3b55-402f-8830-61391b381974")
@@ -1152,7 +1118,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 125.73) (xy 157.48 125.73)
+			(xy 161.29 125.73) (xy 165.1 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1162,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 120.65) (xy 163.83 118.11)
+			(xy 171.45 120.65) (xy 171.45 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1182,7 +1148,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 125.73) (xy 163.83 125.73)
+			(xy 165.1 125.73) (xy 171.45 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1192,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 118.11) (xy 163.83 118.11)
+			(xy 165.1 118.11) (xy 171.45 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1212,7 +1178,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 120.65) (xy 165.1 120.65)
+			(xy 171.45 120.65) (xy 172.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 123.19) (xy 165.1 123.19)
+			(xy 171.45 123.19) (xy 172.72 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1312,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 125.73) (xy 163.83 123.19)
+			(xy 171.45 125.73) (xy 171.45 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1382,7 +1348,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 118.11) (xy 157.48 118.11)
+			(xy 161.29 118.11) (xy 165.1 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1455,7 +1421,7 @@
 	)
 	(hierarchical_label "SDA_Debug"
 		(shape bidirectional)
-		(at 152.4 104.14 180)
+		(at 160.02 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1488,7 +1454,7 @@
 	)
 	(hierarchical_label "SCL_Debug"
 		(shape input)
-		(at 152.4 101.6 180)
+		(at 160.02 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1499,7 +1465,7 @@
 	)
 	(hierarchical_label "CAN_H_Debug"
 		(shape bidirectional)
-		(at 153.67 118.11 180)
+		(at 161.29 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1554,7 +1520,7 @@
 	)
 	(hierarchical_label "CAN_L_Debug"
 		(shape bidirectional)
-		(at 153.67 125.73 180)
+		(at 161.29 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1587,7 +1553,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 121.92 0)
+		(at 165.1 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1595,7 +1561,7 @@
 		(dnp no)
 		(uuid "157dfb2b-d744-4176-8495-d9fb86edfdfd")
 		(property "Reference" "R16"
-			(at 160.782 122.936 0)
+			(at 168.402 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1569,7 @@
 			)
 		)
 		(property "Value" "60"
-			(at 160.782 120.904 0)
+			(at 168.402 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.702 121.92 90)
+			(at 163.322 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 121.92 0)
+			(at 165.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1595,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 121.92 0)
+			(at 165.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,17 +1619,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 157.48 104.14 0)
+		(lib_id "weather-station-poc-sym:61300311121")
+		(at 160.02 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "35031b75-b671-4e34-9694-573c8b9fca9d")
-		(property "Reference" "J5"
-			(at 160.02 102.8699 0)
+		(uuid "1a9f354c-1233-434f-a9c3-3adb3d891d6b")
+		(property "Reference" "J4"
+			(at 176.53 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,8 +1637,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 160.02 105.4099 0)
+		(property "Value" "61300311121"
+			(at 176.53 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,8 +1646,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 157.48 104.14 0)
+		(property "Footprint" "weather-station-poc-fp:HDRV3W64P0X254_1X3_762X254X869P"
+			(at 176.53 196.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_61300311121+%28rev1%29.pdf"
+			(at 176.53 296.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
+			(at 160.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,35 +1675,317 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 157.48 104.14 0)
+		(property "Height" "8.69"
+			(at 176.53 496.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 157.48 104.14 0)
+		(property "Mouser Part Number" "710-61300311121"
+			(at 176.53 596.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "3583591e-5021-45b3-bd11-8292a90f8d94")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
+			(at 176.53 696.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "eee7fec5-961c-463d-b8ac-8c016ecbd049")
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 176.53 796.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300311121"
+			(at 176.53 896.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "e8c0d8ea-a18b-4d26-a332-5744d3ebdc1e")
+			(uuid "ab18700c-22ca-4c3d-b1c6-5746c0539b99")
+		)
+		(pin "2"
+			(uuid "572fc2c9-31c5-44dd-99bf-0fd7ffc9b708")
+		)
+		(pin "3"
+			(uuid "8449a172-f868-48aa-8427-43cc314094df")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/8a588a02-5ba4-4712-b770-7d9eb4e5d127"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "weather-station-poc-sym:61300311121")
+		(at 119.38 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb1a641-0c52-4e79-b5cd-9ca7877328cd")
+		(property "Reference" "J1"
+			(at 135.89 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "61300311121"
+			(at 135.89 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "weather-station-poc-fp:HDRV3W64P0X254_1X3_762X254X869P"
+			(at 135.89 196.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_61300311121+%28rev1%29.pdf"
+			(at 135.89 296.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.69"
+			(at 135.89 496.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-61300311121"
+			(at 135.89 596.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
+			(at 135.89 696.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 135.89 796.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300311121"
+			(at 135.89 896.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a8e7fb5-8773-488d-af0f-83b1262389b0")
+		)
+		(pin "2"
+			(uuid "33db6cb0-7a7f-4645-87c0-e28037bf39b6")
+		)
+		(pin "3"
+			(uuid "131eb4f4-a376-418a-aba1-f62699885abf")
 		)
 		(instances
 			(project ""
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/8a588a02-5ba4-4712-b770-7d9eb4e5d127"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "weather-station-poc-sym:61300311121")
+		(at 172.72 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25795bf0-1aaf-4437-bb9b-69322f9c033d")
+		(property "Reference" "J5"
+			(at 189.23 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "61300311121"
+			(at 189.23 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "weather-station-poc-fp:HDRV3W64P0X254_1X3_762X254X869P"
+			(at 189.23 215.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_61300311121+%28rev1%29.pdf"
+			(at 189.23 315.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.69"
+			(at 189.23 515.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-61300311121"
+			(at 189.23 615.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
+			(at 189.23 715.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 189.23 815.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300311121"
+			(at 189.23 915.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0f264a4-a0a9-41da-9d4a-093c6acda705")
+		)
+		(pin "2"
+			(uuid "2f8cf2ab-41b6-4552-ab9b-01457035bca0")
+		)
+		(pin "3"
+			(uuid "637cd977-5044-4c35-abdc-e54b58d567e4")
+		)
+		(instances
+			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/8a588a02-5ba4-4712-b770-7d9eb4e5d127"
 					(reference "J5")
 					(unit 1)
@@ -1726,17 +1994,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 170.18 123.19 0)
+		(lib_id "weather-station-poc-sym:61300511121")
+		(at 119.38 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3ac37235-f6a2-4771-9fe1-2622ad807281")
-		(property "Reference" "J9"
-			(at 172.72 121.9199 0)
+		(uuid "2c31c85a-da38-4d56-ac23-f0e511e4fbfd")
+		(property "Reference" "J2"
+			(at 135.89 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,8 +2012,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 172.72 124.4599 0)
+		(property "Value" "61300511121"
+			(at 135.89 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,8 +2021,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 170.18 123.19 0)
+		(property "Footprint" "weather-station-poc-fp:HDRV5W64P0X254_1X5_1270X254X854P"
+			(at 135.89 211.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_61300511121+%28rev1%29.pdf"
+			(at 135.89 311.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-PHD 2.54 mm Pin Header 5 pins, 1 row, straight, gold plating"
+			(at 119.38 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,37 +2050,75 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 170.18 123.19 0)
+		(property "Height" "8.54"
+			(at 135.89 511.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 123.19 0)
+		(property "Mouser Part Number" "710-61300511121"
+			(at 135.89 611.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "f4e63094-f647-45fc-93e4-4324bc9b56f8")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300511121?qs=PhR8RmCirEZCsCRHq%252BvfRQ%3D%3D"
+			(at 135.89 711.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 135.89 811.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300511121"
+			(at 135.89 911.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9e7524a4-8208-44a4-ba00-d4d339d8880c")
 		)
 		(pin "1"
-			(uuid "3d771e5b-7a23-47f7-94ec-8584a7493a29")
+			(uuid "3002c39b-f31f-48f4-a691-f5a2a1322cc8")
 		)
 		(pin "2"
-			(uuid "c6d4e74a-da1d-43eb-9784-6c1b1de1f24d")
+			(uuid "a923dd17-25e0-454c-b2af-eb14549eab61")
+		)
+		(pin "3"
+			(uuid "8fe8d259-2481-461a-8ce6-2314042926af")
+		)
+		(pin "5"
+			(uuid "fcad3320-5e37-4119-a7f8-c5c33d1fa3d0")
 		)
 		(instances
-			(project "weather-station-poc"
+			(project ""
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/8a588a02-5ba4-4712-b770-7d9eb4e5d127"
-					(reference "J9")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1867,7 +2193,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 125.73 0)
+		(at 172.72 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1876,7 +2202,7 @@
 		(fields_autoplaced yes)
 		(uuid "75abd352-7fe0-4e30-aaf2-f282dbfb2886")
 		(property "Reference" "#PWR0121"
-			(at 165.1 132.08 0)
+			(at 172.72 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +2211,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 130.81 0)
+			(at 172.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +2219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 125.73 0)
+			(at 172.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,7 +2228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 125.73 0)
+			(at 172.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +2237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 125.73 0)
+			(at 172.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,87 +2625,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 124.46 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cab46727-a76c-410a-a344-1daff56c8c6d")
-		(property "Reference" "J2"
-			(at 127 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 127 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 124.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "232eea1d-d218-452e-ba1e-39149f79de39")
-		)
-		(pin "2"
-			(uuid "70059f3e-dda6-4459-aadc-d6786f73eb63")
-		)
-		(pin "1"
-			(uuid "af060860-64e3-45fc-89cd-71a0b8b1be03")
-		)
-		(pin "3"
-			(uuid "c55d9c2c-12b4-4c48-9aab-2d29eb9d6510")
-		)
-		(pin "5"
-			(uuid "ac4959b2-e846-4489-9b8b-556dbae020db")
-		)
-		(instances
-			(project ""
-				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/8a588a02-5ba4-4712-b770-7d9eb4e5d127"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 152.4 106.68 0)
+		(at 160.02 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2388,7 +2635,7 @@
 		(fields_autoplaced yes)
 		(uuid "d241b12e-13f5-4ff5-b261-5cb8723502a6")
 		(property "Reference" "#PWR0120"
-			(at 152.4 113.03 0)
+			(at 160.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2644,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 111.76 0)
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2652,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 106.68 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 106.68 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2670,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 106.68 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,79 +2755,6 @@
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/8a588a02-5ba4-4712-b770-7d9eb4e5d127"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 124.46 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de2c6f58-df7d-46e7-ad1f-bbb628e8f0e5")
-		(property "Reference" "J1"
-			(at 127 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 127 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 124.46 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f2e5aca0-e77b-47ed-96b6-7099178d18d0")
-		)
-		(pin "1"
-			(uuid "3264448d-c9af-4a38-b99f-61724e1056e4")
-		)
-		(pin "2"
-			(uuid "9b2d8a7e-84ed-4f19-85c1-f085eff6f51e")
-		)
-		(instances
-			(project ""
-				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/8a588a02-5ba4-4712-b770-7d9eb4e5d127"
-					(reference "J1")
 					(unit 1)
 				)
 			)
