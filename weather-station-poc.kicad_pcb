@@ -12237,6 +12237,206 @@
 			)
 		)
 	)
+	(footprint "weather-station-poc-fp:INDPM4040X180N"
+		(layer "F.Cu")
+		(uuid "659bc2c1-643b-4c59-8bc4-4ee31ea1acc7")
+		(at 165.525 82)
+		(descr "4018")
+		(tags "Inductor")
+		(property "Reference" "L6"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "a2efd94a-1513-472d-ac96-2828d3b6bd5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aa02aad8-7644-4ac8-96de-3aa8a13511e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74404042100.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e611e26-0dd6-46c8-ab8d-41bb2b271841")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e23c0ad0-a221-44a1-a712-e84721ecf525")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/12325ae0-3782-4eae-9f35-258d08cb4f7e/8fc55137-2159-414c-8aae-96a36bc7fe92")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2 2)
+			(end 2 2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fd0cd276-cffd-4e4b-868c-1f662bf8d035")
+		)
+		(fp_line
+			(start 2 -2)
+			(end -2 -2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bcac2ffe-3bf0-43c9-ae89-0fe6fb923187")
+		)
+		(fp_line
+			(start -2.85 -2.35)
+			(end 2.85 -2.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ee35008f-6de7-436e-8b5e-6990a434361a")
+		)
+		(fp_line
+			(start -2.85 2.35)
+			(end -2.85 -2.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "81b67638-832d-4666-9831-e69431e768ae")
+		)
+		(fp_line
+			(start 2.85 -2.35)
+			(end 2.85 2.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ffc1a172-15b8-4a45-a203-ff2ad8471cff")
+		)
+		(fp_line
+			(start 2.85 2.35)
+			(end -2.85 2.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ddab4bba-9cea-4c5c-8147-36806941ab58")
+		)
+		(fp_line
+			(start -2 -2)
+			(end 2 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fa0d0767-d7bc-4362-93fc-9dc7505c899e")
+		)
+		(fp_line
+			(start -2 2)
+			(end -2 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6ed16ee2-208d-4bd6-82df-c5d4c4ba260b")
+		)
+		(fp_line
+			(start 2 -2)
+			(end 2 2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "84fcc539-b03a-43af-bae1-e0c12b520177")
+		)
+		(fp_line
+			(start 2 2)
+			(end -2 2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "819d5011-1127-4a61-8053-99e57a7f0e2a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1126bcc4-cada-46d3-a9c5-12f161087bfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.65 0)
+			(size 1.9 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 27 "Net-(PS2-VIN)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "98bdd1d0-dff8-4ea7-8b87-79666d585fb8")
+		)
+		(pad "2" smd rect
+			(at 1.65 0)
+			(size 1.9 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 28 "Net-(D3-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "4c8756b0-1860-49af-9788-e27b02312c28")
+		)
+		(embedded_fonts no)
+		(model "74404042100.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6699fb70-121e-4be6-b08e-f9b786ecf7e5")

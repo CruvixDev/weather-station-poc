@@ -4317,7 +4317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "weather-station-poc-fp:INDPM4040X180N"
 			(at 160.02 110.49 0)
 			(effects
 				(font
@@ -4326,7 +4326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74404042100.pdf"
 			(at 160.02 110.49 0)
 			(effects
 				(font
