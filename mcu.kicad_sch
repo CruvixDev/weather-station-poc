@@ -5,7 +5,10 @@
 	(uuid "bfee4b7a-2dde-4ae0-b86b-c83d648ad6be")
 	(paper "A3")
 	(title_block
-		(date "2025-11-01")
+		(title "MCU")
+		(date "2025-12-26")
+		(rev "A")
+		(company "Julien Cruvieux")
 	)
 	(lib_symbols
 		(symbol "Device:C"

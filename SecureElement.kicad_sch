@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "f32052e1-c9b5-4463-9c8d-71d0bd5f62da")
 	(paper "A4")
+	(title_block
+		(title "Secure elements")
+		(date "2025-12-26")
+		(rev "A")
+		(company "Julien Cruvieux")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

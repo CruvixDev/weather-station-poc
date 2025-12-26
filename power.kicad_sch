@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "4046e24e-f443-4aee-97da-c07be19ba770")
 	(paper "A4")
+	(title_block
+		(title "Power supplies")
+		(date "2025-12-26")
+		(rev "A")
+		(company "Julien Cruvieux")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

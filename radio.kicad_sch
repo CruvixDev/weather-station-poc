@@ -5,7 +5,10 @@
 	(uuid "93ea6bea-69ae-49f0-af86-cef5ee34168d")
 	(paper "A4")
 	(title_block
-		(date "2025-11-01")
+		(title "Radio Sub-GHz")
+		(date "2025-12-26")
+		(rev "A")
+		(company "Julien Cruvieux")
 	)
 	(lib_symbols
 		(symbol "Device:Antenna"

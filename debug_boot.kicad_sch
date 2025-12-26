@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "1a9eb2ea-c7bf-49b4-bd13-6ebbc3a2eb99")
 	(paper "A4")
+	(title_block
+		(title "Debug")
+		(date "2025-12-26")
+		(rev "A")
+		(company "Julien Cruvieux")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
 			(pin_names

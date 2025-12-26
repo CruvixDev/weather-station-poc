@@ -5,7 +5,10 @@
 	(uuid "cb29827f-f75b-4607-b5fb-c66593a1cfae")
 	(paper "A4")
 	(title_block
-		(date "2025-11-01")
+		(title "Sensors")
+		(date "2025-12-26")
+		(rev "A")
+		(company "Julien Cruvieux")
 	)
 	(lib_symbols
 		(symbol "Device:C"

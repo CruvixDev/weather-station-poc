@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "bdf41c21-2a18-41ac-8868-4eae4e08f30f")
 	(paper "A4")
+	(title_block
+		(title "LCD")
+		(date "2025-12-26")
+		(rev "A")
+		(company "Julien Cruvieux")
+	)
 	(lib_symbols
 		(symbol "power:GND"
 			(power)

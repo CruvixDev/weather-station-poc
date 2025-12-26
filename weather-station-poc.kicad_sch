@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Weather station POC")
-		(date "2025-10-26")
+		(date "2025-12-26")
 		(rev "A")
 		(company "Julien Cruvieux")
 	)
@@ -3319,7 +3319,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(page "11")
+					(page "10")
 				)
 			)
 		)

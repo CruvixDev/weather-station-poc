@@ -5,7 +5,10 @@
 	(uuid "47c6d147-2e2c-4d4f-a87d-b3685f01073c")
 	(paper "A4")
 	(title_block
-		(date "2025-11-01")
+		(title "USB C")
+		(date "2025-12-26")
+		(rev "A")
+		(company "Julien Cruvieux")
 	)
 	(lib_symbols
 		(symbol "Device:C"
