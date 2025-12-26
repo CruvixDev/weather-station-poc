@@ -144,6 +144,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -438,6 +606,189 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -781,246 +1132,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "weather-station-poc-sym:HSMG-C150"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "HSMG-C150"
-				(at 12.7 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LEDC3216X120N"
-				(at 12.7 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
-				(at 12.7 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Broadcom2.2 V Green LED 3216 (1206)  SMD, HSMG-C150"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.2"
-				(at 12.7 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "630-HSMG-C150"
-				(at 12.7 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D"
-				(at 12.7 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Avago Technologies"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "HSMG-C150"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "HSMG-C150_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "weather-station-poc-sym:LD39050PU33R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1253,198 +1364,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "weather-station-poc-sym:SS26FL"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 11.43 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SS26FL"
-				(at 11.43 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SODFL3617X108N"
-				(at 11.43 -97.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/SS26FL-D.PDF"
-				(at 11.43 -197.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ultra Thin Profile  Maximum Height of 1.08 mm; RoHS Compliant / Green Mold Compound; MSL level 1; UL Flammability 94V-0 Classification"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.08"
-				(at 11.43 -397.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "512-SS26FL"
-				(at 11.43 -497.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/SS26FL?qs=tqW9UTzndZyTyoaPMElZ2A%3D%3D"
-				(at 11.43 -597.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "onsemi"
-				(at 11.43 -697.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SS26FL"
-				(at 11.43 -797.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SS26FL_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1912,6 +1831,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 110.49) (xy 207.01 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09954374-faf5-4d0d-bd7c-c39b1dd3afe6")
+	)
+	(wire
+		(pts
 			(xy 152.4 62.23) (xy 158.75 62.23)
 		)
 		(stroke
@@ -2069,6 +1998,16 @@
 			(type default)
 		)
 		(uuid "6f8921b5-ae0c-4010-9a84-829f79c19c3e")
+	)
+	(wire
+		(pts
+			(xy 92.71 85.09) (xy 92.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742222ba-6769-47c5-91d7-09f3f60c4119")
 	)
 	(wire
 		(pts
@@ -2252,13 +2191,23 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 110.49) (xy 207.01 110.49)
+			(xy 113.03 85.09) (xy 113.03 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b97e3763-102b-4ac3-8afd-20e3b67f2356")
+		(uuid "ae99eb39-e7cd-4c3a-ac08-d20f701b1ce1")
+	)
+	(wire
+		(pts
+			(xy 92.71 73.66) (xy 92.71 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afec2114-ddfb-4039-97d6-6933980536f4")
 	)
 	(wire
 		(pts
@@ -2292,6 +2241,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 73.66) (xy 113.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f653e0-2f5f-449b-a170-8d65312d1819")
+	)
+	(wire
+		(pts
 			(xy 217.17 110.49) (xy 227.33 110.49)
 		)
 		(stroke
@@ -2312,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 110.49) (xy 189.23 110.49)
+			(xy 187.96 110.49) (xy 194.31 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3034,8 +2993,8 @@
 		)
 	)
 	(symbol
-		(lib_id "weather-station-poc-sym:HSMG-C150")
-		(at 92.71 88.9 90)
+		(lib_id "Device:LED")
+		(at 92.71 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3043,7 +3002,7 @@
 		(dnp no)
 		(uuid "2c956e02-514a-481e-9afa-05bd07dfb19b")
 		(property "Reference" "LED2"
-			(at 96.52 80.0099 90)
+			(at 96.774 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3011,7 @@
 			)
 		)
 		(property "Value" "HSMG-C150"
-			(at 96.52 82.5499 90)
+			(at 96.52 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,27 +3020,25 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:LEDC3216X120N"
-			(at 186.36 76.2 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
-			(at 286.36 76.2 0)
+		(property "Datasheet" "~"
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Broadcom2.2 V Green LED 3216 (1206)  SMD, HSMG-C150"
-			(at 92.71 88.9 0)
+		(property "Description" "Light emitting diode"
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3047,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 486.36 76.2 0)
+			(at 486.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3057,7 @@
 			)
 		)
 		(property "Mouser Part Number" "630-HSMG-C150"
-			(at 586.36 76.2 0)
+			(at 586.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3067,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D"
-			(at 686.36 76.2 0)
+			(at 686.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3077,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Avago Technologies"
-			(at 786.36 76.2 0)
+			(at 786.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,12 +3087,21 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "HSMG-C150"
-			(at 886.36 76.2 0)
+			(at 886.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3637,127 +3603,6 @@
 		)
 	)
 	(symbol
-		(lib_id "weather-station-poc-sym:HSMG-C150")
-		(at 113.03 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a0b6fea-e7db-4e60-a5f6-f11ae24a8e20")
-		(property "Reference" "LED3"
-			(at 116.84 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "HSMG-C150"
-			(at 116.84 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "weather-station-poc-fp:LEDC3216X120N"
-			(at 206.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
-			(at 306.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Broadcom2.2 V Green LED 3216 (1206)  SMD, HSMG-C150"
-			(at 113.03 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.2"
-			(at 506.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "630-HSMG-C150"
-			(at 606.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D"
-			(at 706.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 806.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "HSMG-C150"
-			(at 906.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48573bd4-6c53-4e4a-92ca-224437bba160")
-		)
-		(pin "2"
-			(uuid "31e48fe9-c868-48b8-839b-a98f81059973")
-		)
-		(instances
-			(project "weather-station-poc"
-				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "LED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 187.96 124.46 90)
 		(unit 1)
@@ -3959,8 +3804,8 @@
 		)
 	)
 	(symbol
-		(lib_id "weather-station-poc-sym:SS26FL")
-		(at 204.47 110.49 180)
+		(lib_id "Device:D")
+		(at 198.12 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3969,7 +3814,7 @@
 		(fields_autoplaced yes)
 		(uuid "6470b1f3-210c-4a78-98c3-ea228120fa6b")
 		(property "Reference" "D3"
-			(at 196.85 102.87 0)
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3822,7 @@
 			)
 		)
 		(property "Value" "SS26FL"
-			(at 196.85 105.41 0)
+			(at 198.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,27 +3830,25 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:SODFL3617X108N"
-			(at 193.04 13.03 0)
+			(at 198.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/SS26FL-D.PDF"
-			(at 193.04 -86.97 0)
+		(property "Datasheet" "~"
+			(at 198.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Ultra Thin Profile  Maximum Height of 1.08 mm; RoHS Compliant / Green Mold Compound; MSL level 1; UL Flammability 94V-0 Classification"
-			(at 204.47 110.49 0)
+		(property "Description" "Diode"
+			(at 198.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +3857,7 @@
 			)
 		)
 		(property "Height" "1.08"
-			(at 193.04 -286.97 0)
+			(at 186.69 -286.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +3867,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-SS26FL"
-			(at 193.04 -386.97 0)
+			(at 186.69 -386.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +3877,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/SS26FL?qs=tqW9UTzndZyTyoaPMElZ2A%3D%3D"
-			(at 193.04 -486.97 0)
+			(at 186.69 -486.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,7 +3887,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 193.04 -586.97 0)
+			(at 186.69 -586.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,12 +3897,30 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SS26FL"
-			(at 193.04 -686.97 0)
+			(at 186.69 -686.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5303,6 +5164,134 @@
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
 					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de0279d8-d48e-4da5-b648-be43c9bc76db")
+		(property "Reference" "LED3"
+			(at 116.332 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HSMG-C150"
+			(at 116.078 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "weather-station-poc-fp:LEDC3216X120N"
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 506.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HSMG-C150"
+			(at 606.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D"
+			(at 706.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Avago Technologies"
+			(at 806.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HSMG-C150"
+			(at 906.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f403bb79-6de1-4fd9-8a0f-82193802113e")
+		)
+		(pin "2"
+			(uuid "ea15366e-e2b3-4e09-9022-85c6b5e3de33")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
+					(reference "LED3")
 					(unit 1)
 				)
 			)

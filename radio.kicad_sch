@@ -260,6 +260,262 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -871,194 +1127,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "weather-station-poc-sym:NX1612SA-50M-EXS00A-CS08403"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 39.37 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "NX1612SA-50M-EXS00A-CS08403"
-				(at 39.37 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "NX1612SA50MEXS00ACS08403"
-				(at 39.37 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ndk.com/images/products/catalog/c_NX1612SA_e.pdf"
-				(at 39.37 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "50 MHz +/-10ppm Crystal 8pF 80 Ohms 4-SMD, No Lead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.35"
-				(at 39.37 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "344-NX1612SA50S08403"
-				(at 39.37 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NDK/NX1612SA-50M-EXS00A-CS08403?qs=w%2Fv1CP2dgqrMJEbcI%2FY4cQ%3D%3D"
-				(at 39.37 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "NDK"
-				(at 39.37 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "NX1612SA-50M-EXS00A-CS08403"
-				(at 39.37 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "NX1612SA-50M-EXS00A-CS08403_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 38.1 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "X’_TAL_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 0 180)
-					(length 5.08)
-					(name "X’_TAL_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 -2.54 180)
-					(length 5.08)
-					(name "GND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "weather-station-poc-sym:S2-LPQTR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1651,8 +1719,8 @@
 		(uuid dd9e7a92-143f-49a2-9f55-a4054f4ed8e0)
 	)
 	(rectangle
-		(start 17.78 132.08)
-		(end 97.79 168.91)
+		(start 52.07 133.35)
+		(end 97.79 166.37)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1694,7 +1762,7 @@
 	)
 	(text "Crystal oscillator"
 		(exclude_from_sim no)
-		(at 24.13 130.81 0)
+		(at 58.166 131.826 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1962,6 +2030,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 142.24) (xy 64.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffb70f1-c496-4406-87a7-6dd33dc89548")
+	)
+	(wire
+		(pts
 			(xy 120.65 72.39) (xy 120.65 77.47)
 		)
 		(stroke
@@ -2012,7 +2090,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 161.29) (xy 25.4 160.02)
+			(xy 58.42 158.75) (xy 58.42 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2062,16 +2140,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 144.78) (xy 34.29 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c04e94a8-5e5d-43d3-8d48-3a74f68bd9eb")
-	)
-	(wire
-		(pts
 			(xy 129.54 77.47) (xy 132.08 77.47)
 		)
 		(stroke
@@ -2079,16 +2147,6 @@
 			(type default)
 		)
 		(uuid "c1858950-da15-41b3-9ece-efe06bb841a6")
-	)
-	(wire
-		(pts
-			(xy 77.47 142.24) (xy 88.9 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde0496a-165e-45a0-be39-1771a9c3b106")
 	)
 	(wire
 		(pts
@@ -2140,6 +2198,16 @@
 		)
 		(uuid "fd6faea7-0ec3-4f58-a9c4-2f5adb8699c7")
 	)
+	(wire
+		(pts
+			(xy 72.39 142.24) (xy 78.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd779bc-9298-4e1e-9f93-50c38001d8b5")
+	)
 	(label "VRSYNTH"
 		(at 74.93 39.37 0)
 		(effects
@@ -2171,7 +2239,7 @@
 		(uuid "27270cdb-3a0f-45af-9dab-16fbbfe089c4")
 	)
 	(label "OSC_IN"
-		(at 25.4 144.78 180)
+		(at 58.42 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2191,7 +2259,7 @@
 		(uuid "3e9091c4-eb45-43cd-ad82-460d5089ff70")
 	)
 	(label "OSC_OUT"
-		(at 88.9 142.24 0)
+		(at 78.74 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2472,7 +2540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 142.24 270)
+		(at 68.58 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2481,7 +2549,7 @@
 		(fields_autoplaced yes)
 		(uuid "03ec913d-31c2-464f-b350-40015f5fa6be")
 		(property "Reference" "#PWR072"
-			(at 27.94 142.24 0)
+			(at 68.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 142.2399 90)
+			(at 71.12 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 142.24 0)
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 142.24 0)
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 142.24 0)
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03f21a7e-02fd-4eda-822e-462ce3d6d363")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 74.93 72.39 0)
 			(effects
 				(font
@@ -2597,7 +2665,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -2613,7 +2681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0809c9c9-cbb0-4a2f-bbe4-58f454562b55")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR081"
 			(at 85.09 127 0)
 			(effects
 				(font
@@ -2663,7 +2731,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "#PWR080")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -2740,8 +2808,8 @@
 		)
 	)
 	(symbol
-		(lib_id "weather-station-poc-sym:NX1612SA-50M-EXS00A-CS08403")
-		(at 34.29 142.24 0)
+		(lib_id "Device:Crystal_GND24")
+		(at 68.58 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2750,7 +2818,7 @@
 		(fields_autoplaced yes)
 		(uuid "10e2fbfe-2fff-4efc-9232-d44b0f849850")
 		(property "Reference" "Y3"
-			(at 55.88 134.62 0)
+			(at 83.82 135.7845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +2826,7 @@
 			)
 		)
 		(property "Value" "NX1612SA-50M-EXS00A-CS08403"
-			(at 55.88 137.16 0)
+			(at 83.82 138.3245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,27 +2834,25 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:NX1612SA50MEXS00ACS08403"
-			(at 73.66 237.16 0)
+			(at 68.58 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ndk.com/images/products/catalog/c_NX1612SA_e.pdf"
-			(at 73.66 337.16 0)
+		(property "Datasheet" "~"
+			(at 68.58 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "50 MHz +/-10ppm Crystal 8pF 80 Ohms 4-SMD, No Lead"
-			(at 34.29 142.24 0)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 68.58 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2861,7 @@
 			)
 		)
 		(property "Height" "0.35"
-			(at 73.66 537.16 0)
+			(at 107.95 537.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2871,7 @@
 			)
 		)
 		(property "Mouser Part Number" "344-NX1612SA50S08403"
-			(at 73.66 637.16 0)
+			(at 107.95 637.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2881,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NDK/NX1612SA-50M-EXS00A-CS08403?qs=w%2Fv1CP2dgqrMJEbcI%2FY4cQ%3D%3D"
-			(at 73.66 737.16 0)
+			(at 107.95 737.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2891,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NDK"
-			(at 73.66 837.16 0)
+			(at 107.95 837.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2901,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NX1612SA-50M-EXS00A-CS08403"
-			(at 73.66 937.16 0)
+			(at 107.95 937.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aa6e77f-99aa-4e5d-ab27-6608231cdf98")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR080"
 			(at 85.09 109.22 0)
 			(effects
 				(font
@@ -3335,7 +3401,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "#PWR079")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -3487,7 +3553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9710ee-3a11-4602-baf8-1ee1ec4bbbf5")
-		(property "Reference" "C50"
+		(property "Reference" "C51"
 			(at 88.9 115.5699 0)
 			(effects
 				(font
@@ -3541,7 +3607,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "C50")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -3557,7 +3623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52e31781-c02d-4e04-9a49-205a608bbb08")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 74.93 109.22 0)
 			(effects
 				(font
@@ -3607,7 +3673,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -3748,7 +3814,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 25.4 156.21 180)
+		(at 58.42 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3757,7 +3823,7 @@
 		(fields_autoplaced yes)
 		(uuid "683a3629-1433-4a4d-aff5-aa7aa3e9a3dc")
 		(property "Reference" "L2"
-			(at 26.67 154.9399 0)
+			(at 59.69 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3832,7 @@
 			)
 		)
 		(property "Value" "4n7"
-			(at 26.67 157.4799 0)
+			(at 59.69 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 156.21 0)
+			(at 58.42 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 156.21 0)
+			(at 58.42 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3859,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 25.4 156.21 0)
+			(at 58.42 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +4029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73b5a86e-96a1-4ef0-9e74-92a5f5f61d37")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 74.93 53.34 0)
 			(effects
 				(font
@@ -4013,7 +4079,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4290,7 +4356,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 88.9 146.05 180)
+		(at 78.74 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4298,8 +4364,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8229c96c-951a-4cce-89fa-c975d74cc70e")
-		(property "Reference" "C51"
-			(at 92.71 144.7799 0)
+		(property "Reference" "C49"
+			(at 82.55 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4374,7 @@
 			)
 		)
 		(property "Value" "12p"
-			(at 92.71 147.3199 0)
+			(at 82.55 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4383,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 87.9348 142.24 0)
+			(at 77.7748 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4392,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 146.05 0)
+			(at 78.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4401,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 88.9 146.05 0)
+			(at 78.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4418,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "C51")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -5023,7 +5089,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 144.78 90)
+		(at 68.58 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5031,8 +5097,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aefa124e-d963-4721-86f2-88dba1d079ed")
-		(property "Reference" "#PWR078"
-			(at 83.82 144.78 0)
+		(property "Reference" "#PWR073"
+			(at 68.58 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,16 +5107,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 144.7799 90)
+			(at 71.12 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 144.78 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 144.78 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +5134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 144.78 0)
+			(at 68.58 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5148,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "#PWR078")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5231,7 +5297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be023964-1574-42d4-aac8-3845e09ae661")
-		(property "Reference" "C49"
+		(property "Reference" "C50"
 			(at 88.9 97.7899 0)
 			(effects
 				(font
@@ -5285,7 +5351,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "C49")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -5293,7 +5359,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 149.86 0)
+		(at 78.74 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5301,8 +5367,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cacb3c8b-8342-4afd-b24b-18fa73a37ec5")
-		(property "Reference" "#PWR081"
-			(at 88.9 156.21 0)
+		(property "Reference" "#PWR079"
+			(at 78.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 154.94 0)
+			(at 78.74 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 149.86 0)
+			(at 78.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 149.86 0)
+			(at 78.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 149.86 0)
+			(at 78.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,7 +5417,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "#PWR081")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5426,7 +5492,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 25.4 148.59 180)
+		(at 58.42 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5435,25 +5501,25 @@
 		(fields_autoplaced yes)
 		(uuid "dc5f6d58-945b-42b8-b33c-a8ec0c6b779a")
 		(property "Reference" "C43"
-			(at 29.21 147.3199 0)
+			(at 62.23 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "10p"
-			(at 29.21 149.8599 0)
+			(at 62.23 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 24.4348 144.78 0)
+			(at 59.3852 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 148.59 0)
+			(at 58.42 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +5537,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 25.4 148.59 0)
+			(at 58.42 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5562,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 161.29 0)
+		(at 58.42 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5505,7 +5571,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcf7005b-7be9-41aa-b48c-e6734d127299")
 		(property "Reference" "#PWR071"
-			(at 25.4 167.64 0)
+			(at 58.42 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 166.37 0)
+			(at 58.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5588,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 161.29 0)
+			(at 58.42 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 161.29 0)
+			(at 58.42 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5606,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 161.29 0)
+			(at 58.42 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5773,7 +5839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edc4cbb3-6337-4e86-ae4b-a3e12a74a054")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR078"
 			(at 74.93 127 0)
 			(effects
 				(font
@@ -5823,7 +5889,7 @@
 		(instances
 			(project ""
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "#PWR077")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -5909,7 +5975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f862c551-c95b-4fe5-9e35-c6b4873697d7")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 74.93 91.44 0)
 			(effects
 				(font
@@ -5959,7 +6025,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)

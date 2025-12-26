@@ -147,6 +147,324 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1155,414 +1473,6 @@
 						)
 					)
 					(number "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "weather-station-poc-sym:BAT54KFILM"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 11.43 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "BAT54KFILM"
-				(at 11.43 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SODFL1608X70N"
-				(at 11.43 -97.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat54.pdf"
-				(at 11.43 -197.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "BAT54KFILM, Schottky Diode,  0.3A max, 40V 5ns, 2-Pin, SOD-523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.7"
-				(at 11.43 -397.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "511-BAT54KFILM"
-				(at 11.43 -497.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BAT54KFILM?qs=jZi1jxfVU95Y9ce6l3OT%252BA%3D%3D"
-				(at 11.43 -597.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 11.43 -697.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BAT54KFILM"
-				(at 11.43 -797.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "BAT54KFILM_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "weather-station-poc-sym:ESDA25P35-1U1M"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 10.16 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "ESDA25P35-1U1M"
-				(at 10.16 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "ESDA25P351U1M"
-				(at 10.16 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/esda20p50-1u1m.pdf"
-				(at 10.16 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "STMicroelectronics ESDA25P35-1U1M, Uni-Directional TVS Diode, 1400W, 2-Pin QFN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.6"
-				(at 10.16 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "511-ESDA25P35-1U1M"
-				(at 10.16 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDA25P35-1U1M?qs=aVyJF2WnouQUWqgNP85ZrA%3D%3D"
-				(at 10.16 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 10.16 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESDA25P35-1U1M"
-				(at 10.16 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "ESDA25P35-1U1M_1_1"
-				(polyline
-					(pts
-						(xy 4.064 2.54) (xy 5.08 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.032) (xy 5.08 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.032) (xy 6.096 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 10.16 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2814,16 +2724,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 68.58) (xy 147.32 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3710faaf-b730-43be-a711-d87c9a88019c")
-	)
-	(wire
-		(pts
 			(xy 80.01 123.19) (xy 80.01 125.73)
 		)
 		(stroke
@@ -2874,7 +2774,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 147.32 93.98)
+			(xy 147.32 83.82) (xy 147.32 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3004,6 +2904,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 68.58) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b821990-3a8d-403b-a19c-ac2580842534")
+	)
+	(wire
+		(pts
 			(xy 180.34 81.28) (xy 190.5 81.28)
 		)
 		(stroke
@@ -3041,6 +2951,16 @@
 			(type default)
 		)
 		(uuid "7bd9b62a-97c1-4fc1-8f79-cfad02bf8f48")
+	)
+	(wire
+		(pts
+			(xy 147.32 106.68) (xy 156.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e4be88-1820-4335-bfa2-5d1e32e39bba")
 	)
 	(wire
 		(pts
@@ -3151,16 +3071,6 @@
 			(type default)
 		)
 		(uuid "bb9bb354-0940-4078-adf5-b23eccf57d90")
-	)
-	(wire
-		(pts
-			(xy 151.13 106.68) (xy 156.21 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcac080b-5b7a-4242-958f-fbea952e6f54")
 	)
 	(wire
 		(pts
@@ -3284,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 106.68) (xy 135.89 106.68)
+			(xy 130.81 106.68) (xy 139.7 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4197,16 +4107,16 @@
 		)
 	)
 	(symbol
-		(lib_id "weather-station-poc-sym:ESDA25P35-1U1M")
-		(at 147.32 73.66 270)
+		(lib_id "Device:D_Schottky")
+		(at 147.32 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "31594edf-560e-4bdc-ba3c-3d88a7ea058c")
-		(property "Reference" "D1"
-			(at 151.13 79.5019 90)
+		(property "Reference" "D2"
+			(at 150.114 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4125,7 @@
 			)
 		)
 		(property "Value" "ESDA25P35-1U1M"
-			(at 151.13 83.058 90)
+			(at 150.368 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,27 +4134,25 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:ESDA25P351U1M"
-			(at 53.67 83.82 0)
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esda20p50-1u1m.pdf"
-			(at -46.33 83.82 0)
+		(property "Datasheet" "~"
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics ESDA25P35-1U1M, Uni-Directional TVS Diode, 1400W, 2-Pin QFN"
-			(at 147.32 73.66 0)
+		(property "Description" "Schottky diode"
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4161,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -246.33 83.82 0)
+			(at -246.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4171,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-ESDA25P35-1U1M"
-			(at -346.33 83.82 0)
+			(at -346.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4181,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDA25P35-1U1M?qs=aVyJF2WnouQUWqgNP85ZrA%3D%3D"
-			(at -446.33 83.82 0)
+			(at -446.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4191,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at -546.33 83.82 0)
+			(at -546.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4201,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ESDA25P35-1U1M"
-			(at -646.33 83.82 0)
+			(at -646.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4219,7 @@
 		(instances
 			(project ""
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/336d3e95-9b5f-4d37-8b5a-efff814cf96e"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5165,8 +5073,8 @@
 		)
 	)
 	(symbol
-		(lib_id "weather-station-poc-sym:BAT54KFILM")
-		(at 151.13 106.68 180)
+		(lib_id "Device:D")
+		(at 143.51 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5174,8 +5082,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac81d96d-c7cf-4e7e-88ec-e84ac32de198")
-		(property "Reference" "D2"
-			(at 143.51 99.06 0)
+		(property "Reference" "D1"
+			(at 143.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5091,7 @@
 			)
 		)
 		(property "Value" "BAT54KFILM"
-			(at 143.51 101.6 0)
+			(at 143.51 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,27 +5099,25 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:SODFL1608X70N"
-			(at 139.7 9.22 0)
+			(at 143.51 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat54.pdf"
-			(at 139.7 -90.78 0)
+		(property "Datasheet" "~"
+			(at 143.51 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "BAT54KFILM, Schottky Diode,  0.3A max, 40V 5ns, 2-Pin, SOD-523"
-			(at 151.13 106.68 0)
+		(property "Description" "Diode"
+			(at 143.51 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5126,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 139.7 -290.78 0)
+			(at 132.08 -290.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5136,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-BAT54KFILM"
-			(at 139.7 -390.78 0)
+			(at 132.08 -390.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5146,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BAT54KFILM?qs=jZi1jxfVU95Y9ce6l3OT%252BA%3D%3D"
-			(at 139.7 -490.78 0)
+			(at 132.08 -490.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5156,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 139.7 -590.78 0)
+			(at 132.08 -590.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,12 +5166,30 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BAT54KFILM"
-			(at 139.7 -690.78 0)
+			(at 132.08 -690.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5278,7 +5202,7 @@
 		(instances
 			(project ""
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/336d3e95-9b5f-4d37-8b5a-efff814cf96e"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
