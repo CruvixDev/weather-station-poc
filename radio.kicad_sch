@@ -1774,12 +1774,6 @@
 		(uuid "c1a00389-cc7a-4a4a-acb1-2c363bb282cf")
 	)
 	(junction
-		(at 171.45 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a08ec82-6e69-495a-96b6-2ee54d3b975d")
-	)
-	(junction
 		(at 110.49 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1798,7 +1792,13 @@
 		(uuid "4c6c3b37-654d-440c-a57b-9d2a9b2cd9cc")
 	)
 	(junction
-		(at 186.69 132.08)
+		(at 171.45 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "765964a6-c9f5-46c2-ad2b-4b57e74310b7")
+	)
+	(junction
+		(at 186.69 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9af550cf-c706-4f48-96d9-ab2915e96529")
@@ -1893,7 +1893,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 124.46) (xy 187.96 124.46)
+			(xy 171.45 113.03) (xy 171.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "267a9e71-fd56-4f6c-9527-3bd126dd6872")
+	)
+	(wire
+		(pts
+			(xy 171.45 125.73) (xy 187.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1933,23 +1943,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 124.46) (xy 209.55 90.17)
+			(xy 209.55 125.73) (xy 209.55 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3bdce390-b554-4514-b851-40fa35ab0086")
-	)
-	(wire
-		(pts
-			(xy 171.45 124.46) (xy 171.45 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eaba9af-5a4a-432e-8003-4310d8b22399")
 	)
 	(wire
 		(pts
@@ -2083,7 +2083,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 132.08) (xy 186.69 132.08)
+			(xy 182.88 133.35) (xy 186.69 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2133,16 +2133,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 113.03) (xy 171.45 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b833dfaf-0d1b-4e9b-83a8-6c4baf833b8f")
-	)
-	(wire
-		(pts
 			(xy 129.54 77.47) (xy 132.08 77.47)
 		)
 		(stroke
@@ -2163,7 +2153,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 132.08) (xy 175.26 132.08)
+			(xy 171.45 133.35) (xy 175.26 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2173,7 +2163,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 124.46) (xy 209.55 124.46)
+			(xy 195.58 125.73) (xy 209.55 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2183,7 +2173,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 132.08) (xy 196.85 132.08)
+			(xy 171.45 125.73) (xy 171.45 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bb111b-613e-4f68-b547-41ba3ae2368b")
+	)
+	(wire
+		(pts
+			(xy 186.69 133.35) (xy 196.85 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3006,7 +3006,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 191.77 124.46 90)
+		(at 191.77 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3015,7 +3015,7 @@
 		(fields_autoplaced yes)
 		(uuid "24841063-2836-4024-971f-592d4eebcc69")
 		(property "Reference" "C58"
-			(at 191.77 116.84 90)
+			(at 191.77 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3023,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 191.77 119.38 90)
+			(at 191.77 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3031,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 195.58 123.4948 0)
+			(at 195.58 124.7648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 124.46 0)
+			(at 191.77 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3049,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 191.77 124.46 0)
+			(at 191.77 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +3166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 125.73 77.47 0)
 			(effects
 				(font
@@ -3175,7 +3175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/76/2/JELF243B_0010.pdf"
 			(at 125.73 77.47 0)
 			(effects
 				(font
@@ -3684,7 +3684,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 139.7 0)
+		(at 196.85 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3693,7 +3693,7 @@
 		(fields_autoplaced yes)
 		(uuid "5408d20a-ac23-49e9-a5e7-a8cd63fb2f24")
 		(property "Reference" "#PWR089"
-			(at 196.85 146.05 0)
+			(at 196.85 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3702,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 144.78 0)
+			(at 196.85 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 139.7 0)
+			(at 196.85 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +3719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 139.7 0)
+			(at 196.85 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +3728,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 139.7 0)
+			(at 196.85 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +3843,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 58.42 153.67 0)
 			(effects
 				(font
@@ -3852,7 +3852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/1017/1/jti_cat_rf_ind_HP0cWdS.pdf"
 			(at 58.42 153.67 0)
 			(effects
 				(font
@@ -4223,7 +4223,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 186.69 135.89 0)
+		(at 186.69 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4232,7 +4232,7 @@
 		(fields_autoplaced yes)
 		(uuid "76e47cb5-14b8-4959-93fe-69a80c96279d")
 		(property "Reference" "C57"
-			(at 190.5 134.6199 0)
+			(at 190.5 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4241,7 @@
 			)
 		)
 		(property "Value" "150n"
-			(at 190.5 137.1599 0)
+			(at 190.5 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +4250,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 187.6552 139.7 0)
+			(at 187.6552 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 135.89 0)
+			(at 186.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4268,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 186.69 135.89 0)
+			(at 186.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +4835,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 179.07 132.08 90)
+		(at 179.07 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4844,7 +4844,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3656c90-3c73-4dea-b2a0-a2dc40ec898e")
 		(property "Reference" "L5"
-			(at 179.07 127 90)
+			(at 179.07 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,15 +4852,15 @@
 			)
 		)
 		(property "Value" "12n"
-			(at 179.07 129.54 90)
+			(at 179.07 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.07 132.08 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 179.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,8 +4868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 179.07 132.08 0)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/76/2/JELF243A_0024.pdf"
+			(at 179.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +4878,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 179.07 132.08 0)
+			(at 179.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,7 +5159,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 139.7 0)
+		(at 186.69 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5168,7 +5168,7 @@
 		(fields_autoplaced yes)
 		(uuid "afa056df-5f5d-4324-beac-1526ea66a817")
 		(property "Reference" "#PWR088"
-			(at 186.69 146.05 0)
+			(at 186.69 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +5177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 144.78 0)
+			(at 186.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 139.7 0)
+			(at 186.69 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +5194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 139.7 0)
+			(at 186.69 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 139.7 0)
+			(at 186.69 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,7 +5764,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 196.85 135.89 180)
+		(at 196.85 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5773,7 +5773,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec7fd91b-e29a-4ce3-b90a-2bc50b224885")
 		(property "Reference" "C59"
-			(at 200.66 134.6199 0)
+			(at 200.66 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,7 +5782,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 200.66 137.1599 0)
+			(at 200.66 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5791,7 +5791,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 195.8848 132.08 0)
+			(at 195.8848 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +5800,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 135.89 0)
+			(at 196.85 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +5809,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 196.85 135.89 0)
+			(at 196.85 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +6060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 135.89 77.47 0)
 			(effects
 				(font
@@ -6069,7 +6069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/76/2/JELF243B_0011.pdf"
 			(at 135.89 77.47 0)
 			(effects
 				(font
