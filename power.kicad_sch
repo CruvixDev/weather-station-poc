@@ -2462,7 +2462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0010f30d-79ed-4fb3-9e46-5e5d2eccf3be")
-		(property "Reference" "C66"
+		(property "Reference" "C65"
 			(at 210.82 113.0299 0)
 			(effects
 				(font
@@ -2516,7 +2516,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C66")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -2533,7 +2533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09403ed4-c0ed-49fe-9e71-2b696e354452")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0100"
 			(at 113.03 95.25 0)
 			(effects
 				(font
@@ -2583,7 +2583,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR0101")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -2670,7 +2670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17b39be6-4b8d-4951-ae9a-18d62dd08f70")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR099"
 			(at 92.71 95.25 0)
 			(effects
 				(font
@@ -2720,7 +2720,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR0100")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -2805,7 +2805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "206e17c2-295f-493b-bd18-b7fbebc6f518")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR097"
 			(at 171.45 92.71 0)
 			(effects
 				(font
@@ -2855,7 +2855,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR098")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -2872,7 +2872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a2b189c-791d-463a-bca2-956d42b7824e")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR094"
 			(at 171.45 76.2 0)
 			(effects
 				(font
@@ -2922,7 +2922,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR095")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -2938,7 +2938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b2fe7ce-f0bb-4b52-9219-4da0e2704291")
-		(property "Reference" "C62"
+		(property "Reference" "C61"
 			(at 162.56 64.7699 0)
 			(effects
 				(font
@@ -2992,7 +2992,7 @@
 		(instances
 			(project ""
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C62")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -3271,7 +3271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "372c87f6-2b91-46b2-b1f9-032bd234563b")
-		(property "Reference" "C70"
+		(property "Reference" "C69"
 			(at 92.71 126.9999 0)
 			(effects
 				(font
@@ -3325,7 +3325,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C70")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -3341,7 +3341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ce2d63b-80a8-49b1-8e26-8bcb1f629fe8")
-		(property "Reference" "C69"
+		(property "Reference" "C68"
 			(at 82.55 126.9999 0)
 			(effects
 				(font
@@ -3395,7 +3395,7 @@
 		(instances
 			(project ""
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C69")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -3412,7 +3412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e94a360-55f6-4b86-b1d6-8250d4f67a6e")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR098"
 			(at 81.28 95.25 0)
 			(effects
 				(font
@@ -3462,7 +3462,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR099")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -3548,7 +3548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "489eaabb-e5b1-4b47-9c7e-d918cd6a3b83")
-		(property "Reference" "C75"
+		(property "Reference" "C74"
 			(at 153.67 126.9999 0)
 			(effects
 				(font
@@ -3602,7 +3602,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C75")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -3618,7 +3618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59b9ac53-f709-405a-ab4c-868e180b76be")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0102"
 			(at 194.31 124.46 0)
 			(effects
 				(font
@@ -3669,7 +3669,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR0103")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3686,7 +3686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bc098be-10e3-4fe7-ae0a-560b2c6383e1")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR095"
 			(at 199.39 88.9 0)
 			(effects
 				(font
@@ -3736,7 +3736,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR096")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -3753,7 +3753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6047476b-8b87-42e5-8462-80e953ecb08a")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR093"
 			(at 158.75 76.2 0)
 			(effects
 				(font
@@ -3803,7 +3803,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR094")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -3955,7 +3955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7649c3ac-c239-46f2-8974-6157b7523479")
-		(property "Reference" "C68"
+		(property "Reference" "C67"
 			(at 231.14 116.8399 0)
 			(effects
 				(font
@@ -4009,7 +4009,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C68")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -4161,7 +4161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8281abfd-0759-4718-9796-a87282123643")
-		(property "Reference" "C64"
+		(property "Reference" "C63"
 			(at 162.56 81.2799 0)
 			(effects
 				(font
@@ -4215,7 +4215,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C64")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -4231,7 +4231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89013afc-13cc-4db2-90f2-e134cb34a26e")
-		(property "Reference" "C73"
+		(property "Reference" "C72"
 			(at 135.89 126.9999 0)
 			(effects
 				(font
@@ -4285,7 +4285,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C73")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -4369,7 +4369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ff9ea2e-bcfb-4755-be42-9a023127a786")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0101"
 			(at 212.09 124.46 0)
 			(effects
 				(font
@@ -4419,7 +4419,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR0102")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -4436,7 +4436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c8540ea-04e9-43a9-b682-2e0ba91e5ca4")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR092"
 			(at 220.98 64.77 0)
 			(effects
 				(font
@@ -4487,7 +4487,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR093")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -4632,7 +4632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1b4f833-26a0-4cf4-8c88-6c4f0d12f3e7")
-		(property "Reference" "C65"
+		(property "Reference" "C64"
 			(at 175.26 81.2799 0)
 			(effects
 				(font
@@ -4686,7 +4686,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C65")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -4702,7 +4702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6d26f50-4903-4b97-8012-e99224395500")
-		(property "Reference" "C72"
+		(property "Reference" "C71"
 			(at 127 126.9999 0)
 			(effects
 				(font
@@ -4756,7 +4756,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C72")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -4772,7 +4772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd917d7d-ee17-4bd2-8ed4-88e5eaf5df3a")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0103"
 			(at 83.82 138.43 0)
 			(effects
 				(font
@@ -4822,7 +4822,7 @@
 		(instances
 			(project ""
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR0104")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -4839,7 +4839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cda2e8e3-5f68-4857-bb8c-100289c3b61b")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR096"
 			(at 158.75 92.71 0)
 			(effects
 				(font
@@ -4889,7 +4889,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR097")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -4905,7 +4905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6060104-5a99-41bf-a979-ed3f7da0aeae")
-		(property "Reference" "C63"
+		(property "Reference" "C62"
 			(at 175.26 64.7699 0)
 			(effects
 				(font
@@ -4959,7 +4959,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C63")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -4975,7 +4975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9c5d257-7f0e-4498-be75-a094c2618dea")
-		(property "Reference" "C74"
+		(property "Reference" "C73"
 			(at 144.78 126.9999 0)
 			(effects
 				(font
@@ -5029,7 +5029,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C74")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -5115,7 +5115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daedeb0d-9b2d-4d03-b2fa-d3a75593ad67")
-		(property "Reference" "C71"
+		(property "Reference" "C70"
 			(at 116.84 126.9999 0)
 			(effects
 				(font
@@ -5169,7 +5169,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C71")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -5313,7 +5313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea7a092c-9530-491a-bf69-d6f3ca8f3ffa")
-		(property "Reference" "C67"
+		(property "Reference" "C66"
 			(at 220.98 113.0299 0)
 			(effects
 				(font
@@ -5367,7 +5367,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "C67")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -5383,7 +5383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6bc7d63-f4c7-47fe-acef-624bb6638167")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0105"
 			(at 212.09 142.24 0)
 			(effects
 				(font
@@ -5433,7 +5433,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR0106")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -5449,7 +5449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb6dafae-d0f8-4d9c-a4ce-769c9276237e")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0104"
 			(at 132.08 138.43 0)
 			(effects
 				(font
@@ -5499,7 +5499,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/12325ae0-3782-4eae-9f35-258d08cb4f7e"
-					(reference "#PWR0105")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
