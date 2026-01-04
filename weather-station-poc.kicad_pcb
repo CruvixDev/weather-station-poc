@@ -30842,7 +30842,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/76/1/ENFA0003.pdf"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -30863,6 +30863,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part number" "BLM18SG700TN1D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aff84e14-530a-43d5-9b1b-67ee805f02ce")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)

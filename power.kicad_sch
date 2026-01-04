@@ -1653,6 +1653,16 @@
 		)
 		(uuid "8908dbbb-b074-4db1-9e50-c1acbc0e60f7")
 	)
+	(text "Iout_max = 500mA"
+		(exclude_from_sim no)
+		(at 208.788 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9b0340a-c762-4a00-b93f-600dbbeb337e")
+	)
 	(text "Power LED status"
 		(exclude_from_sim no)
 		(at 81.28 41.91 0)
@@ -2761,7 +2771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/76/1/ENFA0003.pdf"
 			(at 101.6 124.46 0)
 			(effects
 				(font
@@ -2772,6 +2782,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BLM18SG700TN1D"
+			(at 101.6 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
