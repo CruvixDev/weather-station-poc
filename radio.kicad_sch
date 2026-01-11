@@ -2093,16 +2093,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 158.75) (xy 58.42 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6721f01-1315-4bf0-aa41-dcaaaa4cf332")
-	)
-	(wire
-		(pts
 			(xy 158.75 113.03) (xy 161.29 113.03)
 		)
 		(stroke
@@ -3816,76 +3806,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 58.42 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "683a3629-1433-4a4d-aff5-aa7aa3e9a3dc")
-		(property "Reference" "L5"
-			(at 59.69 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4n7"
-			(at 59.69 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/1017/1/jti_cat_rf_ind_HP0cWdS.pdf"
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5508ae44-b2cd-44c5-8abc-18ea42a515f6")
-		)
-		(pin "1"
-			(uuid "3eadfe43-4dda-408e-92f5-184016b9aad5")
-		)
-		(instances
-			(project "weather-station-poc"
-				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 162.56 125.73 90)
 		(unit 1)
@@ -5370,7 +5290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cacb3c8b-8342-4afd-b24b-18fa73a37ec5")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR091"
 			(at 78.74 156.21 0)
 			(effects
 				(font
@@ -5420,7 +5340,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "#PWR090")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -5565,7 +5485,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 158.75 0)
+		(at 58.42 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5573,8 +5493,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcf7005b-7be9-41aa-b48c-e6734d127299")
-		(property "Reference" "#PWR091"
-			(at 58.42 165.1 0)
+		(property "Reference" "#PWR090"
+			(at 58.42 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +5503,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 163.83 0)
+			(at 58.42 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +5511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 158.75 0)
+			(at 58.42 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +5520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 158.75 0)
+			(at 58.42 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5529,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 158.75 0)
+			(at 58.42 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +5543,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/31741ecc-719f-4191-b75e-d75152dfd251"
-					(reference "#PWR091")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
