@@ -1998,6 +1998,67 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "32de578c-3faa-47e6-bdea-fd50730e00a5")
+		(at 222.8 51.2)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "e29847aa-4c1b-40ea-a9f0-c61698124929")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2ee9d5ab-658c-470e-a470-fbaa5572cc7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b8fdb20-aad4-4794-8b01-db6f9b1b8405")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1930b56c-1bb6-45cb-ae0a-f73942942e38")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7 7)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(zone_connect 2)
+			(uuid "a3424b30-f7a8-4335-852d-06f83a0c32d5")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "weather-station-poc-fp:LEDC3216X120N"
 		(layer "F.Cu")
 		(uuid "334dc46a-01e9-42e9-99e5-af64e7817b86")
@@ -4693,6 +4754,128 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "8d41b33e-52b7-4be6-802f-004181915b18")
+		(at 222.7 131.5)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "6fdf1191-69bd-4bab-bd9f-a3e39c75e1c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "99868b8e-f57c-40c3-9515-8fda619acbec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4585fa4e-a0af-46a6-98e5-a8965f5dad29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2926b8e4-4344-4976-bb9b-6e8e765a1836")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7 7)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(zone_connect 2)
+			(uuid "842f2f90-36c8-497d-bb7b-f7042b61beda")
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "8f84ecdc-fa0d-4312-9c23-45839e3f34aa")
+		(at 68.6 131.3)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "a6eee289-7f3c-4a0d-a0dc-06651d6bc534")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9b838101-686b-4ed0-99d8-560c37bca64f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e497fae-a8fb-4a46-b2d4-9bb5f099a0d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6366dec6-1d79-4fb8-a482-5f7f4a26107c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7 7)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(zone_connect 2)
+			(uuid "74508eca-5573-40f2-83e2-53fe1ba08b39")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
 		(layer "F.Cu")
 		(uuid "93878a47-5640-4fbc-804e-6dadedae7c89")
@@ -6794,6 +6977,67 @@
 				(xyz 0 0 -90)
 			)
 		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "cad49815-1d93-4f6b-b22a-33ada5e7474c")
+		(at 67.8 50.6)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "69c285a3-76a5-4256-8923-cec3173d7f86")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "011269af-2dd3-4883-9bd6-db0fc79f4856")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab050164-012a-4f1d-affa-83970bacd345")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97acc9f6-adeb-43a9-b753-e23ce479f172")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7 7)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(zone_connect 2)
+			(uuid "dcf5f8dc-148f-4383-8c72-da401a02a86f")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "weather-station-poc-fp:HDRV3W64P0X254_1X3_762X254X869P"
 		(layer "F.Cu")
