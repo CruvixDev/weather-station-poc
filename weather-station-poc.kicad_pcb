@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.523)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -55,11 +55,11 @@
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0175)
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.1715)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -70,7 +70,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.24)
+				(thickness 1.03)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -81,7 +81,7 @@
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.1715)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -92,7 +92,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(thickness 0.01)
+				(thickness 0.0175)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
@@ -29436,7 +29436,7 @@
 		(descr "NX2016SA-16MHZ-EXS00A-CS07826-1")
 		(tags "Crystal or Oscillator")
 		(property "Reference" "Y1"
-			(at 0 -2.75 0)
+			(at 0 -3 0)
 			(layer "B.SilkS")
 			(uuid "9c639995-134b-43df-9a36-72ff5b228899")
 			(effects
