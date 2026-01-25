@@ -14,10 +14,10 @@
 		(company "Julien Cruvieux")
 	)
 	(layers
-		(0 "F.Cu" signal)
-		(4 "In1.Cu" signal)
-		(6 "In2.Cu" signal)
-		(2 "B.Cu" signal)
+		(0 "F.Cu" mixed)
+		(4 "In1.Cu" power)
+		(6 "In2.Cu" power)
+		(2 "B.Cu" mixed)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
 		(13 "F.Paste" user)
@@ -6114,13 +6114,13 @@
 	(footprint "weather-station-poc-fp:687140149022"
 		(layer "F.Cu")
 		(uuid "accecd30-81b1-47d1-8af6-128aafde51ca")
-		(at 164.75 90.125)
+		(at 122.52 84.12)
 		(descr "687140149022-1")
 		(tags "Connector")
 		(property "Reference" "J6"
 			(at 0 -0.325 0)
 			(layer "F.SilkS")
-			(uuid "3f9e89ac-d058-49f9-8525-898401959d49")
+			(uuid "c4b2d90b-9d6f-49f1-91a7-cdbdd1ffe3d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6132,7 @@
 			(at 0 -0.325 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3b549852-adaf-48aa-9a00-ef06871f44e4")
+			(uuid "16ec41ec-34ff-45fc-9d17-85dc6b33245b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6144,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99f8611e-e93f-4ece-b12a-7254c9db00aa")
+			(uuid "9fe39a5c-cd02-4013-96c7-e2ad5a29742b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6156,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09902377-21be-4ad9-a8d9-f9efa15da595")
+			(uuid "838495f7-5921-43e9-8d14-3aa85e1c3f53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,13 +7766,13 @@
 	(footprint "weather-station-poc-fp:687110183622"
 		(layer "F.Cu")
 		(uuid "e692944a-883d-45fd-8472-97359c3d594c")
-		(at 186.75 90)
+		(at 172.65 78.54)
 		(descr "687110183622-1")
 		(tags "Connector")
 		(property "Reference" "J7"
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "0c4c5b05-4e11-4226-8016-6840393cc495")
+			(uuid "89838978-de52-493a-a4b4-c8c72a6c0fc7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +7784,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e0f6400f-e72e-4998-92b0-d5883cba312b")
+			(uuid "24451bee-5b27-44e5-8b5c-99d5e5fbb8e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7796,7 +7796,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55b5cc31-94ab-436b-9970-a7781f203cc5")
+			(uuid "106a9748-9118-4142-b810-d69e554ef7d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,7 +7808,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6efdc7d6-226c-42d4-a94a-7b0f57d2fdfd")
+			(uuid "cc11db96-e383-4274-bc25-e145b66c1194")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8666,7 +8666,7 @@
 	(footprint "weather-station-poc-fp:ESDA25P351U1M"
 		(layer "B.Cu")
 		(uuid "00d2c204-5e86-48d9-84f5-c8dc40dbdb01")
-		(at 154.75 120.725 -90)
+		(at 154.75 121.625 -90)
 		(descr "1610_2023")
 		(tags "TVS Diode (Uni-directional)")
 		(property "Reference" "D1"
@@ -15041,13 +15041,13 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "37604f26-4865-4839-9adf-bb196851a9b4")
-		(at 187.8875 91.87875 180)
+		(at 185.5 91.87875 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C47"
 			(at 3.3875 0 0)
 			(layer "B.SilkS")
-			(uuid "788cbd09-ab83-4e4b-9c16-3ab810ef0a2c")
+			(uuid "c78ba615-76b6-4852-8cf8-fff8cb53a3a6")
 			(effects
 				(font
 					(size 1 1)
@@ -15059,7 +15059,7 @@
 		(property "Value" "1u"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "a0126e6e-8859-4f82-a26c-5126b348bc15")
+			(uuid "5ee6a085-c09a-407a-a226-cce1e342c9d0")
 			(effects
 				(font
 					(size 1 1)
@@ -15072,7 +15072,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e94b07fb-19d4-45bf-a5fd-e327e2b16d5a")
+			(uuid "af5b5e0c-421c-47df-9ba6-3905126582eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15085,7 +15085,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5739f627-0b48-4737-802e-6a524c8384d0")
+			(uuid "84dd39d5-8b23-4749-b960-1404934b6874")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29775,7 +29775,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "ced977a5-f60b-425c-88ef-53f1915c7824")
-		(at 137.55 105.3625 -90)
+		(at 137 105.3625 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
@@ -33187,13 +33187,13 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "f47639c4-c220-4044-a82e-3b73f81c6c45")
-		(at 187.8875 93.86375 180)
+		(at 185.5 93.86375 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C46"
 			(at 3.3875 0 0)
 			(layer "B.SilkS")
-			(uuid "9d2fb55b-0901-41e3-bc76-961f4886df35")
+			(uuid "c675e1d9-2fff-4f5d-ac81-faaab10e0285")
 			(effects
 				(font
 					(size 1 1)
@@ -33205,7 +33205,7 @@
 		(property "Value" "150n"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "217794fa-92a4-40a6-9e81-474c52347ce6")
+			(uuid "a2d79629-38c1-459b-9f83-c4a3c7a4380d")
 			(effects
 				(font
 					(size 1 1)
@@ -33218,7 +33218,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2beb14ec-93ab-4b62-b75c-81f318d1262b")
+			(uuid "03c90a46-bf81-4b2d-9d4a-b860dc1f8702")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33231,7 +33231,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6e56c289-5ccc-49b3-9041-4faedb0f1893")
+			(uuid "200e8db6-0202-43d4-9103-c2a80059c3bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34012,6 +34012,30 @@
 		(uuid "6730bcdc-d857-42ab-9473-8b329793e512")
 	)
 	(gr_rect
+		(start 170.15 76.04)
+		(end 175.15 81.04)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Dwgs.User")
+		(uuid "5ac8b931-ba9e-4536-8413-3da313cf437f")
+	)
+	(gr_rect
+		(start 112.27 82.37)
+		(end 132.77 85.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Dwgs.User")
+		(uuid "7cd340c7-ca21-472c-b8b1-066932d8f050")
+	)
+	(gr_rect
 		(start 68.075 50.875)
 		(end 223.325 132.125)
 		(stroke
@@ -34184,6 +34208,82 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
+		(uuid "040062ae-af34-47bd-abaa-a434adfb3dc6")
+		(pts
+			(xy 112.27 82.37) (xy 80.8 62.2)
+		)
+		(height 2.98)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "20,17"
+			(at 114.1 72.285 90)
+			(layer "Dwgs.User")
+			(uuid "040062ae-af34-47bd-abaa-a434adfb3dc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "0b8ab31d-865d-4c6d-b207-a839c28793a7")
+		(pts
+			(xy 112.27 82.37) (xy 80.8 62.2)
+		)
+		(height -20.17)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "31,47"
+			(at 96.535 61.05 0)
+			(layer "Dwgs.User")
+			(uuid "0b8ab31d-865d-4c6d-b207-a839c28793a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "1969fea4-a29c-4e48-99e4-6ded6fdf1c94")
 		(pts
 			(xy 63.2 45.9125) (xy 228.2 45.9125)
@@ -34260,6 +34360,120 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
+		(uuid "29b99bd5-0595-43fb-8404-fd9ec954a1d3")
+		(pts
+			(xy 80.8 62.2) (xy 80.8 120.8)
+		)
+		(height -22.8)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "58,6"
+			(at 56.85 91.5 90)
+			(layer "Dwgs.User")
+			(uuid "29b99bd5-0595-43fb-8404-fd9ec954a1d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "30a96ca9-5d4b-4c9d-90be-9d44de811885")
+		(pts
+			(xy 157.1 82.6) (xy 157.1 82.9)
+		)
+		(height -2.35)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "0,3"
+			(at 153.6 82.75 90)
+			(layer "Dwgs.User")
+			(uuid "30a96ca9-5d4b-4c9d-90be-9d44de811885")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "43f96d71-bc63-4b60-aba3-2e58b55da216")
+		(pts
+			(xy 170.15 76.04) (xy 80.8 62.2)
+		)
+		(height 2.6)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "13,84"
+			(at 171.6 69.12 90)
+			(layer "Dwgs.User")
+			(uuid "43f96d71-bc63-4b60-aba3-2e58b55da216")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "4f814ef2-830b-484a-b57d-07bda7bca49c")
 		(pts
 			(xy 228.2 45.9125) (xy 228.2 137.0875)
@@ -34298,6 +34512,44 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
+		(uuid "79d3b96f-56e9-4b98-82df-dc3eb18b5b6b")
+		(pts
+			(xy 170.15 76.04) (xy 80.8 62.2)
+		)
+		(height -15.79)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "89,35"
+			(at 125.475 59.1 0)
+			(layer "Dwgs.User")
+			(uuid "79d3b96f-56e9-4b98-82df-dc3eb18b5b6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "83ce23c1-2d1c-4763-b3ad-316563d2f953")
 		(pts
 			(xy 75.1 55.95) (xy 216.3 55.95)
@@ -34325,6 +34577,82 @@
 			(at 145.7 41.15 0)
 			(layer "Dwgs.User")
 			(uuid "83ce23c1-2d1c-4763-b3ad-316563d2f953")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "95ec83f3-4883-4711-9bd6-024335b25376")
+		(pts
+			(xy 210.6 62.2) (xy 80.8 62.2)
+		)
+		(height -27.45)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "129,8"
+			(at 145.7 33.6 0)
+			(layer "Dwgs.User")
+			(uuid "95ec83f3-4883-4711-9bd6-024335b25376")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "ab3ba0f4-a2fb-4b37-a298-5b4e76a6e817")
+		(pts
+			(xy 216.3 127.05) (xy 216.3 55.95)
+		)
+		(height 24.45)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "71,1"
+			(at 239.6 91.5 90)
+			(layer "Dwgs.User")
+			(uuid "ab3ba0f4-a2fb-4b37-a298-5b4e76a6e817")
 			(effects
 				(font
 					(size 1 1)
