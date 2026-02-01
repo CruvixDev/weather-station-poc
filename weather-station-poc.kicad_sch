@@ -2424,7 +2424,7 @@
 		)
 		(pin "DN_USB" bidirectional
 			(at 132.08 44.45 0)
-			(uuid "23e664d9-bfb7-44eb-b2c3-7022d996b12f")
+			(uuid "62d0d1a3-c7a5-4fc9-82fd-f0d9ac1e9287")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2434,7 @@
 		)
 		(pin "DP_USB" bidirectional
 			(at 132.08 46.99 0)
-			(uuid "c4d661b1-5016-4dd3-937e-7000ce80b2b1")
+			(uuid "60e5e217-4d41-471b-b813-aeae7065f149")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,26 +2823,6 @@
 				(justify right)
 			)
 		)
-		(pin "DN_MCU" bidirectional
-			(at 144.78 44.45 180)
-			(uuid "51fbc94f-d71e-46b4-81a2-7d665daef285")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DP_MCU" bidirectional
-			(at 144.78 46.99 180)
-			(uuid "036dd73d-592b-42fa-b7a2-0ccf58c4fbef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{SS}_MCU_Slave" input
 			(at 182.88 62.23 0)
 			(uuid "37afe383-c37f-41cd-bd81-6f04ebdfb324")
@@ -2851,6 +2831,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "MCU_DN" bidirectional
+			(at 144.78 44.45 180)
+			(uuid "191ee0d0-50ba-4daa-9193-9c955f79f48c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_DP" bidirectional
+			(at 144.78 46.99 180)
+			(uuid "e9bc7815-6e5a-4627-a518-dcfbdae2507b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -8109,7 +8109,7 @@
 		)
 		(uuid "8eef617a-5013-4314-8330-0537a1e48359")
 	)
-	(hierarchical_label "DN_MCU"
+	(hierarchical_label "MCU_DN"
 		(shape bidirectional)
 		(at 320.04 90.17 0)
 		(effects
@@ -8307,7 +8307,7 @@
 		)
 		(uuid "f7380875-5ba1-4ece-b16f-54b9db4ebc40")
 	)
-	(hierarchical_label "DP_MCU"
+	(hierarchical_label "MCU_DP"
 		(shape bidirectional)
 		(at 320.04 92.71 0)
 		(effects

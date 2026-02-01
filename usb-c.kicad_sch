@@ -3355,16 +3355,16 @@
 		)
 		(uuid "f8db81c9-9313-405a-baaa-5d3038ce7428")
 	)
-	(hierarchical_label "DP_USB"
+	(hierarchical_label "DN_USB"
 		(shape bidirectional)
-		(at 115.57 130.81 0)
+		(at 115.57 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "629fc55c-cd73-4dc0-959b-7aeaba2f2330")
+		(uuid "5e575bf0-c36b-4f4d-bc6f-5df5c7ea1b9b")
 	)
 	(hierarchical_label "5V_USB"
 		(shape output)
@@ -3376,17 +3376,6 @@
 			(justify left)
 		)
 		(uuid "9179d09e-2eca-44b7-8137-c5a59ec0d66c")
-	)
-	(hierarchical_label "DN_USB"
-		(shape bidirectional)
-		(at 115.57 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b60f1db6-a180-4f29-b3d5-cca893753cde")
 	)
 	(hierarchical_label "Detect_USB"
 		(shape output)
@@ -3409,6 +3398,17 @@
 			(justify right)
 		)
 		(uuid "fbc610be-92b5-4e8a-8c97-21298148d252")
+	)
+	(hierarchical_label "DP_USB"
+		(shape bidirectional)
+		(at 115.57 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe12d01d-0223-45ec-bbdd-8da516f8d187")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
