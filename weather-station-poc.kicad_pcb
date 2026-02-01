@@ -292,7 +292,7 @@
 	(net 136 "unconnected-(U1-PC13-Pad7)")
 	(net 137 "unconnected-(U1-PD2-Pad118)")
 	(net 138 "unconnected-(U1-PH15-Pad91)")
-	(net 139 "unconnected-(U1-PF1-Pad11)")
+	(net 139 "/LCD/SCL_LCD")
 	(net 140 "unconnected-(U1-PF2-Pad12)")
 	(net 141 "unconnected-(U1-PA15-Pad112)")
 	(net 142 "unconnected-(U1-PA2-Pad38)")
@@ -320,7 +320,7 @@
 	(net 164 "unconnected-(U1-PI3-Pad97)")
 	(net 165 "unconnected-(U1-PB4-Pad134)")
 	(net 166 "unconnected-(U1-PC12-Pad115)")
-	(net 167 "unconnected-(U1-PF0-Pad10)")
+	(net 167 "/LCD/SDA_LCD")
 	(net 168 "unconnected-(U1-PC6-Pad98)")
 	(net 169 "unconnected-(U1-PI1-Pad93)")
 	(net 170 "unconnected-(U1-DSI_CKP-Pad18)")
@@ -1484,7 +1484,7 @@
 			(at 0.325 -1.025)
 			(size 0.5 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 49 "/Debug-boot/SDA_Debug")
+			(net 167 "/LCD/SDA_LCD")
 			(pinfunction "SDI")
 			(pintype "bidirectional")
 			(uuid "4fa81a3b-0437-4a56-b747-6ac06e625c0e")
@@ -1493,7 +1493,7 @@
 			(at 0.975 -1.025)
 			(size 0.5 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 46 "/Debug-boot/SCL_Debug")
+			(net 139 "/LCD/SCL_LCD")
 			(pinfunction "SCK")
 			(pintype "input")
 			(uuid "5390496c-89e6-4d75-8a45-930b43dd4cf9")
@@ -1815,7 +1815,7 @@
 			(at -0.75 0.25 90)
 			(size 0.3 0.325)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 46 "/Debug-boot/SCL_Debug")
+			(net 139 "/LCD/SCL_LCD")
 			(pinfunction "SCK")
 			(pintype "passive")
 			(uuid "416475f8-13d3-454c-91c6-d6d3eb843275")
@@ -1833,7 +1833,7 @@
 			(at 0 0.775)
 			(size 0.3 0.325)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 49 "/Debug-boot/SDA_Debug")
+			(net 167 "/LCD/SDA_LCD")
 			(pinfunction "SDI")
 			(pintype "passive")
 			(uuid "7adf0f62-82d5-43a3-b0cf-394d459ba355")
@@ -7076,7 +7076,7 @@
 			(at 1.2 0.4 90)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 49 "/Debug-boot/SDA_Debug")
+			(net 167 "/LCD/SDA_LCD")
 			(pinfunction "SDI")
 			(pintype "passive")
 			(uuid "fe76822a-7a54-4f16-92d4-281ccfa4b5d0")
@@ -7085,7 +7085,7 @@
 			(at 1.2 1.2 90)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 46 "/Debug-boot/SCL_Debug")
+			(net 139 "/LCD/SCL_LCD")
 			(pinfunction "SCK")
 			(pintype "passive")
 			(uuid "5a8542ea-44ff-4a4f-80e2-e32e54af5b0e")
@@ -8191,7 +8191,7 @@
 			(at 1.25 -1.9)
 			(size 0.3 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 46 "/Debug-boot/SCL_Debug")
+			(net 139 "/LCD/SCL_LCD")
 			(pinfunction "8")
 			(pintype "passive")
 			(uuid "ac37f1bc-d779-477b-b819-2baa6f30a8c7")
@@ -8209,7 +8209,7 @@
 			(at 2.25 -1.9)
 			(size 0.3 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 49 "/Debug-boot/SDA_Debug")
+			(net 167 "/LCD/SDA_LCD")
 			(pinfunction "10")
 			(pintype "passive")
 			(uuid "9b17758f-bd0c-43c0-9db2-e5110494703c")
@@ -15900,11 +15900,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "3c6f024b-c7df-4ab0-bac8-442fa6990e02")
-		(at 150.5 72 90)
+		(at 150.5 71.25 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C18"
-			(at 3.1375 0 90)
+			(at 3.25 0 90)
 			(layer "B.SilkS")
 			(uuid "36465aef-5036-404d-b770-3dd34f680dd1")
 			(effects
@@ -27522,9 +27522,9 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 167 "unconnected-(U1-PF0-Pad10)")
+			(net 49 "/Debug-boot/SDA_Debug")
 			(pinfunction "PF0")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "d9f24363-fcf1-44a5-b2d9-050b917cb917")
 		)
 		(pad "11" smd roundrect
@@ -27532,9 +27532,9 @@
 			(size 1.475 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 139 "unconnected-(U1-PF1-Pad11)")
+			(net 46 "/Debug-boot/SCL_Debug")
 			(pinfunction "PF1")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "2def638d-76b1-477f-9136-efcb6ca37ff8")
 		)
 		(pad "12" smd roundrect
@@ -28702,7 +28702,7 @@
 			(size 0.3 1.475)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 49 "/Debug-boot/SDA_Debug")
+			(net 167 "/LCD/SDA_LCD")
 			(pinfunction "PG13")
 			(pintype "bidirectional")
 			(uuid "20010304-7ecf-4c4c-afd5-c05eaf4fa8e9")
@@ -28712,7 +28712,7 @@
 			(size 0.3 1.475)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 46 "/Debug-boot/SCL_Debug")
+			(net 139 "/LCD/SCL_LCD")
 			(pinfunction "PG14")
 			(pintype "bidirectional")
 			(uuid "cfa86acc-9fa0-4b85-859e-f8cdf051643f")
@@ -32001,7 +32001,7 @@
 			(at 2.712 -1.905 270)
 			(size 0.65 1.525)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 49 "/Debug-boot/SDA_Debug")
+			(net 167 "/LCD/SDA_LCD")
 			(pinfunction "SDA")
 			(pintype "passive")
 			(uuid "dae631be-034d-4a10-936f-7d4ed17fbbd7")
@@ -32019,7 +32019,7 @@
 			(at 2.712 0.635 270)
 			(size 0.65 1.525)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 46 "/Debug-boot/SCL_Debug")
+			(net 139 "/LCD/SCL_LCD")
 			(pinfunction "SCL")
 			(pintype "passive")
 			(uuid "6a29d860-689c-4ef2-a9e4-e3cf4882a082")
@@ -34970,24 +34970,7 @@
 		)
 	)
 	(group ""
-		(uuid "77b501b8-1f1c-4597-bc0e-5332171a8436")
-		(members "00d2c204-5e86-48d9-84f5-c8dc40dbdb01" "3421f7d3-155a-4c06-9ea0-9c76f578f675"
-			"3749bccc-5240-4919-b33d-1102e93bf932" "49dd3c91-238c-4c72-a24c-084fe78f2256"
-			"52b9a32b-4a56-4e19-a7c9-4d236b174d3f" "68e49f1a-42db-464e-b0f1-b44ba647e39c"
-			"6bf0eebe-8264-4052-8fc3-b0813b9511a9" "ac79cb11-ef97-49c4-86a1-2eb5e534a7a1"
-			"bb5824df-2438-4413-8f88-60a28e27eed6" "cc8a2e02-e33d-4742-99b9-59cfdf654036"
-			"cfa23c1f-d5dd-45f5-815d-0d65d9a64e49" "dc160ee6-aa1b-4e6d-88d4-06901cb78b77"
-			"f06e9223-6b18-4d63-95b5-8f6edf5353ec"
-		)
-	)
-	(group ""
-		(uuid "7c896f8f-7019-4dd8-9986-1aacb9b6fde1")
-		(members "3952857e-f0ed-4c47-9cc9-b4ab7e07ec09" "c51e55ed-4568-4df2-a225-3163da60fff0"
-			"e51f8280-6a3d-47b6-b465-f2b985264bc0"
-		)
-	)
-	(group ""
-		(uuid "8c5e3d7a-c0f3-459a-81e2-22eac6307e55")
+		(uuid "3c2225d5-c9d2-4481-a2d7-55585be519e0")
 		(members "0033a423-0818-48c6-9d16-c19fb53bacdc" "06212e7d-101b-4ac9-8542-78c09267aa40"
 			"079ee851-6125-4f32-9c6a-daaecdd4d26a" "23e7e52a-c826-419b-bdd7-c8f75a5bb37a"
 			"2663ea92-0fc9-4d2a-825d-781d6d93cf42" "26954a98-49a6-4adc-9452-93851cbcf037"
@@ -35007,6 +34990,23 @@
 			"d456ddd0-a98d-4d75-bf34-e7f0f914066d" "d8117903-1fc8-4d97-b7c4-ace9ab72ef40"
 			"dfcdee78-e824-4203-a784-d70e6a5b1226" "ea25ceb3-b9ef-4735-bae0-5cedca11e2fd"
 			"ee680008-a0cb-4874-80a5-25f64e06d8c6" "fc4c0617-cbd3-4276-aed5-fe467dc7220d"
+		)
+	)
+	(group ""
+		(uuid "77b501b8-1f1c-4597-bc0e-5332171a8436")
+		(members "00d2c204-5e86-48d9-84f5-c8dc40dbdb01" "3421f7d3-155a-4c06-9ea0-9c76f578f675"
+			"3749bccc-5240-4919-b33d-1102e93bf932" "49dd3c91-238c-4c72-a24c-084fe78f2256"
+			"52b9a32b-4a56-4e19-a7c9-4d236b174d3f" "68e49f1a-42db-464e-b0f1-b44ba647e39c"
+			"6bf0eebe-8264-4052-8fc3-b0813b9511a9" "ac79cb11-ef97-49c4-86a1-2eb5e534a7a1"
+			"bb5824df-2438-4413-8f88-60a28e27eed6" "cc8a2e02-e33d-4742-99b9-59cfdf654036"
+			"cfa23c1f-d5dd-45f5-815d-0d65d9a64e49" "dc160ee6-aa1b-4e6d-88d4-06901cb78b77"
+			"f06e9223-6b18-4d63-95b5-8f6edf5353ec"
+		)
+	)
+	(group ""
+		(uuid "7c896f8f-7019-4dd8-9986-1aacb9b6fde1")
+		(members "3952857e-f0ed-4c47-9cc9-b4ab7e07ec09" "c51e55ed-4568-4df2-a225-3163da60fff0"
+			"e51f8280-6a3d-47b6-b465-f2b985264bc0"
 		)
 	)
 	(group ""

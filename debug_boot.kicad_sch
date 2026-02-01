@@ -1459,7 +1459,7 @@
 		(uuid "43e16894-5c9e-4b72-b7c7-610686b497de")
 	)
 	(hierarchical_label "SCL_Debug"
-		(shape input)
+		(shape output)
 		(at 160.02 101.6 180)
 		(effects
 			(font

@@ -5588,10 +5588,6 @@
 		(uuid "394de511-19a8-4689-9cd8-c069e3a34faa")
 	)
 	(no_connect
-		(at 238.76 156.21)
-		(uuid "3a586a81-e9aa-47c8-a552-b40303648555")
-	)
-	(no_connect
 		(at 238.76 97.79)
 		(uuid "4a9b3bf6-f22d-4d78-99c9-8801278b0fc3")
 	)
@@ -5634,10 +5630,6 @@
 	(no_connect
 		(at 238.76 74.93)
 		(uuid "8423eb0a-b070-4b67-94e8-29661bd926cc")
-	)
-	(no_connect
-		(at 238.76 158.75)
-		(uuid "865d81ec-880a-44bb-80fd-e53be742c3f6")
 	)
 	(no_connect
 		(at 320.04 135.89)
@@ -8285,6 +8277,17 @@
 		)
 		(uuid "ddbdb793-170e-4284-956c-3b6e32210cb3")
 	)
+	(hierarchical_label "SDA_MCU_Slave"
+		(shape bidirectional)
+		(at 238.76 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df4af9d8-4f22-496f-9cdd-9ac7e8e3a88b")
+	)
 	(hierarchical_label "3V3_MCU"
 		(shape input)
 		(at 73.66 104.14 180)
@@ -8295,6 +8298,17 @@
 			(justify right)
 		)
 		(uuid "e9782790-cdc4-404c-9652-4017d3cf286b")
+	)
+	(hierarchical_label "SCL_MCU_Slave"
+		(shape input)
+		(at 238.76 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0231f29-2580-448c-b8f4-49069bb7d40a")
 	)
 	(hierarchical_label "3V3_MCU"
 		(shape input)
