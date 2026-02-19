@@ -1,0 +1,1 @@
+https://developer.arm.com/documentation/dui0499/e/arm-dstream-target-interface-connections/swd-connections
