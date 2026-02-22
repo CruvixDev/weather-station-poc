@@ -5263,7 +5263,7 @@
 	)
 	(text "RGB parallel bus"
 		(exclude_from_sim no)
-		(at 125.73 219.71 0)
+		(at 125.476 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5271,19 +5271,9 @@
 		)
 		(uuid "2e6414a9-68a6-40c9-8f9b-3ef7e6429a21")
 	)
-	(text "TODO: add debounce for button"
-		(exclude_from_sim no)
-		(at 209.55 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "461a37ff-bec9-47bc-be6b-540f425a98aa")
-	)
 	(text "Crystal oscillators (HSE and LSE)"
 		(exclude_from_sim no)
-		(at 73.914 219.456 0)
+		(at 73.66 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5293,7 +5283,7 @@
 	)
 	(text "TODO: verify there is no error in pinout"
 		(exclude_from_sim no)
-		(at 213.36 236.22 0)
+		(at 208.534 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5303,7 +5293,7 @@
 	)
 	(text "STM32U5G9ZJTxQ MCU"
 		(exclude_from_sim no)
-		(at 204.47 41.91 0)
+		(at 201.93 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5323,7 +5313,7 @@
 	)
 	(text "STM32U5G9ZJTxQ decoupling capacitors"
 		(exclude_from_sim no)
-		(at 77.47 41.91 0)
+		(at 76.962 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
