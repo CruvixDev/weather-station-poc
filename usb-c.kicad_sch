@@ -2584,6 +2584,10 @@
 		(uuid "22d1ca58-6c07-46c7-9e22-e9c69270096f")
 	)
 	(no_connect
+		(at 81.28 86.36)
+		(uuid "28bf2de9-4b29-4ebc-b0e9-7e5251ed45f0")
+	)
+	(no_connect
 		(at 81.28 99.06)
 		(uuid "3a99556e-c1bb-4283-a9dd-d3c546ae1271")
 	)
@@ -2594,6 +2598,10 @@
 	(no_connect
 		(at 81.28 91.44)
 		(uuid "5a74d54b-00dd-4742-9583-9306c455e001")
+	)
+	(no_connect
+		(at 81.28 73.66)
+		(uuid "6c949e92-c0c2-425f-a997-5109190098e0")
 	)
 	(no_connect
 		(at 81.28 68.58)
@@ -3245,16 +3253,6 @@
 		)
 		(uuid "3a7d23db-f062-4bd6-845e-46466f4678d6")
 	)
-	(label "VBUS"
-		(at 81.28 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4b590a7b-bd35-4464-b350-4d2023219831")
-	)
 	(label "CC1c"
 		(at 162.56 104.14 180)
 		(effects
@@ -3274,16 +3272,6 @@
 			(justify left bottom)
 		)
 		(uuid "8f86dc52-5a18-47f3-92b9-01a19fe2ed7f")
-	)
-	(label "VBUS"
-		(at 81.28 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "92d0df77-55fe-42f9-8272-050fd9ed0722")
 	)
 	(label "CC1c"
 		(at 81.28 76.2 180)
