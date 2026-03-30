@@ -126,7 +126,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -30979,6 +30978,50 @@
 		(layer "F.SilkS")
 		(uuid "4f7c7316-d861-4fba-8d36-ff91545f7a42")
 	)
+	(gr_circle
+		(center 135.2 48.1)
+		(end 135.4 48.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a9f1323a-e9a5-45d8-8bcf-4a12d57102c4")
+	)
+	(gr_circle
+		(center 145.8 48.1)
+		(end 146 48.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "757346cf-a651-4563-8767-47ae88aa6dc3")
+	)
+	(gr_circle
+		(center 156.4 48.1)
+		(end 156.6 48.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "97518c86-5b87-497c-a267-a5b22a20dff9")
+	)
+	(gr_circle
+		(center 167 48.1)
+		(end 167.2 48.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b67feb25-084a-49ca-b9c7-5e9862ad64ed")
+	)
 	(gr_arc
 		(start 215.3 55.95)
 		(mid 216.007107 56.242893)
@@ -31309,7 +31352,7 @@
 		)
 	)
 	(gr_text "CAN-FD"
-		(at 161.25 48 0)
+		(at 160.4 48 0)
 		(layer "F.SilkS")
 		(uuid "d4643a38-d093-4385-8de6-43cadea0af91")
 		(effects
