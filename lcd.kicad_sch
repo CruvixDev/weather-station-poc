@@ -2128,7 +2128,7 @@
 		(uuid "f9b8e45b-e6fd-461b-9714-ad0a3a7c8a5b")
 	)
 	(label "LCD_R3"
-		(at 129.54 66.04 0)
+		(at 128.27 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2138,7 +2138,7 @@
 		(uuid "075d9034-e6ed-471a-a72e-00f30fd458ee")
 	)
 	(label "LCD_B2"
-		(at 129.54 104.14 0)
+		(at 128.27 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2148,7 +2148,7 @@
 		(uuid "0b6eebd9-ac5d-4213-b504-cbbf7a37f37e")
 	)
 	(label "LCD_B0"
-		(at 129.54 99.06 0)
+		(at 128.27 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2158,7 +2158,7 @@
 		(uuid "1297bb6f-714a-44fe-af27-b722d2f9364a")
 	)
 	(label "LCD_B1"
-		(at 129.54 101.6 0)
+		(at 128.27 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2168,7 +2168,7 @@
 		(uuid "17085b34-482b-4dfa-8137-c099377eb337")
 	)
 	(label "LCD_B6"
-		(at 129.54 114.3 0)
+		(at 128.27 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2178,7 +2178,7 @@
 		(uuid "18c8af6d-2ff7-4060-8f6b-029f003911fb")
 	)
 	(label "LCD_R1"
-		(at 129.54 60.96 0)
+		(at 128.27 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2188,7 +2188,7 @@
 		(uuid "191f5304-5a95-4e24-9466-a9dcc7e19284")
 	)
 	(label "LCD_R4"
-		(at 129.54 68.58 0)
+		(at 128.27 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2198,7 +2198,7 @@
 		(uuid "3974f153-d795-4ce7-a64d-b1943c8acdd4")
 	)
 	(label "LCD_R6"
-		(at 129.54 73.66 0)
+		(at 128.27 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2208,7 +2208,7 @@
 		(uuid "39dd697f-fbcc-40a2-8c9c-6c8bf742fcfc")
 	)
 	(label "LCD_G1"
-		(at 129.54 81.28 0)
+		(at 128.27 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2218,7 +2218,7 @@
 		(uuid "3d2b4a8a-449d-40fa-b718-ec1385df52f0")
 	)
 	(label "LCD_G5"
-		(at 129.54 91.44 0)
+		(at 128.27 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2228,7 +2228,7 @@
 		(uuid "432899d4-1479-4e20-943b-3a5432234ba6")
 	)
 	(label "LCD_G7"
-		(at 129.54 96.52 0)
+		(at 128.27 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2238,7 +2238,7 @@
 		(uuid "48369170-cbe6-4a21-8725-34dee944e230")
 	)
 	(label "LCD_B4"
-		(at 129.54 109.22 0)
+		(at 128.27 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2248,7 +2248,7 @@
 		(uuid "50570a73-4254-48c7-bb5b-e8b6697d60db")
 	)
 	(label "LCD_G0"
-		(at 129.54 78.74 0)
+		(at 128.27 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2258,7 +2258,7 @@
 		(uuid "55cd7044-86cb-468a-beff-5a1fce40627c")
 	)
 	(label "LCD_B7"
-		(at 129.54 116.84 0)
+		(at 128.27 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2268,7 +2268,7 @@
 		(uuid "6d9d2409-d713-48cf-89cb-b274635f0835")
 	)
 	(label "LCD_G6"
-		(at 129.54 93.98 0)
+		(at 128.27 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2278,7 +2278,7 @@
 		(uuid "703d5ae7-e5fd-4a26-91bc-5201009647f8")
 	)
 	(label "LCD_R7"
-		(at 129.54 76.2 0)
+		(at 128.27 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2288,7 +2288,7 @@
 		(uuid "86e60301-b7d5-40ef-8c7d-4e7d7c85abf7")
 	)
 	(label "LCD_R2"
-		(at 129.54 63.5 0)
+		(at 128.27 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2298,7 +2298,7 @@
 		(uuid "99c5eea7-f0b9-4a94-b742-d5e6387584f2")
 	)
 	(label "LCD_B3"
-		(at 129.54 106.68 0)
+		(at 128.27 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2308,7 +2308,7 @@
 		(uuid "b2651d91-da3d-48ad-91b5-34b86788a577")
 	)
 	(label "LCD_B5"
-		(at 129.54 111.76 0)
+		(at 128.27 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2318,7 +2318,7 @@
 		(uuid "d37731e3-1594-4117-903f-ff1699383af2")
 	)
 	(label "LCD_R5"
-		(at 129.54 71.12 0)
+		(at 128.27 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2328,7 +2328,7 @@
 		(uuid "e0a36258-4cd1-4932-bb35-5cf8f801adff")
 	)
 	(label "LCD_R0"
-		(at 129.54 58.42 0)
+		(at 128.27 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2338,7 +2338,7 @@
 		(uuid "ee68a948-f318-442f-b124-f70df17aeb90")
 	)
 	(label "LCD_G4"
-		(at 129.54 88.9 0)
+		(at 128.27 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2348,7 +2348,7 @@
 		(uuid "f2d37405-9a18-46f1-9fad-6ef42c30d193")
 	)
 	(label "LCD_G3"
-		(at 129.54 86.36 0)
+		(at 128.27 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2358,7 +2358,7 @@
 		(uuid "f4093edd-679d-4ba0-a408-fbc5f4e6b08b")
 	)
 	(label "LCD_G2"
-		(at 129.54 83.82 0)
+		(at 128.27 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2555,7 +2555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d00503c-4861-4496-b60d-ff60f1966343")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0121"
 			(at 124.46 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2616,7 +2616,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/887aec76-5086-421b-8a43-0ed64a6cc9fd"
-					(reference "#PWR0117")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -2634,7 +2634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25e34f07-3c88-436c-9883-46eea4a8ab40")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0118"
 			(at 86.36 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2695,7 +2695,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/887aec76-5086-421b-8a43-0ed64a6cc9fd"
-					(reference "#PWR0110")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -2713,7 +2713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26be4e68-17f5-4efc-8acf-4c4a0693580a")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0122"
 			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -2774,7 +2774,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/887aec76-5086-421b-8a43-0ed64a6cc9fd"
-					(reference "#PWR0118")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -2792,7 +2792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "463e8f9e-0def-494d-82b4-cb8200a0c686")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0123"
 			(at 158.75 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2853,7 +2853,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/887aec76-5086-421b-8a43-0ed64a6cc9fd"
-					(reference "#PWR0113")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -2871,7 +2871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66c13030-9f45-4275-a7a7-7d7233b70410")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0124"
 			(at 158.75 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2932,7 +2932,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/887aec76-5086-421b-8a43-0ed64a6cc9fd"
-					(reference "#PWR0115")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -2950,7 +2950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "694c09cb-4232-4a7e-b921-cbc9f7fe0f58")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0119"
 			(at 86.36 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3011,7 +3011,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/887aec76-5086-421b-8a43-0ed64a6cc9fd"
-					(reference "#PWR0111")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -3029,7 +3029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759e534e-f9be-42e5-b528-51931f0b4d24")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0125"
 			(at 196.85 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3090,7 +3090,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/887aec76-5086-421b-8a43-0ed64a6cc9fd"
-					(reference "#PWR0114")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -3370,7 +3370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac88354a-c8b4-4e0b-a97b-45a902841069")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0120"
 			(at 124.46 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3431,7 +3431,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/887aec76-5086-421b-8a43-0ed64a6cc9fd"
-					(reference "#PWR0112")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -3449,7 +3449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f695148d-26ce-4510-878b-cf65dc043af6")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0126"
 			(at 196.85 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3510,7 +3510,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/887aec76-5086-421b-8a43-0ed64a6cc9fd"
-					(reference "#PWR0116")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
