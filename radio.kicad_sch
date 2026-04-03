@@ -5885,7 +5885,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dfc10b05-e409-472e-b363-d75e5071b519")
 		(property "Reference" "AE1"
