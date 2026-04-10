@@ -1801,7 +1801,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206020.pdf"
 			(at 218.44 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -1813,6 +1813,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 218.44 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 218.44 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206020"
 			(at 218.44 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -1883,7 +1905,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206020.pdf"
 			(at 81.28 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1895,6 +1917,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 81.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206020"
 			(at 81.28 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2177,7 +2221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200n"
+		(property "Value" "220n"
 			(at 102.87 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2199,7 +2243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206022.pdf"
 			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2211,6 +2255,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 99.06 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" " Wurth Elektronik"
+			(at 99.06 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206022"
 			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2781,6 +2847,28 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Bosch Sensortec"
+			(at 198.12 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BME280"
+			(at 198.12 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "4af1a9a1-60b8-4d86-96a5-97d393664b26")
 		)
@@ -3015,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206020.pdf"
 			(at 82.55 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3027,6 +3115,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 82.55 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206020"
 			(at 82.55 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3175,7 +3285,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206020.pdf"
 			(at 96.52 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3187,6 +3297,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 96.52 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 96.52 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206020"
 			(at 96.52 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3257,7 +3389,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206020.pdf"
 			(at 179.07 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3269,6 +3401,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206020"
 			(at 179.07 57.15 0)
 			(hide yes)
 			(show_name no)

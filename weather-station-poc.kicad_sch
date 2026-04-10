@@ -2094,7 +2094,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 38.1 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2106,6 +2106,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 38.1 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 38.1 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 38.1 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2172,7 +2194,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2184,6 +2206,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 45.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 45.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2250,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 22.86 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2262,6 +2306,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 22.86 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 22.86 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 22.86 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2329,7 +2395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 38.1 127 0)
 			(hide yes)
 			(show_name no)
@@ -2341,6 +2407,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 38.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 38.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 38.1 127 0)
 			(hide yes)
 			(show_name no)
@@ -2482,7 +2570,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 22.86 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2494,6 +2582,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 22.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 22.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 22.86 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2795,7 +2905,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 38.1 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2807,6 +2917,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 38.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 38.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 38.1 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2870,7 +3002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 38.1 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2882,6 +3014,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 38.1 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 38.1 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 38.1 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2949,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 25.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2961,6 +3115,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 25.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 25.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 25.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3103,7 +3279,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 25.4 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3115,6 +3291,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 25.4 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 25.4 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 25.4 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3178,7 +3376,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 30.48 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3190,6 +3388,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 30.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 30.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 30.48 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3647,7 +3867,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 30.48 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3659,6 +3879,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 30.48 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 30.48 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 30.48 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3803,7 +4045,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 45.72 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3815,6 +4057,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 45.72 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 45.72 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 45.72 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3961,7 +4225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 38.1 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3973,6 +4237,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 38.1 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 38.1 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 38.1 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4115,7 +4401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 25.4 127 0)
 			(hide yes)
 			(show_name no)
@@ -4127,6 +4413,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 25.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "N/A"
+			(at 25.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
 			(at 25.4 127 0)
 			(hide yes)
 			(show_name no)

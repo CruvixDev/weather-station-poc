@@ -2173,7 +2173,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 144.78) (xy 55.88 144.78)
+			(xy 50.8 144.78) (xy 57.15 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2293,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 144.78) (xy 69.85 144.78)
+			(xy 64.77 144.78) (xy 71.12 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2332,7 @@
 		(uuid "27270cdb-3a0f-45af-9dab-16fbbfe089c4")
 	)
 	(label "OSC_IN"
-		(at 49.53 144.78 180)
+		(at 50.8 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2352,7 +2352,7 @@
 		(uuid "3e9091c4-eb45-43cd-ad82-460d5089ff70")
 	)
 	(label "OSC_OUT"
-		(at 69.85 144.78 0)
+		(at 71.12 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2616,7 +2616,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188Z71A475KE15-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 58.42 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2628,6 +2628,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 58.42 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188Z71A475KE15J"
 			(at 58.42 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2655,7 +2677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 139.7 180)
+		(at 60.96 139.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2666,7 +2688,7 @@
 		(fields_autoplaced yes)
 		(uuid "03ec913d-31c2-464f-b350-40015f5fa6be")
 		(property "Reference" "#PWR085"
-			(at 59.69 133.35 0)
+			(at 60.96 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2677,7 +2699,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 138.4299 0)
+			(at 63.5 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2688,7 +2710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 139.7 0)
+			(at 60.96 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2699,7 +2721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 139.7 0)
+			(at 60.96 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2710,7 +2732,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 139.7 0)
+			(at 60.96 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2933,7 +2955,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206021.pdf"
 			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2945,6 +2967,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206021"
 			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2972,7 +3016,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
-		(at 59.69 144.78 0)
+		(at 60.96 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2982,7 +3026,7 @@
 		(dnp no)
 		(uuid "10e2fbfe-2fff-4efc-9232-d44b0f849850")
 		(property "Reference" "Y3"
-			(at 65.532 141.986 0)
+			(at 66.802 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2992,7 +3036,7 @@
 			)
 		)
 		(property "Value" "NX1612SA-50M-EXS00A-CS08403"
-			(at 59.69 160.782 0)
+			(at 60.96 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3002,7 +3046,7 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:NX1612SA50MEXS00ACS08403"
-			(at 59.69 144.78 0)
+			(at 60.96 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3012,8 +3056,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 59.69 144.78 0)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/1591/1/c_NX1612SA_e.pdf"
+			(at 60.96 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3024,7 +3068,7 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 59.69 144.78 0)
+			(at 60.96 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3035,7 +3079,7 @@
 			)
 		)
 		(property "Height" "0.35"
-			(at 99.06 539.7 0)
+			(at 100.33 539.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3047,7 +3091,7 @@
 			)
 		)
 		(property "Mouser Part Number" "344-NX1612SA50S08403"
-			(at 99.06 639.7 0)
+			(at 100.33 639.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3059,7 +3103,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NDK/NX1612SA-50M-EXS00A-CS08403?qs=w%2Fv1CP2dgqrMJEbcI%2FY4cQ%3D%3D"
-			(at 99.06 739.7 0)
+			(at 100.33 739.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3071,7 +3115,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NDK"
-			(at 99.06 839.7 0)
+			(at 100.33 839.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3083,7 +3127,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NX1612SA-50M-EXS00A-CS08403"
-			(at 99.06 939.7 0)
+			(at 100.33 939.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3204,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206021.pdf"
 			(at 58.42 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3172,6 +3216,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206021"
 			(at 58.42 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3240,7 +3306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206003.pdf"
 			(at 234.95 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3253,6 +3319,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 234.95 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 234.95 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206003"
+			(at 234.95 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3322,7 +3410,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206003.pdf"
 			(at 58.42 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3334,6 +3422,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206003"
 			(at 58.42 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3638,7 +3748,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206021.pdf"
 			(at 97.79 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3650,6 +3760,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 97.79 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206021"
 			(at 97.79 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3720,7 +3852,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206021.pdf"
 			(at 68.58 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3732,6 +3864,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206021"
 			(at 68.58 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3956,7 +4110,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206006.pdf"
 			(at 144.78 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3969,6 +4123,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 144.78 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 144.78 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206006"
+			(at 144.78 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4038,7 +4214,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf"
 			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4050,6 +4226,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VJ0603A2R7BXQCW1BC"
 			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4273,7 +4471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206021.pdf"
 			(at 160.02 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4286,6 +4484,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 160.02 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206021"
+			(at 160.02 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4353,7 +4573,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206021.pdf"
 			(at 165.1 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4366,6 +4586,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 165.1 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 165.1 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206021"
+			(at 165.1 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4470,7 +4712,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 148.59 180)
+		(at 71.12 148.59 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4481,7 +4723,7 @@
 		(fields_autoplaced yes)
 		(uuid "8229c96c-951a-4cce-89fa-c975d74cc70e")
 		(property "Reference" "C51"
-			(at 73.66 147.3199 0)
+			(at 74.93 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4492,7 +4734,7 @@
 			)
 		)
 		(property "Value" "12p"
-			(at 73.66 149.8599 0)
+			(at 74.93 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4503,7 +4745,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 68.8848 144.78 0)
+			(at 70.1548 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,8 +4755,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 69.85 148.59 0)
+		(property "Datasheet" "https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf"
+			(at 71.12 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4525,7 +4767,29 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 69.85 148.59 0)
+			(at 71.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 71.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VJ0603A120FXQCW1BC"
+			(at 71.12 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4749,7 +5013,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206026.pdf"
 			(at 109.22 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4761,6 +5025,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" " Wurth Elektronik"
+			(at 109.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206026"
 			(at 109.22 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4828,7 +5114,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560050316012.pdf"
 			(at 142.24 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4841,6 +5127,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 142.24 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 142.24 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "560050316012"
+			(at 142.24 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4989,7 +5297,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206021.pdf"
 			(at 58.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5001,6 +5309,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 58.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206021"
 			(at 58.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5083,6 +5413,28 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 153.67 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 153.67 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LQW18AN12NG00D"
 			(at 153.67 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5321,7 +5673,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 149.86 0)
+		(at 60.96 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5332,7 +5684,7 @@
 		(fields_autoplaced yes)
 		(uuid "aefa124e-d963-4721-86f2-88dba1d079ed")
 		(property "Reference" "#PWR086"
-			(at 59.69 156.21 0)
+			(at 60.96 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5343,7 +5695,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 151.1299 0)
+			(at 63.5 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5354,7 +5706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 149.86 0)
+			(at 60.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5365,7 +5717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 149.86 0)
+			(at 60.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5376,7 +5728,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 149.86 0)
+			(at 60.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5522,7 +5874,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206003.pdf"
 			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5534,6 +5886,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 68.58 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 68.58 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206003"
 			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5561,7 +5935,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 152.4 0)
+		(at 71.12 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5572,7 +5946,7 @@
 		(fields_autoplaced yes)
 		(uuid "cacb3c8b-8342-4afd-b24b-18fa73a37ec5")
 		(property "Reference" "#PWR089"
-			(at 69.85 158.75 0)
+			(at 71.12 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5583,7 +5957,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 157.48 0)
+			(at 71.12 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5593,7 +5967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 152.4 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,7 +5978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 152.4 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5615,7 +5989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 152.4 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5718,7 +6092,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 148.59 0)
+		(at 50.8 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5729,7 +6103,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc5f6d58-945b-42b8-b33c-a8ec0c6b779a")
 		(property "Reference" "C43"
-			(at 53.34 147.3199 0)
+			(at 54.61 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5740,7 +6114,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 53.34 149.8599 0)
+			(at 54.61 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5751,7 +6125,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 50.4952 152.4 0)
+			(at 51.7652 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5761,8 +6135,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 49.53 148.59 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012006002.pdf"
+			(at 50.8 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5773,7 +6147,29 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 148.59 0)
+			(at 50.8 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" " Wurth Elektronik"
+			(at 50.8 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012006002"
+			(at 50.8 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5800,7 +6196,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 152.4 0)
+		(at 50.8 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5811,7 +6207,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcf7005b-7be9-41aa-b48c-e6734d127299")
 		(property "Reference" "#PWR079"
-			(at 49.53 158.75 0)
+			(at 50.8 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,7 +6218,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 157.48 0)
+			(at 50.8 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5832,7 +6228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 152.4 0)
+			(at 50.8 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5843,7 +6239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 152.4 0)
+			(at 50.8 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5854,7 +6250,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 152.4 0)
+			(at 50.8 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5921,7 +6317,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/732511153?display=pdf"
 			(at 243.84 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5933,6 +6329,28 @@
 			)
 		)
 		(property "Description" "Antenna"
+			(at 243.84 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 243.84 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "73251-1153"
 			(at 243.84 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6156,7 +6574,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206003.pdf"
 			(at 58.42 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6168,6 +6586,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 58.42 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206003"
 			(at 58.42 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6314,7 +6754,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/76/2/JELF243B_0011.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/76/2/JELF243B_0017.pdf"
 			(at 118.11 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6327,6 +6767,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 118.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 118.11 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LQM21FN100M80L"
+			(at 118.11 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

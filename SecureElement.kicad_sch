@@ -883,7 +883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/76/2/GRM188Z71A106KA73_01A.pdf"
 			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -895,6 +895,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 121.92 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188Z71A106KA73D"
 			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1125,7 +1147,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206020.pdf"
 			(at 132.08 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1137,6 +1159,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 132.08 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885012206020"
 			(at 132.08 96.52 0)
 			(hide yes)
 			(show_name no)

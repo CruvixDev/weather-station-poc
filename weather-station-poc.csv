@@ -1,60 +1,60 @@
-"Reference";"Qty";"Value";"DNP";"Exclude from BOM";"Exclude from Board";"Footprint";"Datasheet"
-"AE1";"1";"Antenna";"";"";"";"";"~"
-"C1,C45,C46,C50,C58,C59,C60";"7";"100p";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C2,C4,C6,C8,C9,C10,C16,C17,C18,C19,C20,C21,C25,C26,C27,C29,C30,C31,C32,C33,C34,C35,C36,C37,C38,C39,C41,C42,C62,C64,C68,C71,C72,C73,C75,C77";"36";"100n";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C3,C54";"2";"470p";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C5,C22";"2";"8p";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C7,C23";"2";"3p";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C11,C15,C63,C65,C66,C67";"6";"10u";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C12,C13,C53,C69,C70";"5";"1u";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C14,C48,C74";"3";"4u7";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C24,C28";"2";"2u2";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C40";"1";"200n";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C43";"1";"10p";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C44,C47,C51,C52,C55,C56,C57";"7";"150n";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C49";"1";"12p";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C61";"1";"2p7";"";"";"";"Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";"~"
-"C76";"1";"10u";"";"";"";"Capacitor_SMD:CP_Elec_3x5.3";"~"
-"D1";"1";"BAT54KFILM";"";"";"";"weather-station-poc-fp:SODFL1608X70N";"~"
-"D2";"1";"ESDA25P35-1U1M";"";"";"";"weather-station-poc-fp:ESDA25P351U1M";"~"
-"D3";"1";"SS26FL";"";"";"";"weather-station-poc-fp:SODFL3617X108N";"~"
-"FB1";"1";"FerriteBead";"";"";"";"Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder";"~"
-"IC1";"1";"USBLC6-2SC6";"";"";"";"weather-station-poc-fp:SOT95P280X145-6N";"http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00050750.pdf"
-"IC2";"1";"632723100011";"";"";"";"weather-station-poc-fp:632723100011";"https://componentsearchengine.com/Datasheets/1/632723100011.pdf"
-"IC3";"1";"TCPP01-M12";"";"";"";"weather-station-poc-fp:QFN50P300X300X100-13N-D";"https://www.st.com/resource/en/datasheet/tcpp01-m12.pdf"
-"IC4";"1";"BME690";"";"";"";"weather-station-poc-fp:BME690";"https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme690/#documents"
-"IC5";"1";"S2-LPQTR";"";"";"";"weather-station-poc-fp:QFN50P400X400X100-25N-D";"http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/bd/26/62/81/3d/86/4d/15/DM00339133/files/DM00339133.pdf/jcr:content/translations/en.DM00339133.pdf"
-"IC6";"1";"BALF-SPI2-01D3";"";"";"";"weather-station-poc-fp:BALFSPI201D3";"https://www.st.com/resource/en/datasheet/balf-spi2-01d3.pdf"
-"IC7";"1";"STSAFA110S8OCD03";"";"";"";"weather-station-poc-fp:SOIC127P600X175-8N";"https://www.st.com/resource/en/datasheet/stsafe-a110.pdf"
-"J1,J4,J5";"3";"61300311121";"";"";"";"weather-station-poc-fp:HDRV3W64P0X254_1X3_762X254X869P";"https://www.we-online.com/components/products/download/3D_61300311121+%28rev1%29.pdf"
-"J2";"1";"61300511121";"";"";"";"weather-station-poc-fp:HDRV5W64P0X254_1X5_1270X254X854P";"https://www.we-online.com/components/products/download/3D_61300511121+%28rev1%29.pdf"
-"J3";"1";"Conn_ARM_JTAG_SWD_10";"";"";"";"Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD";"http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
-"J6";"1";"687140149022";"";"";"";"weather-station-poc-fp:687140149022";"https://www.we-online.com/components/products/download/687140149022+%28rev1%29.pdf"
-"J7";"1";"687110149022";"";"";"";"weather-station-poc-fp:687110149022";"https://www.we-online.com/components/products/download/687110149022+%28rev1%29.pdf"
-"L1";"1";"2u2";"";"";"";"";"~"
-"L2";"1";"4n7";"";"";"";"";"~"
-"L3";"1";"39n";"";"";"";"";"~"
-"L4,L6";"2";"10u";"";"";"";"";"~"
-"L5";"1";"12n";"";"";"";"";"~"
-"LED1,LED2,LED3";"3";"HSMG-C150";"";"";"";"weather-station-poc-fp:LEDC3216X120N";"~"
-"PS1";"1";"TPS61169DCKR";"";"";"";"weather-station-poc-fp:SOT65P210X110-5N";"http://www.ti.com/lit/gpn/tps61169"
-"PS2";"1";"LD39050PU33R";"";"";"";"weather-station-poc-fp:SON95P300X300X100-7N-D";"https://componentsearchengine.com/Datasheets/2/LD39050PU33R.pdf"
-"Q1";"1";"STL11N3LLH6";"";"";"";"weather-station-poc-fp:STL20N6F7";"https://www.st.com/resource/en/datasheet/stl11n3llh6.pdf"
-"R1,R5,R6,R14,R16,R17";"6";"10k";"";"";"";"Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";"~"
-"R2";"1";"2k4";"";"";"";"Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";"~"
-"R3";"1";"110k";"";"";"";"Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";"~"
-"R4";"1";"200k";"";"";"";"Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";"~"
-"R7";"1";"10";"";"";"";"Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";"~"
-"R8,R10";"2";"1k";"";"";"";"Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";"~"
-"R9";"1";"2k";"";"";"";"Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";"~"
-"R11";"1";"1R5";"";"";"";"Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";"~"
-"R12,R13";"2";"22";"";"";"";"Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";"~"
-"R15";"1";"60";"";"";"";"Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";"~"
-"S1";"1";"434121025816";"";"";"";"weather-station-poc-fp:434121050816";"https://www.we-online.com/catalog/datasheet/434121025816.pdf"
-"S2";"1";"450301014042";"";"";"";"weather-station-poc-fp:450301014042";"https://www.we-online.com/catalog/datasheet/450301014042.pdf"
-"U1";"1";"STM32U5G9ZJTxQ";"";"";"";"Package_QFP:LQFP-144_20x20mm_P0.5mm";"https://www.st.com/resource/en/datasheet/stm32u5g9zj.pdf"
-"U2";"1";"BMP581";"";"";"";"weather-station-poc-fp:BMP581";"https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
-"U3";"1";"BME280";"";"";"";"Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering";"https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
-"Y1";"1";"NX2016SA-16MHZ-EXS00A-CS07826";"";"";"";"weather-station-poc-fp:NX2016SA16MHZEXS00ACS07826";"~"
-"Y2";"1";"NX2012SA-32.768K-STD-MUB-1";"";"";"";"weather-station-poc-fp:NX2012SA32768KSTDMUB1";"~"
-"Y3";"1";"NX1612SA-50M-EXS00A-CS08403";"";"";"";"weather-station-poc-fp:NX1612SA50MEXS00ACS08403";"~"
+Designator;Qty;Manufacturer;Manufacturer Part;Value;Description;Footprint;DNP;Datasheet
+C1,C45,C46,C49,C58;5;Wurth Elektronik;8,85012E+11;100p;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/885012206003.pdf
+C2,C4,C7,C8,C9,C10,C16,C17,C18,C19,C20,C21,C25,C26,C27,C29,C30,C31,C32,C33,C34,C35,C36,C37,C38,C39,C41,C42,C60,C62,C66,C69,C70,C71,C73,C75;36;Wurth Elektronik;8,85012E+11;100n;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/885012206020.pdf
+C3,C54;2;Wurth Elektronik;8,85012E+11;470p;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/885012206006.pdf
+C5,C22;2;Walsin;0402N8R0C100CT;8p;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://eu.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf
+C6,C23;2;KYOCERA AVX;0402ZA3R0BAT2A;3p;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://eu.mouser.com/datasheet/3/5926/1/C0GNP0_Dielectric.pdf
+C11,C15,C61,C63,C64,C65,C74;7;Murata Electronics;GRM188Z71A106KA73J;10u;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://www.mouser.fr/datasheet/3/76/2/GRM188Z71A106KA73_01A.pdf
+C12,C13,C53,C67,C68;5; Wurth Elektronik;8,85012E+11;1u;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/885012206026.pdf
+C14,C48,C72;3;Murata Electronics;GRM188Z71A475KE15J;4u7;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188Z71A475KE15-01A-EN_PDF_CERAMICCAPACITORSMD
+C24,C28;2; Wurth Elektronik;8,85012E+11;2u2;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/885012206027.pdf
+C40;1; Wurth Elektronik;8,85012E+11;220n;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/885012206022.pdf
+C43;1; Wurth Elektronik;8,85012E+11;10p;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/885012006002.pdf
+C44,C47,C50,C52,C55,C56,C57;7;Wurth Elektronik;8,85012E+11;150n;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/885012206021.pdf
+C51;1;Vishay;VJ0603A120FXQCW1BC;12p;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf
+C59;1;Vishay;VJ0603A2R7BXQCW1BC;2p7;Unpolarized capacitor;Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;;https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf
+AE1;1;Molex;73251-1153;Antenna;Antenna;Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal;DNP;https://www.molex.com/en-us/products/part-detail-pdf/732511153?display=pdf
+FB1;1;Murata Electronics;BLM18SG700TN1D;70;Ferrite bead;Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder;;https://www.mouser.fr/datasheet/3/76/1/ENFA0003.pdf
+L3;1;Murata Electronics;LQW18AN12NG00D;12n;Inductor;Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder;;https://www.mouser.fr/datasheet/3/76/2/JELF243A_0024.pdf
+L1;1;Murata Electronics;LQM21PN2R2MGHL;2u2;Inductor;Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder;;https://www.mouser.fr/datasheet/3/76/2/JELF243B_0040.pdf
+L2;1;Murata Electronics;LQM21FN100M80L;10u;Inductor;Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder;;https://www.mouser.fr/datasheet/3/76/2/JELF243B_0017.pdf
+U3;1;Bosch Sensortec;BME280;BME280;3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8;Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering;;https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf
+U1;1;STMicroelectronics;STM32U5G9ZJT6Q;STM32U5G9ZJTxQ;STMicroelectronics Arm Cortex-M33 MCU, 4096KB flash, 3026KB RAM, 101 GPIO, LQFP144;Package_QFP:LQFP-144_20x20mm_P0.5mm;;https://www.st.com/resource/en/datasheet/stm32u5g9zj.pdf
+R1,R7,R10,R18,R20,R21;6;Wurth Elektronik;5,60112E+11;10k;Resistor;Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/560112116005.pdf
+R2;1;Wurth Elektronik;5,60112E+11;2k4;Resistor;Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/560112116061.pdf
+R3;1;Wurth Elektronik;5,60112E+11;110k;Resistor;Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/560112116148.pdf
+R4;1;Wurth Elektronik;5,60112E+11;200k;Resistor;Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/560112116060.pdf
+R5,R6,R8,R9;4;Wurth Elektronik;5,60112E+11;4.7k;Resistor;Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/560112116006.pdf
+R11;1;Wurth Elektronik;5,6005E+11;10;Resistor;Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/560050316012.pdf
+R12,R14;2;Wurth Elektronik;5,60112E+11;1k;Resistor;Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/560112116014.pdf
+R13;1;Wurth Elektronik;5,60112E+11;2k;Resistor;Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/560112116058.pdf
+R15;1;Panasonic;ERJ-H3QD1R50V;1R5;Resistor;Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;;https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf
+R16,R17;2;Wurth Elektronik;5,60112E+11;22;Resistor;Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;;https://www.we-online.com/components/products/datasheet/560112116043.pdf
+R19;1;Vishay;CRCW060317K4FKEC;60;Resistor;Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;;https://www.vishay.com/docs/20035/dcrcwe3.pdf
+TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8;8;N/A;N/A;TestPoint;test point;weather-station-poc-fp:5015;;N/A
+S2;1;Wurth Elektronik;4,34121E+11;4,34121E+11;WS-TASV Tact Switch 6.0*3.8mm vertical type, SMT, height 2.5mm, black actuator, 160gf, T&R;weather-station-poc-fp:434121050816;;https://www.we-online.com/catalog/datasheet/434121025816.pdf
+S1;1;Wurth Elektronik;4,50301E+11;4,50301E+11;WS-SLTV Mini Slide Switch 10mm*2.5mm. SPDT, ON-ON, 2.54mm, vertical type, THT, bulk;weather-station-poc-fp:450301014042;;https://www.we-online.com/catalog/datasheet/450301014042.pdf
+IC2;1;Wurth Elektronik;6,32723E+11;6,32723E+11;WURTH ELEKTRONIK - 632723100011 - USB Connector, USB Type C, USB 3.1, Receptacle, 24 Ways, Surface Mount, Through Hole Mount;weather-station-poc-fp:632723100011;;https://componentsearchengine.com/Datasheets/1/632723100011.pdf
+J7;1;Wurth Elektronik;6,8711E+11;6,8711E+11;WR-FPC 0.50mm SMT Horiz. Top Cont. Low Profile WR-FPC 0.50mm 10pins low profile SMT Horizontal Top Contact;weather-station-poc-fp:687110183622;;https://www.we-online.com/components/products/download/687110183622+%28rev1%29.pdf
+J6;1;Wurth Elektronik;6,8714E+11;6,8714E+11;WR-FPC 0.50mm SMT Horiz. Bot. Contact Hinge type WR-FPC 0.50mm 40pins Hinge type SMT Horizontal Bottom Contact;weather-station-poc-fp:687140149022;;https://www.we-online.com/components/products/download/687140149022+%28rev1%29.pdf
+IC6;1;STMicroelectronics;BALF-SPI2-01D3;BALF-SPI2-01D3;50  nominal input / conjugate matched balun to ST S2-LP, 860-930 MHz with integrated harmonic filter;weather-station-poc-fp:BALFSPI201D3;;https://www.st.com/resource/en/datasheet/balf-spi2-01d3.pdf
+IC4;1;BOSCH;BME690;BME690;Multiple Function Sensor Modules BME690 is the gas sensor with Artificial Intelligence (AI) and integrated high-linearity and high-accuracy  pressure, humidity and temperature sensors.;weather-station-poc-fp:BME690;;https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme690/#documents
+U2;1;BOSCH;BMP581;BMP581;Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA;weather-station-poc-fp:BMP581;;https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf
+D2;1;STMicroelectronics;ESDA25P35-1U1M;ESDA25P35-1U1M;Schottky diode;weather-station-poc-fp:ESDA25P351U1M;;https://www.st.com/resource/en/datasheet/esda20p50-1u1m.pdf
+J3;1;Samtec;FTSH-105-01-L-DV-K;Conn_ARM_JTAG_SWD_10;Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface;weather-station-poc-fp:FTSH10501LDVK;;http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf
+J1,J4,J5;3;Wurth Elektronik;61300311121;61300311121;WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating;weather-station-poc-fp:HDRV3W64P0X254_1X3_762X254X869P;;https://www.we-online.com/components/products/download/3D_61300311121+%28rev1%29.pdf
+J2;1;Wurth Elektronik;61300511121;61300511121;WR-PHD 2.54 mm Pin Header 5 pins, 1 row, straight, gold plating;weather-station-poc-fp:HDRV5W64P0X254_1X5_1270X254X854P;;https://www.we-online.com/components/products/download/3D_61300511121+%28rev1%29.pdf
+L4;1;Wurth Elektronik;74404042100;10u;Inductor;weather-station-poc-fp:INDPM4040X180N;;https://www.we-online.com/components/products/datasheet/74404042100.pdf
+LED1,LED2,LED3;3;Avago Technologies;HSMG-C150;HSMG-C150;Light emitting diode;weather-station-poc-fp:LEDC3216X120N;;https://www.mouser.fr/datasheet/3/57/1/AV02_0551EN_DS_HSMx_Cxxx_25Mar2022.pdf
+Y3;1;NDK;NX1612SA-50M-EXS00A-CS08403;NX1612SA-50M-EXS00A-CS08403;Four pin crystal, GND on pins 2 and 4;weather-station-poc-fp:NX1612SA50MEXS00ACS08403;;https://www.mouser.fr/datasheet/3/1591/1/c_NX1612SA_e.pdf
+Y2;1;NDK;NX2012SA-32.768K-STD-MUB-1;NX2012SA-32.768K-STD-MUB-1;Two pin crystal;weather-station-poc-fp:NX2012SA32768KSTDMUB1;;https://www.mouser.fr/datasheet/3/1591/1/NDKX01_00006_en.pdf
+Y1;1;NDK;NX2016SA-16MHZ-EXS00A-CS07826;NX2016SA-16MHZ-EXS00A-CS07826;Four pin crystal, GND on pins 2 and 4;weather-station-poc-fp:NX2016SA16MHZEXS00ACS07826;;https://www.mouser.fr/datasheet/3/1591/1/c_NX2016SA_e.pdf
+IC3;1;STMicroelectronics;TCPP01-M12;TCPP01-M12;USB type-C port protection;weather-station-poc-fp:QFN50P300X300X100-13N-D;;https://www.st.com/resource/en/datasheet/tcpp01-m12.pdf
+IC5;1;STMicroelectronics;S2-LPQTR;S2-LPQTR;STMICROELECTRONICS - S2-LPQTR - RF TRANSCEIVER, 1GHZ, QFN-24;weather-station-poc-fp:QFN50P400X400X100-25N-D;;http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/bd/26/62/81/3d/86/4d/15/DM00339133/files/DM00339133.pdf/jcr:content/translations/en.DM00339133.pdf
+D1;1;STMicroelectronics;BAT54KFILM;BAT54KFILM;Diode;weather-station-poc-fp:SODFL1608X70N;;https://www.st.com/resource/en/datasheet/bat54.pdf
+D3;1;onsemi;SS26FL;SS26FL;Diode;weather-station-poc-fp:SODFL3617X108N;;https://www.onsemi.com/pdf/datasheet/ss26fl-d.pdf
+IC7;1;STMicroelectronics;STSAFA110S8OCD03;STSAFA110S8OCD03;Authentication, state-of-the-art security for peripherals and IoT devices;weather-station-poc-fp:SOIC127P600X175-8N;;https://www.st.com/resource/en/datasheet/stsafe-a110.pdf
+PS2;1;STMicroelectronics;LD39050PU33R;LD39050PU33R;STMICROELECTRONICS - LD39050PU33R - LDO, FIXED, 3.3V, 0.5A, DFN-6;weather-station-poc-fp:SON95P300X300X100-7N-D;;https://componentsearchengine.com/Datasheets/2/LD39050PU33R.pdf
+PS1;1;Texas Instruments;TPS61169DCKR;TPS61169DCKR;TPS61169 38-V High-Current Boost WLED Driver;weather-station-poc-fp:SOT65P210X110-5N;;http://www.ti.com/lit/gpn/tps61169
+IC1;1;STMicroelectronics;USBLC6-2SC6;USBLC6-2SC6;TVS Diode Array Uni-Directional USBLC6-2SC6 17V, SOT-23 6-Pin;weather-station-poc-fp:SOT95P280X145-6N;;http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00050750.pdf
+Q1;1;STMicroelectronics;STL11N3LLH6;STL11N3LLH6;MOSFET N-Ch 30V 0.006 Ohm 11A STripFET VI Deep;weather-station-poc-fp:STL20N6F7;;https://www.st.com/resource/en/datasheet/stl11n3llh6.pdf
