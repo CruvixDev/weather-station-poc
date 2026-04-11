@@ -2561,7 +2561,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "BOSCH"
+		(property "Manufacturer_Name" "Bosch Sensortec"
 			(at 128.27 796.52 0)
 			(hide yes)
 			(show_name no)

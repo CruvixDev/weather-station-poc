@@ -1432,7 +1432,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "BOSCH"
+		(property "Manufacturer_Name" "Bosch Sensortec"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25012,7 +25012,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "120"
 			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "a6fda2c1-300d-49e6-9044-550064a94459")
@@ -25024,7 +25024,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116092.pdf"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -25050,7 +25050,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "Wurth Elektronik"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25064,7 +25064,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060317K4FKEC"
+		(property "Manufacturer_Part_Number" "560112116092 "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

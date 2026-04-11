@@ -5547,7 +5547,7 @@
 		(uuid "68e08291-6533-42f7-8d4f-4e3a9ca3d3c5")
 	)
 	(rectangle
-		(start 58.42 220.98)
+		(start 57.15 220.98)
 		(end 105.41 271.78)
 		(stroke
 			(width 0)
@@ -5582,7 +5582,7 @@
 	)
 	(text "Crystal oscillators (HSE and LSE)"
 		(exclude_from_sim no)
-		(at 74.676 219.456 0)
+		(at 73.152 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6368,7 +6368,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 236.22) (xy 80.01 236.22)
+			(xy 72.39 236.22) (xy 78.74 236.22)
 		)
 		(stroke
 			(width 0)
@@ -6508,7 +6508,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 256.54) (xy 80.01 256.54)
+			(xy 73.66 256.54) (xy 78.74 256.54)
 		)
 		(stroke
 			(width 0)
@@ -6698,7 +6698,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 256.54) (xy 92.71 256.54)
+			(xy 86.36 256.54) (xy 91.44 256.54)
 		)
 		(stroke
 			(width 0)
@@ -6968,7 +6968,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 236.22) (xy 92.71 236.22)
+			(xy 86.36 236.22) (xy 91.44 236.22)
 		)
 		(stroke
 			(width 0)
@@ -7517,7 +7517,7 @@
 		(uuid "02dca81a-5852-48d8-af3b-a085eb670971")
 	)
 	(label "OSC32_OUT"
-		(at 91.44 256.54 0)
+		(at 90.17 256.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7797,7 +7797,7 @@
 		(uuid "5d0dbbc7-6887-46a3-b9ac-ddae2e52db26")
 	)
 	(label "OSC32_IN"
-		(at 78.74 256.54 180)
+		(at 77.47 256.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7987,7 +7987,7 @@
 		(uuid "9d438e88-7ce0-4237-b9e3-4e17d02547f7")
 	)
 	(label "PH1_OSC_OUT"
-		(at 73.66 236.22 180)
+		(at 72.39 236.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8137,7 +8137,7 @@
 		(uuid "d53469b4-6adc-45a1-beb8-73751b1d6d5f")
 	)
 	(label "PH0_OSC_IN"
-		(at 92.71 236.22 0)
+		(at 91.44 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9393,7 +9393,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 260.35 0)
+		(at 91.44 260.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9404,7 +9404,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d65944c-2655-42c7-ac5b-37d6aae1525d")
 		(property "Reference" "C23"
-			(at 96.52 259.0799 0)
+			(at 95.25 259.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9415,7 +9415,7 @@
 			)
 		)
 		(property "Value" "3p"
-			(at 96.52 261.6199 0)
+			(at 95.25 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9426,7 +9426,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 93.6752 264.16 0)
+			(at 92.4052 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9437,7 +9437,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/3/5926/1/C0GNP0_Dielectric.pdf"
-			(at 92.71 260.35 0)
+			(at 91.44 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9448,7 +9448,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 92.71 260.35 0)
+			(at 91.44 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9459,7 +9459,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KYOCERA AVX"
-			(at 92.71 260.35 0)
+			(at 91.44 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9470,7 +9470,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402ZA3R0BAT2A"
-			(at 92.71 260.35 0)
+			(at 91.44 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9575,7 +9575,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 264.16 0)
+		(at 73.66 264.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9586,7 +9586,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f30bfb1-cb6a-4829-9744-bcf344c80a40")
 		(property "Reference" "#PWR030"
-			(at 74.93 270.51 0)
+			(at 73.66 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9597,7 +9597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 269.24 0)
+			(at 73.66 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9607,7 +9607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 264.16 0)
+			(at 73.66 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9618,7 +9618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 264.16 0)
+			(at 73.66 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9629,7 +9629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 264.16 0)
+			(at 73.66 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9835,7 +9835,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 241.3 0)
+		(at 82.55 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9846,7 +9846,7 @@
 		(fields_autoplaced yes)
 		(uuid "30aebe38-3f2d-48c8-acf5-47071625aa24")
 		(property "Reference" "#PWR041"
-			(at 83.82 247.65 0)
+			(at 82.55 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9857,7 +9857,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 242.5699 0)
+			(at 85.09 242.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9868,7 +9868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 241.3 0)
+			(at 82.55 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9879,7 +9879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 241.3 0)
+			(at 82.55 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9890,7 +9890,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 241.3 0)
+			(at 82.55 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11889,7 +11889,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 231.14 180)
+		(at 82.55 231.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11900,7 +11900,7 @@
 		(fields_autoplaced yes)
 		(uuid "73f95837-169f-4802-8c41-0b9553500774")
 		(property "Reference" "#PWR040"
-			(at 83.82 224.79 0)
+			(at 82.55 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11911,7 +11911,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 229.8699 0)
+			(at 85.09 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11922,7 +11922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 231.14 0)
+			(at 82.55 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11933,7 +11933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 231.14 0)
+			(at 82.55 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11944,7 +11944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 231.14 0)
+			(at 82.55 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12228,7 +12228,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
-		(at 83.82 236.22 0)
+		(at 82.55 236.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12238,7 +12238,7 @@
 		(dnp no)
 		(uuid "819f1e4c-e6b2-4a60-bb86-c968b62d3a55")
 		(property "Reference" "Y1"
-			(at 100.33 229.7645 0)
+			(at 99.06 229.7645 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12248,7 +12248,7 @@
 			)
 		)
 		(property "Value" "NX2016SA-16MHZ-EXS00A-CS07826"
-			(at 83.82 226.822 0)
+			(at 82.55 226.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12258,7 +12258,7 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:NX2016SA16MHZEXS00ACS07826"
-			(at 83.82 236.22 0)
+			(at 82.55 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12269,7 +12269,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/3/1591/1/c_NX2016SA_e.pdf"
-			(at 83.82 236.22 0)
+			(at 82.55 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12280,7 +12280,7 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 83.82 236.22 0)
+			(at 82.55 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12291,7 +12291,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 120.65 631.14 0)
+			(at 119.38 631.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12303,7 +12303,7 @@
 			)
 		)
 		(property "Mouser Part Number" "344-MHZEXS00ACS07826"
-			(at 120.65 731.14 0)
+			(at 119.38 731.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12315,7 +12315,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NDK/NX2016SA-16MHZ-EXS00A-CS07826?qs=%252BXxaIXUDbq1kHvfpfcpbvQ%3D%3D"
-			(at 120.65 831.14 0)
+			(at 119.38 831.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12327,7 +12327,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NDK"
-			(at 120.65 931.14 0)
+			(at 119.38 931.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12339,7 +12339,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NX2016SA-16MHZ-EXS00A-CS07826"
-			(at 120.65 1031.14 0)
+			(at 119.38 1031.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12373,7 +12373,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 73.66 240.03 180)
+		(at 72.39 240.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12384,7 +12384,7 @@
 		(fields_autoplaced yes)
 		(uuid "81a7b5c1-56cb-47ad-b886-c40e91fadfa6")
 		(property "Reference" "C5"
-			(at 77.47 238.7599 0)
+			(at 76.2 238.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12395,7 +12395,7 @@
 			)
 		)
 		(property "Value" "8p"
-			(at 77.47 241.2999 0)
+			(at 76.2 241.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12406,7 +12406,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 72.6948 236.22 0)
+			(at 71.4248 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12417,7 +12417,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
-			(at 73.66 240.03 0)
+			(at 72.39 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12428,7 +12428,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 73.66 240.03 0)
+			(at 72.39 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12439,7 +12439,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Walsin"
-			(at 73.66 240.03 0)
+			(at 72.39 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12450,7 +12450,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402N8R0C100CT"
-			(at 73.66 240.03 0)
+			(at 72.39 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12808,7 +12808,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 243.84 0)
+		(at 91.44 243.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12819,7 +12819,7 @@
 		(fields_autoplaced yes)
 		(uuid "9127356d-ce9f-49bf-af97-101b8b29de9c")
 		(property "Reference" "#PWR048"
-			(at 92.71 250.19 0)
+			(at 91.44 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12830,7 +12830,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 245.1099 0)
+			(at 93.98 245.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12841,7 +12841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 243.84 0)
+			(at 91.44 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12852,7 +12852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 243.84 0)
+			(at 91.44 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12863,7 +12863,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 243.84 0)
+			(at 91.44 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13070,7 +13070,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 83.82 256.54 0)
+		(at 82.55 256.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13081,7 +13081,7 @@
 		(fields_autoplaced yes)
 		(uuid "96a86f0a-fbf1-40b5-8b6e-6527129082cd")
 		(property "Reference" "Y2"
-			(at 83.82 248.92 0)
+			(at 82.55 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13091,7 +13091,7 @@
 			)
 		)
 		(property "Value" "NX2012SA-32.768K-STD-MUB-1"
-			(at 83.82 251.46 0)
+			(at 82.55 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13101,7 +13101,7 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:NX2012SA32768KSTDMUB1"
-			(at 83.82 256.54 0)
+			(at 82.55 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13112,7 +13112,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/3/1591/1/NDKX01_00006_en.pdf"
-			(at 83.82 256.54 0)
+			(at 82.55 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13123,7 +13123,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 83.82 256.54 0)
+			(at 82.55 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13134,7 +13134,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 92.71 652.73 0)
+			(at 91.44 652.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13146,7 +13146,7 @@
 			)
 		)
 		(property "Mouser Part Number" "344-NX2012SA32768K1"
-			(at 92.71 752.73 0)
+			(at 91.44 752.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13158,7 +13158,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NDK/NX2012SA-32.768K-STD-MUB-1?qs=55YtniHzbhA%252B6%2Fl1MwFZaQ%3D%3D"
-			(at 92.71 852.73 0)
+			(at 91.44 852.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13170,7 +13170,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NDK"
-			(at 92.71 952.73 0)
+			(at 91.44 952.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13182,7 +13182,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NX2012SA-32.768K-STD-MUB-1"
-			(at 92.71 1052.73 0)
+			(at 91.44 1052.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14249,7 +14249,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 264.16 0)
+		(at 91.44 264.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14260,7 +14260,7 @@
 		(fields_autoplaced yes)
 		(uuid "b488d282-4e38-49c4-aec5-ee632b399220")
 		(property "Reference" "#PWR049"
-			(at 92.71 270.51 0)
+			(at 91.44 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14271,7 +14271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 269.24 0)
+			(at 91.44 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14281,7 +14281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 264.16 0)
+			(at 91.44 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14292,7 +14292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 264.16 0)
+			(at 91.44 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14303,7 +14303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 264.16 0)
+			(at 91.44 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15001,7 +15001,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 240.03 180)
+		(at 91.44 240.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15012,7 +15012,7 @@
 		(fields_autoplaced yes)
 		(uuid "c93c3f39-7d2f-40da-8b86-579965a9d57a")
 		(property "Reference" "C22"
-			(at 96.52 238.7599 0)
+			(at 95.25 238.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15023,7 +15023,7 @@
 			)
 		)
 		(property "Value" "8p"
-			(at 96.52 241.2999 0)
+			(at 95.25 241.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15034,7 +15034,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 91.7448 236.22 0)
+			(at 90.4748 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15045,7 +15045,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
-			(at 92.71 240.03 0)
+			(at 91.44 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15056,7 +15056,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 92.71 240.03 0)
+			(at 91.44 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15067,7 +15067,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Walsin"
-			(at 92.71 240.03 0)
+			(at 91.44 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15078,7 +15078,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402N8R0C100CT"
-			(at 92.71 240.03 0)
+			(at 91.44 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16052,7 +16052,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 243.84 0)
+		(at 72.39 243.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16063,7 +16063,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6791bca-df6e-45a3-b7d1-20c852778cb7")
 		(property "Reference" "#PWR029"
-			(at 73.66 250.19 0)
+			(at 72.39 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,7 +16074,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 245.1099 0)
+			(at 74.93 245.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16085,7 +16085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 243.84 0)
+			(at 72.39 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16096,7 +16096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 243.84 0)
+			(at 72.39 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16107,7 +16107,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 243.84 0)
+			(at 72.39 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17194,7 +17194,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 74.93 260.35 0)
+		(at 73.66 260.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17205,7 +17205,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc720558-511b-4ba4-ac29-dfefda821579")
 		(property "Reference" "C6"
-			(at 78.74 259.0799 0)
+			(at 77.47 259.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17216,7 +17216,7 @@
 			)
 		)
 		(property "Value" "3p"
-			(at 78.74 261.6199 0)
+			(at 77.47 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17227,7 +17227,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 75.8952 264.16 0)
+			(at 74.6252 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17238,7 +17238,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/3/5926/1/C0GNP0_Dielectric.pdf"
-			(at 74.93 260.35 0)
+			(at 73.66 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17249,7 +17249,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 74.93 260.35 0)
+			(at 73.66 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17260,7 +17260,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KYOCERA AVX"
-			(at 74.93 260.35 0)
+			(at 73.66 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17271,7 +17271,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402ZA3R0BAT2A"
-			(at 74.93 260.35 0)
+			(at 73.66 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
