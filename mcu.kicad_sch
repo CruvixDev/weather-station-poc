@@ -9436,7 +9436,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/5926/1/C0GNP0_Dielectric.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/upy-np0x7r_mv_100-to-630v.pdf"
 			(at 91.44 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -9458,7 +9458,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 91.44 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -9469,7 +9469,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402ZA3R0BAT2A"
+		(property "Manufacturer_Part_Number" "CC0402BRNPO9BN3R3 "
 			(at 91.44 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -12416,7 +12416,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/upy-np0x7r_mv_100-to-630v.pdf"
 			(at 72.39 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -12438,7 +12438,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Walsin"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 72.39 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -12449,7 +12449,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402N8R0C100CT"
+		(property "Manufacturer_Part_Number" "CC0402CRNPO9BN8R2"
 			(at 72.39 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -15044,7 +15044,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/upy-np0x7r_mv_100-to-630v.pdf"
 			(at 91.44 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -15066,7 +15066,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Walsin"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 91.44 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -15077,7 +15077,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402N8R0C100CT"
+		(property "Manufacturer_Part_Number" "CC0402CRNPO9BN8R2"
 			(at 91.44 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -17237,7 +17237,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/5926/1/C0GNP0_Dielectric.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/upy-np0x7r_mv_100-to-630v.pdf"
 			(at 73.66 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -17259,7 +17259,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 73.66 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -17270,7 +17270,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402ZA3R0BAT2A"
+		(property "Manufacturer_Part_Number" "CC0402BRNPO9BN3R3 "
 			(at 73.66 260.35 0)
 			(hide yes)
 			(show_name no)

@@ -13600,7 +13600,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/5926/1/C0GNP0_Dielectric.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/upy-np0x7r_mv_100-to-630v.pdf"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -13637,7 +13637,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13651,7 +13651,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402ZA3R0BAT2A"
+		(property "Manufacturer_Part_Number" "CC0402BRNPO9BN3R3 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18696,7 +18696,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/upy-np0x7r_mv_100-to-630v.pdf"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -18733,7 +18733,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Walsin"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18747,7 +18747,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402N8R0C100CT"
+		(property "Manufacturer_Part_Number" "CC0402CRNPO9BN8R2"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21810,7 +21810,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/upy-np0x7r_mv_100-to-630v.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21847,7 +21847,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "Walsin"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21861,7 +21861,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402N8R0C100CT"
+		(property "Manufacturer_Part_Number" "CC0402CRNPO9BN8R2"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24040,7 +24040,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/5926/1/C0GNP0_Dielectric.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/upy-np0x7r_mv_100-to-630v.pdf"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -24077,7 +24077,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24091,7 +24091,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402ZA3R0BAT2A"
+		(property "Manufacturer_Part_Number" "CC0402BRNPO9BN3R3 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
