@@ -1019,7 +1019,7 @@
         "uuid": "38eb53bb-294e-46e4-ad59-fd355ca373b9"
       }
     ],
-    "used_designators": "R22",
+    "used_designators": "R22,#PWR128-129",
     "variants": []
   },
   "sheets": [

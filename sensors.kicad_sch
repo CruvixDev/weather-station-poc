@@ -1150,7 +1150,7 @@
 	)
 	(rectangle
 		(start 160.02 50.8)
-		(end 237.49 91.44)
+		(end 237.49 101.6)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1160,9 +1160,20 @@
 		)
 		(uuid "4233446d-ef91-4f96-9900-d2aa2111d235")
 	)
+	(text "I2C address = 0x77, SDO tied to VDDIO (3V3)"
+		(exclude_from_sim no)
+		(at 161.29 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0685e3eb-0116-4282-a66f-2697a1b2dd8c")
+	)
 	(text "Humidity sensor"
 		(exclude_from_sim no)
-		(at 167.64 49.784 0)
+		(at 167.64 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1179,6 +1190,17 @@
 			)
 		)
 		(uuid "2a5e6970-6fd3-4c4e-b37f-b56b3cf29079")
+	)
+	(text "I2C address = 0x46, SDO tied to GND"
+		(exclude_from_sim no)
+		(at 63.246 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "677fd340-018f-4895-9098-4a5f094c6573")
 	)
 	(text "Sensors"
 		(exclude_from_sim no)
@@ -1199,6 +1221,17 @@
 			)
 		)
 		(uuid "eb3192f2-8e07-4692-9a32-dd29f83b0391")
+	)
+	(text "I2C address = 0x76, SDO tied to GND"
+		(exclude_from_sim no)
+		(at 117.856 79.502 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb293c9c-ee7a-418e-ac42-1be8411fb61a")
 	)
 	(junction
 		(at 96.52 93.98)
@@ -1231,40 +1264,16 @@
 		(uuid "1943b80f-1e48-4f12-a263-b078bececebe")
 	)
 	(junction
-		(at 218.44 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53d7db42-a993-459a-afa6-79c843628f94")
-	)
-	(junction
 		(at 179.07 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6222c47-ca97-4912-8e34-f896b8a53c2d")
 	)
-	(no_connect
-		(at 132.08 114.3)
-		(uuid "24c44aad-33d8-445b-847e-3e139e435c22")
-	)
-	(no_connect
-		(at 140.97 63.5)
-		(uuid "27cddef9-5a72-43b4-ba65-b7df84d7a88a")
-	)
-	(no_connect
-		(at 119.38 132.08)
-		(uuid "57c6935c-66d7-4d04-9c67-feb372cd66b9")
-	)
-	(no_connect
-		(at 110.49 68.58)
-		(uuid "5bc768a4-1bfa-40e2-831d-814b9be73208")
-	)
-	(no_connect
-		(at 213.36 62.23)
-		(uuid "a29f1926-6f4a-4c31-a456-ee16ca35a844")
-	)
-	(no_connect
-		(at 213.36 77.47)
-		(uuid "ef7f5a0f-beb2-4192-8a0b-42d35d0d381e")
+	(junction
+		(at 218.44 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb3a0822-99c6-4e70-ba04-29c4508c7ab2")
 	)
 	(wire
 		(pts
@@ -1275,6 +1284,16 @@
 			(type default)
 		)
 		(uuid "05e66190-192b-4140-9f6b-4122285b6523")
+	)
+	(wire
+		(pts
+			(xy 222.25 53.34) (xy 218.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4c8ef8-e2ab-4b94-aa9f-c836c27d5e6b")
 	)
 	(wire
 		(pts
@@ -1358,7 +1377,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 53.34) (xy 200.66 54.61)
+			(xy 200.66 53.34) (xy 200.66 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1408,13 +1427,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 53.34) (xy 222.25 53.34)
+			(xy 110.49 71.12) (xy 110.49 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce933e5a-0000-471e-9dc4-24652e8c143a")
+		(uuid "a4ff734d-44a8-430a-8ead-e0ffe402ffce")
 	)
 	(wire
 		(pts
@@ -1438,7 +1457,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 53.34) (xy 195.58 54.61)
+			(xy 195.58 53.34) (xy 195.58 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1502,7 +1521,7 @@
 	)
 	(hierarchical_label "SDA_Sensors"
 		(shape bidirectional)
-		(at 213.36 72.39 0)
+		(at 213.36 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1524,7 +1543,7 @@
 	)
 	(hierarchical_label "SCL_Sensors"
 		(shape input)
-		(at 213.36 67.31 0)
+		(at 213.36 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1532,6 +1551,17 @@
 			(justify left)
 		)
 		(uuid "8bab9d47-5989-4ab5-9c34-f71da81dfedc")
+	)
+	(hierarchical_label "3V3_Sensors"
+		(shape input)
+		(at 140.97 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5b74e60-793c-442d-8e97-25867201c90b")
 	)
 	(hierarchical_label "3V3_Sensors"
 		(shape input)
@@ -1555,6 +1585,17 @@
 		)
 		(uuid "ac56f6ce-966a-4e2f-bf2f-b0a81a590808")
 	)
+	(hierarchical_label "3V3_Sensors"
+		(shape input)
+		(at 213.36 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d47b70f6-4ffe-41e0-ac85-a3392fbe0095")
+	)
 	(hierarchical_label "SCL_Sensors"
 		(shape input)
 		(at 101.6 114.3 180)
@@ -1568,6 +1609,17 @@
 	)
 	(hierarchical_label "3V3_Sensors"
 		(shape input)
+		(at 132.08 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3b5f042-fb0c-4455-ad46-67aff92e0f70")
+	)
+	(hierarchical_label "3V3_Sensors"
+		(shape input)
 		(at 175.26 53.34 180)
 		(effects
 			(font
@@ -1576,6 +1628,17 @@
 			(justify right)
 		)
 		(uuid "e6cda8f6-92e7-4d9f-abc7-9671da013424")
+	)
+	(hierarchical_label "3V3_Sensors"
+		(shape input)
+		(at 213.36 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9cc5ef4-abff-4e9d-8a0f-213b4c8dc57d")
 	)
 	(hierarchical_label "3V3_Sensors"
 		(shape input)
@@ -1672,6 +1735,84 @@
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/29574217-d56b-4a63-a2c4-128dfec2758e"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c41488e-4993-40bb-8add-8fe23fb7c5ed")
+		(property "Reference" "#PWR0129"
+			(at 119.38 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdf9d40e-3c44-4ac0-9aee-7f88a57b6798")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/29574217-d56b-4a63-a2c4-128dfec2758e"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -2044,7 +2185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 85.09 0)
+		(at 200.66 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2055,7 +2196,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d8f81a6-367a-409b-877b-d6a53d7f2720")
 		(property "Reference" "#PWR077"
-			(at 200.66 91.44 0)
+			(at 200.66 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,7 +2207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 90.17 0)
+			(at 200.66 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2076,7 +2217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 85.09 0)
+			(at 200.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2087,7 +2228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 85.09 0)
+			(at 200.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2098,7 +2239,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 85.09 0)
+			(at 200.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2193,6 +2334,84 @@
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/29574217-d56b-4a63-a2c4-128dfec2758e"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56fee573-1d9d-42f0-b066-8536c39884a4")
+		(property "Reference" "#PWR0128"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb56383a-912b-44af-8b78-9da0ad99bc26")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/29574217-d56b-4a63-a2c4-128dfec2758e"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -2782,7 +3001,7 @@
 	)
 	(symbol
 		(lib_id "Sensor:BME280")
-		(at 198.12 69.85 0)
+		(at 198.12 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2793,7 +3012,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e6c0847-a987-4ba1-a994-41dce1d2526a")
 		(property "Reference" "U3"
-			(at 186.69 68.5799 0)
+			(at 186.69 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2804,7 +3023,7 @@
 			)
 		)
 		(property "Value" "BME280"
-			(at 186.69 71.1199 0)
+			(at 186.69 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2815,7 +3034,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
-			(at 236.22 81.28 0)
+			(at 236.22 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2826,7 +3045,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
-			(at 198.12 74.93 0)
+			(at 198.12 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2837,7 +3056,7 @@
 			)
 		)
 		(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-			(at 198.12 69.85 0)
+			(at 198.12 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2848,7 +3067,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bosch Sensortec"
-			(at 198.12 69.85 0)
+			(at 198.12 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,7 +3078,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BME280"
-			(at 198.12 69.85 0)
+			(at 198.12 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3164,7 +3383,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 85.09 0)
+		(at 195.58 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3175,7 +3394,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd4d385a-ea43-4b11-8580-09df12db3afd")
 		(property "Reference" "#PWR076"
-			(at 195.58 91.44 0)
+			(at 195.58 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3186,7 +3405,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 90.17 0)
+			(at 195.58 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3196,7 +3415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 85.09 0)
+			(at 195.58 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 85.09 0)
+			(at 195.58 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3218,7 +3437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 85.09 0)
+			(at 195.58 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

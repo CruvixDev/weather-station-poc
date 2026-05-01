@@ -5590,6 +5590,17 @@
 		)
 		(uuid "496c4d92-fd26-42be-910e-7db63da399eb")
 	)
+	(text "Need to estimate bus capacitance \nto calculate pull ups resistors ?"
+		(exclude_from_sim no)
+		(at 194.564 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49dbb39f-144d-4ce7-bf21-0651a3cb80b6")
+	)
 	(text "STM32U5G9ZJTxQ MCU"
 		(exclude_from_sim no)
 		(at 203.708 40.894 0)
