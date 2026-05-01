@@ -630,7 +630,7 @@
 			(uuid "37610ae1-0a6d-4be0-b8c7-c91c324ccef1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_HSMG-C150/HSMG-C150/3D/HSMG-C150.stp"
+		(model "${KIPRJMOD}/3d_models/HSMG-C150.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1693,7 +1693,7 @@
 			(uuid "386f225e-51e9-446a-bf3c-43bfaee03889")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_BMP581/BMP581/3D/BMP581.stp"
+		(model "${KIPRJMOD}/3d_models/BMP581.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1998,7 +1998,7 @@
 			(uuid "d9fce584-2b80-4ef0-a079-b925bcd07420")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_HSMG-C150/HSMG-C150/3D/HSMG-C150.stp"
+		(model "${KIPRJMOD}/3d_models/HSMG-C150.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5026,7 +5026,7 @@
 			(uuid "7d7429c0-b3cb-4ea1-b2ca-a6ec4107abf0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_632723100011/632723100011/3D/632723100011.stp"
+		(model "${KIPRJMOD}/3d_models/632723100011.stp"
 			(offset
 				(xyz 0 -1.419999936 1.450000026)
 			)
@@ -5696,7 +5696,7 @@
 			(uuid "99d09b62-e50b-41d1-ab2c-6a5bf8862b8f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_434121025816/434121025816/3D/434121025816.stp"
+		(model "${KIPRJMOD}/3d_models/434121025816.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6042,7 +6042,7 @@
 			(uuid "e0ef6f4f-c567-47fe-a7a2-df6b82ba8024")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_FTSH-105-01-L-DV-K/FTSH-105-01-L-DV-K/3D/FTSH-105-01-L-DV-K.stp"
+		(model "${KIPRJMOD}/3d_models/FTSH-105-01-L-DV-K.stp"
 			(offset
 				(xyz 0 1.99999997 1.669999932)
 			)
@@ -6716,7 +6716,7 @@
 			(uuid "8d8c94de-d22c-4714-a232-fc877210a549")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_HSMG-C150/HSMG-C150/3D/HSMG-C150.stp"
+		(model "${KIPRJMOD}/3d_models/HSMG-C150.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7798,7 +7798,7 @@
 			(uuid "3fca3968-1b60-471e-8981-dc32347ab0c1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_BME690/BME690/3D/BME690.stp"
+		(model "${KIPRJMOD}/3d_models/BME690.stp"
 			(offset
 				(xyz 0 0 0.9599999641)
 			)
@@ -9456,7 +9456,7 @@
 			(uuid "f83a5258-e886-4f91-abdd-8768f67e895c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_450301014042/450301014042/3D/450301014042.stp"
+		(model "${KIPRJMOD}/3d_models/450301014042.stp"
 			(offset
 				(xyz -2 -2 2.5)
 			)
@@ -9941,7 +9941,7 @@
 			(uuid "39ce25c1-e539-487a-9b63-df3e32a6b1ca")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_ESDA25P35-1U1M/ESDA25P35-1U1M/3D/ESDA25P35-1U1M.stp"
+		(model "${KIPRJMOD}/3d_models/ESDA25P35-1U1M.stp"
 			(offset
 				(xyz 0 0 0.5699999843)
 			)
@@ -12152,7 +12152,7 @@
 			(uuid "4f678923-0f5f-47e1-a974-b22851f7db0a")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_BALF-SPI2-01D3/BALF-SPI2-01D3/3D/BALF-SPI2-01D3.stp"
+		(model "${KIPRJMOD}/3d_models/BALF-SPI2-01D3.stp"
 			(offset
 				(xyz 0.01999999925 -0.879999982 0.5799999746)
 			)
@@ -12834,7 +12834,7 @@
 			(uuid "2d322584-d227-42da-a50e-74fbd1b1cf58")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_SS26FL/SS26FL/3D/SS26FL.stp"
+		(model "${KIPRJMOD}/3d_models/SS26FL.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14032,7 +14032,7 @@
 			(uuid "745f725b-b930-4c52-a68c-0032ab01149e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_NX2012SA-32.768K-STD-MUB-1/NX2012SA-32.768K-STD-MUB-1/3D/NX2012SA-32.768K-STD-MUB-1.stp"
+		(model "${KIPRJMOD}/3d_models/NX2012SA-32.768K-STD-MUB-1.stp"
 			(offset
 				(xyz 0 0 0.1899999948)
 			)
@@ -15346,7 +15346,7 @@
 			(uuid "7c4b3fc3-714f-438e-9f75-55e4d4cdd665")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_TCPP01-M12/TCPP01-M12/3D/TCPP01-M12.stp"
+		(model "${KIPRJMOD}/3d_models/TCPP01-M12.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16703,7 +16703,7 @@
 			(uuid "5e7a261f-aa3f-41e0-8d38-b8332b24c3cf")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_STL11N3LLH6/STL11N3LLH6/3D/STL11N3LLH6.stp"
+		(model "${KIPRJMOD}/3d_models/STL11N3LLH6.stp"
 			(offset
 				(xyz 0 -0.1399999985 0)
 			)
@@ -17495,7 +17495,7 @@
 			(uuid "12e53885-ce0e-4604-a5d2-53d20fb6c6a0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_5015/5015/3D/5015.stp"
+		(model "${KIPRJMOD}/3d_models/5015.stp"
 			(offset
 				(xyz 0 0 1.499999977)
 			)
@@ -19890,7 +19890,7 @@
 			(uuid "d4018552-198b-46c8-abcc-95ece9055441")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_BAT54KFILM/BAT54KFILM/3D/BAT54KFILM.stp"
+		(model "${KIPRJMOD}/3d_models/BAT54KFILM.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21768,7 +21768,7 @@
 			(uuid "1c0fde48-c37c-44be-8aa5-2cd5c5b2bfa7")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_5015/5015/3D/5015.stp"
+		(model "${KIPRJMOD}/3d_models/5015.stp"
 			(offset
 				(xyz 0 0 1.499999977)
 			)
@@ -22582,7 +22582,7 @@
 			(uuid "58dddf57-2723-45db-8d86-2fcf8438e472")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_5015/5015/3D/5015.stp"
+		(model "${KIPRJMOD}/3d_models/5015.stp"
 			(offset
 				(xyz 0 0 1.499999977)
 			)
@@ -23326,7 +23326,7 @@
 			(uuid "2e592565-38f5-47c7-bebd-db480d92c68c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_74404042100/74404042100/3D/74404042100.stp"
+		(model "${KIPRJMOD}/3d_models/74404042100.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23998,7 +23998,7 @@
 			(uuid "cc5a2838-c18c-4731-9776-a3b27744196a")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_S2-LPQTR/S2-LPQTR/3D/S2-LPQTR.stp"
+		(model "${KIPRJMOD}/3d_models/S2-LPQTR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24620,7 +24620,7 @@
 			(uuid "ed85be0b-517e-4384-a789-23d9f42ebcb1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_5015/5015/3D/5015.stp"
+		(model "${KIPRJMOD}/3d_models/5015.stp"
 			(offset
 				(xyz 0 0 1.499999977)
 			)
@@ -26642,7 +26642,7 @@
 			(uuid "a6bc431b-a540-4d92-9bb4-b419e37e676f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_5015/5015/3D/5015.stp"
+		(model "${KIPRJMOD}/3d_models/5015.stp"
 			(offset
 				(xyz 0 0 1.499999977)
 			)
@@ -27342,7 +27342,7 @@
 			(uuid "85f1c02b-35b4-40f2-aeeb-5cb78d0281d0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_LD39050PU33R/LD39050PU33R/3D/LD39050PU33R.stp"
+		(model "${KIPRJMOD}/3d_models/LD39050PU33R.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28399,7 +28399,7 @@
 			(uuid "7cc61889-60a5-40fb-89b9-71da2f3d14ac")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_NX1612SA-50M-EXS00A-CS08403/NX1612SA-50M-EXS00A-CS08403/3D/NX1612SA-50M-EXS00A-CS08403.stp"
+		(model "${KIPRJMOD}/3d_models/NX1612SA-50M-EXS00A-CS08403.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28707,7 +28707,7 @@
 			(uuid "399439af-fabe-45b1-a2f1-8712ee267bf0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_TPS61169DCKR/TPS61169DCKR/3D/TPS61169DCKR.stp"
+		(model "${KIPRJMOD}/3d_models/TPS61169DCKR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31831,7 +31831,7 @@
 			(uuid "3f3cbed2-01ed-443b-b243-a04cf9cf617c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_NX2016SA-16MHZ-EXS00A-CS07826/NX2016SA-16MHZ-EXS00A-CS07826/3D/NX2016SA-16MHZ-EXS00A-CS07826.stp"
+		(model "${KIPRJMOD}/3d_models/NX2016SA-16MHZ-EXS00A-CS07826.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33915,7 +33915,7 @@
 			(uuid "6ffb17b1-7afa-457f-8c68-2d0476996e83")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_5015/5015/3D/5015.stp"
+		(model "${KIPRJMOD}/3d_models/5015.stp"
 			(offset
 				(xyz 0 0 1.499999977)
 			)
@@ -34290,7 +34290,7 @@
 			(uuid "0fb38fd9-465f-4cfb-a250-d872253d4ec6")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_STSAFA110S8OCD03/STSAFA110S8OCD03/3D/STSAFA110S8OCD03.stp"
+		(model "${KIPRJMOD}/3d_models/STSAFA110S8OCD03.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34539,7 +34539,7 @@
 			(uuid "6131271d-3b85-4441-93bd-36329336949c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_5015/5015/3D/5015.stp"
+		(model "${KIPRJMOD}/3d_models/5015.stp"
 			(offset
 				(xyz 0 0 1.499999977)
 			)
@@ -35150,7 +35150,7 @@
 			(uuid "ce136d7e-0477-420d-93eb-c6ef6356ae3b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_5015/5015/3D/5015.stp"
+		(model "${KIPRJMOD}/3d_models/5015.stp"
 			(offset
 				(xyz 0 0 1.499999977)
 			)
@@ -35716,7 +35716,7 @@
 			(uuid "7b80a6f4-cda4-4959-9be2-93f438987938")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Julien/Documents/KiCad/9.0/lib/LIB_USBLC6-2SC6/USBLC6-2SC6/3D/USBLC6-2SC6.stp"
+		(model "${KIPRJMOD}/3d_models/USBLC6-2SC6.stp"
 			(offset
 				(xyz 0 0 0)
 			)
