@@ -1,0 +1,3 @@
+https://developer.arm.com/documentation/dui0499/e/arm-dstream-target-interface-connections/swd-connections
+https://www.emisoftware.com/calculator/microstrip-capacitance/
+https://resources.altium.com/fr/p/pcb-design-and-review-checklist
