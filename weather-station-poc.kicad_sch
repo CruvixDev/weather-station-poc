@@ -4626,7 +4626,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "12325ae0-3782-4eae-9f35-258d08cb4f7e")
-		(property "Sheetname" "Power"
+		(property "Sheetname" "power"
 			(at 95.25 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +4721,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "29574217-d56b-4a63-a2c4-128dfec2758e")
-		(property "Sheetname" "Sensors"
+		(property "Sheetname" "sensors"
 			(at 195.58 81.8384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4806,7 +4806,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "31741ecc-719f-4191-b75e-d75152dfd251")
-		(property "Sheetname" "RadioSubGHz"
+		(property "Sheetname" "radio"
 			(at 95.25 112.3184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4911,7 +4911,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "336d3e95-9b5f-4d37-8b5a-efff814cf96e")
-		(property "Sheetname" "USB-C"
+		(property "Sheetname" "usb-c"
 			(at 95.25 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5006,7 +5006,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "5f00b1ab-9f48-4782-8810-a8d68b4e6a2f")
-		(property "Sheetname" "MCU"
+		(property "Sheetname" "mcu"
 			(at 144.78 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,7 +5441,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "887aec76-5086-421b-8a43-0ed64a6cc9fd")
-		(property "Sheetname" "LCD"
+		(property "Sheetname" "lcd"
 			(at 95.25 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5636,7 +5636,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8a588a02-5ba4-4712-b770-7d9eb4e5d127")
-		(property "Sheetname" "Debug-boot"
+		(property "Sheetname" "debug-boot"
 			(at 195.58 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5647,7 +5647,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "debug_boot.kicad_sch"
+		(property "Sheetfile" "debug-boot.kicad_sch"
 			(at 195.58 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5831,7 +5831,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "9a031817-cce8-41f5-9861-f61338edb684")
-		(property "Sheetname" "SecureElement"
+		(property "Sheetname" "secure-element"
 			(at 195.58 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5842,7 +5842,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "SecureElement.kicad_sch"
+		(property "Sheetfile" "secure-element.kicad_sch"
 			(at 195.58 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5916,7 +5916,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "bccf0967-a584-4b88-b7d3-b70102dc048b")
-		(property "Sheetname" "BlockDiagram"
+		(property "Sheetname" "block-diagram"
 			(at 59.69 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)

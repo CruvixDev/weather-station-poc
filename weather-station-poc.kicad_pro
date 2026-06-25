@@ -1029,39 +1029,39 @@
     ],
     [
       "bccf0967-a584-4b88-b7d3-b70102dc048b",
-      "BlockDiagram"
+      "block-diagram"
     ],
     [
       "336d3e95-9b5f-4d37-8b5a-efff814cf96e",
-      "USB-C"
+      "usb-c"
     ],
     [
       "5f00b1ab-9f48-4782-8810-a8d68b4e6a2f",
-      "MCU"
+      "mcu"
     ],
     [
       "29574217-d56b-4a63-a2c4-128dfec2758e",
-      "Sensors"
+      "sensors"
     ],
     [
       "31741ecc-719f-4191-b75e-d75152dfd251",
-      "RadioSubGHz"
+      "radio"
     ],
     [
       "12325ae0-3782-4eae-9f35-258d08cb4f7e",
-      "Power"
+      "power"
     ],
     [
       "8a588a02-5ba4-4712-b770-7d9eb4e5d127",
-      "Debug-boot"
+      "debug-boot"
     ],
     [
       "887aec76-5086-421b-8a43-0ed64a6cc9fd",
-      "LCD"
+      "lcd"
     ],
     [
       "9a031817-cce8-41f5-9861-f61338edb684",
-      "SecureElement"
+      "secure-element"
     ]
   ],
   "text_variables": {},
