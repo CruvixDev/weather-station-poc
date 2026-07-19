@@ -608,12 +608,6 @@
 		(color 0 0 0 0)
 		(uuid "93140269-7dcc-4497-9c75-7cab5469f573")
 	)
-	(junction
-		(at 132.08 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b28da6cc-e254-4971-bdc4-91e5c8bd24d6")
-	)
 	(no_connect
 		(at 172.72 96.52)
 		(uuid "afe999fe-d32a-4c6c-a059-933441c9721a")
@@ -638,13 +632,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 100.33) (xy 142.24 100.33)
+			(xy 142.24 99.06) (xy 142.24 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "433b23b0-1d04-4292-b8ec-16fe31ff2238")
+		(uuid "5ec2ef2e-cb09-4a58-8f69-104ba4599e38")
 	)
 	(wire
 		(pts
@@ -655,16 +649,6 @@
 			(type default)
 		)
 		(uuid "5fc07860-0602-4046-9bdd-e75f4246fccd")
-	)
-	(wire
-		(pts
-			(xy 142.24 99.06) (xy 142.24 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6887e3b6-56b0-4470-83ed-86676f165876")
 	)
 	(wire
 		(pts
@@ -695,16 +679,6 @@
 			(type default)
 		)
 		(uuid "bcc0dea2-36dd-42a7-a15c-1d47936c6713")
-	)
-	(wire
-		(pts
-			(xy 121.92 100.33) (xy 132.08 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6655608-79f4-4896-b581-a56e3c7fb279")
 	)
 	(wire
 		(pts
@@ -1103,6 +1077,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 121.92 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c0c292b-c5d0-4003-8bd5-031a3620cb72")
+		(property "Reference" "#PWR0135"
+			(at 121.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99e52e2b-c452-4c0e-86cd-e5b972a9be42")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/9a031817-cce8-41f5-9861-f61338edb684"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 132.08 96.52 0)
 		(unit 1)
@@ -1201,6 +1253,84 @@
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/9a031817-cce8-41f5-9861-f61338edb684"
 					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7775cb-da9b-4d9f-8c02-c1bd5d5bad68")
+		(property "Reference" "#PWR0136"
+			(at 142.24 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7b85d2b-32e5-4c96-bbd0-d8bc39c0fcbf")
+		)
+		(instances
+			(project "weather-station-poc"
+				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/9a031817-cce8-41f5-9861-f61338edb684"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
