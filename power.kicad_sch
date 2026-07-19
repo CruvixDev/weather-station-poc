@@ -2726,7 +2726,7 @@
 		)
 		(uuid "fddae775-3040-4789-832b-d5cfbfc9049f")
 	)
-	(hierarchical_label "3V3_Continuous_Power"
+	(hierarchical_label "3V3_Power"
 		(shape output)
 		(at 156.21 78.74 180)
 		(effects
@@ -2748,7 +2748,7 @@
 		)
 		(uuid "43c239a6-98f3-4d61-9dba-472f9e40b6a5")
 	)
-	(hierarchical_label "3V3_Continuous_Power"
+	(hierarchical_label "3V3_Power"
 		(shape output)
 		(at 110.49 62.23 90)
 		(effects
