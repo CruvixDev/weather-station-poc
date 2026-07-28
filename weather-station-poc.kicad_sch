@@ -4472,26 +4472,6 @@
 				(justify left)
 			)
 		)
-		(pin "VLED+_Power" output
-			(at 81.28 68.58 180)
-			(uuid "8fe4f706-3a99-4c1a-9691-c439e72f9ba6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VLED-_Power" input
-			(at 81.28 71.12 180)
-			(uuid "53ef5a5d-762a-4d65-bccf-d95df6ce2fb6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Brightness_PWM_Power" input
 			(at 118.11 62.23 0)
 			(uuid "e92be71d-4034-4d28-9e14-d76aa454b6f9")
@@ -4505,6 +4485,26 @@
 		(pin "3V3_Power" output
 			(at 81.28 64.77 180)
 			(uuid "38bb1a25-6448-40a2-a038-3bfd84aa4562")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+VBacklight_Power" output
+			(at 81.28 68.58 180)
+			(uuid "4b864af2-3638-4d2a-98c2-90abe3c3c6ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-VBacklight_Power" input
+			(at 81.28 71.12 180)
+			(uuid "3ecad56b-1aec-43f7-800c-3eb3fe26021f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,26 +5257,6 @@
 				(justify left)
 			)
 		)
-		(pin "VLED+_LCD" input
-			(at 81.28 87.63 180)
-			(uuid "baf9c5e5-3706-49e2-acfe-6e2d603f23d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VLED-_LCD" output
-			(at 81.28 85.09 180)
-			(uuid "2561a94a-9af2-4071-9678-bd9c6a193a02")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "DCLK_LCD" input
 			(at 118.11 90.17 0)
 			(uuid "1f8781dc-d2b7-4442-a524-421096a8ae0a")
@@ -5380,6 +5360,26 @@
 		(pin "SDA_LCD" bidirectional
 			(at 81.28 93.98 180)
 			(uuid "1e52b581-47b4-45cf-aa6e-fd43b0682ea9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+VBacklight_LCD" input
+			(at 81.28 87.63 180)
+			(uuid "324833ac-5f07-4e7d-b12e-731f507de593")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-VBacklight_LCD" output
+			(at 81.28 85.09 180)
+			(uuid "355538b0-a76a-4ce0-b7bd-c66623ce9e9c")
 			(effects
 				(font
 					(size 1.27 1.27)

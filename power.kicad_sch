@@ -1910,7 +1910,7 @@
 	)
 	(rectangle
 		(start 60.96 105.41)
-		(end 242.57 148.59)
+		(end 248.92 148.59)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2792,7 +2792,7 @@
 		)
 		(uuid "96e88622-eb6e-4232-9594-6ed5eeedd535")
 	)
-	(hierarchical_label "VLED-_Power"
+	(hierarchical_label "-VBacklight_Power"
 		(shape input)
 		(at 227.33 132.08 0)
 		(effects
@@ -2803,7 +2803,7 @@
 		)
 		(uuid "aaf8e51a-de2c-4e89-b0b1-9d2f8cbaffa9")
 	)
-	(hierarchical_label "VLED+_Power"
+	(hierarchical_label "+VBacklight_Power"
 		(shape output)
 		(at 227.33 115.57 0)
 		(effects

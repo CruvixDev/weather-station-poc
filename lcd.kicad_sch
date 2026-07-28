@@ -2422,7 +2422,7 @@
 		)
 		(uuid "3b9ea256-16ce-4e3e-ba3e-c6fc7fb11254")
 	)
-	(hierarchical_label "VLED+_LCD"
+	(hierarchical_label "+VBacklight_LCD"
 		(shape input)
 		(at 118.11 54.61 0)
 		(effects
@@ -2466,7 +2466,7 @@
 		)
 		(uuid "5da86e3c-6e39-4315-9c7c-2009fb7d6b73")
 	)
-	(hierarchical_label "VLED-_LCD"
+	(hierarchical_label "-VBacklight_LCD"
 		(shape output)
 		(at 118.11 52.07 0)
 		(effects
