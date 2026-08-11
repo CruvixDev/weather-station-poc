@@ -9058,7 +9058,7 @@
 		)
 		(uuid "3e46e2da-295e-4494-9509-919a96f167fd")
 	)
-	(hierarchical_label "CAN_L_MCU"
+	(hierarchical_label "CAN_MCU_N"
 		(shape bidirectional)
 		(at 154.94 165.1 180)
 		(effects
@@ -9190,7 +9190,7 @@
 		)
 		(uuid "8eef617a-5013-4314-8330-0537a1e48359")
 	)
-	(hierarchical_label "MCU_DN"
+	(hierarchical_label "MCU_USB_N"
 		(shape bidirectional)
 		(at 236.22 129.54 0)
 		(effects
@@ -9344,7 +9344,7 @@
 		)
 		(uuid "d5190e02-23a7-46c4-890f-a4d8431fec88")
 	)
-	(hierarchical_label "CAN_H_MCU"
+	(hierarchical_label "CAN_MCU_P"
 		(shape bidirectional)
 		(at 154.94 162.56 180)
 		(effects
@@ -9388,7 +9388,7 @@
 		)
 		(uuid "f7380875-5ba1-4ece-b16f-54b9db4ebc40")
 	)
-	(hierarchical_label "MCU_DP"
+	(hierarchical_label "MCU_USB_P"
 		(shape bidirectional)
 		(at 236.22 132.08 0)
 		(effects

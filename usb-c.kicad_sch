@@ -3688,7 +3688,7 @@
 		)
 		(uuid "f8db81c9-9313-405a-baaa-5d3038ce7428")
 	)
-	(hierarchical_label "DN_USB"
+	(hierarchical_label "USB_C_N"
 		(shape bidirectional)
 		(at 113.03 125.73 0)
 		(effects
@@ -3732,7 +3732,7 @@
 		)
 		(uuid "fbc610be-92b5-4e8a-8c97-21298148d252")
 	)
-	(hierarchical_label "DP_USB"
+	(hierarchical_label "USB_C_P"
 		(shape bidirectional)
 		(at 113.03 130.81 0)
 		(effects

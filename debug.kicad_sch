@@ -855,7 +855,7 @@
 		)
 		(uuid "4ace9f3a-cb78-499a-91f8-13e9c1c4ab8b")
 	)
-	(hierarchical_label "CAN_H_Debug"
+	(hierarchical_label "CAN_Debug_P"
 		(shape bidirectional)
 		(at 154.94 97.79 180)
 		(effects
@@ -899,7 +899,7 @@
 		)
 		(uuid "a0a3919e-88da-482e-8af4-4f2d80a16d49")
 	)
-	(hierarchical_label "CAN_L_Debug"
+	(hierarchical_label "CAN_Debug_N"
 		(shape bidirectional)
 		(at 154.94 105.41 180)
 		(effects

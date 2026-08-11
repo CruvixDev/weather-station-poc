@@ -980,6 +980,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 45.72) (xy 129.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c79408c-83a5-498e-b6d0-20dba731f753")
+	)
+	(wire
+		(pts
 			(xy 170.18 58.42) (xy 181.61 58.42)
 		)
 		(stroke
@@ -1047,6 +1057,16 @@
 			(type default)
 		)
 		(uuid "98d94ec9-4f36-44b7-b67f-f3c7610d15f1")
+	)
+	(wire
+		(pts
+			(xy 118.11 48.26) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5e0862-878c-47bd-b172-eff83c7b898c")
 	)
 	(wire
 		(pts
@@ -1180,16 +1200,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 45.72) (xy 129.54 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3f2b70a-d6e1-4fa3-a871-3b754473049e")
-	)
-	(wire
-		(pts
 			(xy 118.11 95.25) (xy 129.54 95.25)
 		)
 		(stroke
@@ -1307,16 +1317,6 @@
 			(type default)
 		)
 		(uuid "f3cdeeb5-d384-44b2-b2c7-f26147b0189c")
-	)
-	(wire
-		(pts
-			(xy 118.11 48.26) (xy 129.54 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa956172-5d95-4e3c-99ca-9c7b664b8d2a")
 	)
 	(wire
 		(pts
@@ -4777,9 +4777,9 @@
 				(justify right)
 			)
 		)
-		(pin "DN_USB" bidirectional
+		(pin "USB_C_P" bidirectional
 			(at 118.11 45.72 0)
-			(uuid "62d0d1a3-c7a5-4fc9-82fd-f0d9ac1e9287")
+			(uuid "f8bd2388-6ee6-4750-8d8b-2e893dd47123")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,9 +4787,9 @@
 				(justify right)
 			)
 		)
-		(pin "DP_USB" bidirectional
+		(pin "USB_C_N" bidirectional
 			(at 118.11 48.26 0)
-			(uuid "60e5e217-4d41-471b-b813-aeae7065f149")
+			(uuid "18cd484f-a855-4366-a073-e480889e7198")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,26 +4875,6 @@
 		(pin "Tx_MCU" output
 			(at 170.18 43.18 0)
 			(uuid "0d69ea2d-ddad-4fb5-8e8b-9ee3a449067e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CAN_H_MCU" bidirectional
-			(at 170.18 49.53 0)
-			(uuid "067d72f7-a1d4-44ad-900d-957aa9cff646")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CAN_L_MCU" bidirectional
-			(at 170.18 52.07 0)
-			(uuid "60a6034f-8fd4-4c75-994b-78c86b32526e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,26 +5132,6 @@
 				(justify right)
 			)
 		)
-		(pin "MCU_DN" bidirectional
-			(at 129.54 45.72 180)
-			(uuid "191ee0d0-50ba-4daa-9193-9c955f79f48c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MCU_DP" bidirectional
-			(at 129.54 48.26 180)
-			(uuid "e9bc7815-6e5a-4627-a518-dcfbdae2507b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SCL_MCU_Slave" input
 			(at 170.18 116.84 0)
 			(uuid "afc50f61-e6bb-4a1c-8b61-2955253422ea")
@@ -5185,6 +5145,46 @@
 		(pin "SDA_MCU_Slave" bidirectional
 			(at 170.18 119.38 0)
 			(uuid "fccfe571-0109-41e3-bebc-9359af024c78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_USB_N" bidirectional
+			(at 129.54 48.26 180)
+			(uuid "9dc4a02c-90cd-45be-ad02-10e7bac10410")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_USB_P" bidirectional
+			(at 129.54 45.72 180)
+			(uuid "c0c59a63-34e5-4eb0-a03d-6b33b6e53652")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_MCU_N" bidirectional
+			(at 170.18 52.07 0)
+			(uuid "e45494d9-b3a2-4881-ac66-7b8a496196a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_MCU_P" bidirectional
+			(at 170.18 49.53 0)
+			(uuid "aa40cf68-a3fe-40b5-bc52-a48b64c12252")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,26 +5432,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN_H_Debug" bidirectional
-			(at 181.61 49.53 180)
-			(uuid "216b880e-6afb-458e-9a5d-c8cc1ca9a28b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN_L_Debug" bidirectional
-			(at 181.61 52.07 180)
-			(uuid "2ee241ab-783f-4fbc-88cf-4c1584c661ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SDA_Debug" bidirectional
 			(at 217.17 45.72 0)
 			(uuid "0e6ec437-5bb4-49b0-a7a4-de9655864860")
@@ -5530,6 +5510,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "CAN_Debug_P" bidirectional
+			(at 181.61 49.53 180)
+			(uuid "c95a038d-533d-4911-a01f-fc70480e1882")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_Debug_N" bidirectional
+			(at 181.61 52.07 180)
+			(uuid "00d7b331-3c8c-4e8a-8235-1d1c927c45af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
