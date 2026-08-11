@@ -5410,7 +5410,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8a588a02-5ba4-4712-b770-7d9eb4e5d127")
-		(property "Sheetname" "debug-boot"
+		(property "Sheetname" "debug"
 			(at 181.61 39.9284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5421,7 +5421,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "debug-boot.kicad_sch"
+		(property "Sheetfile" "debug.kicad_sch"
 			(at 181.61 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
