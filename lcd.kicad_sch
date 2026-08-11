@@ -1419,7 +1419,7 @@
 		)
 		(uuid "bd0aa179-c109-49f1-8602-3b66a8b8d4e5")
 	)
-	(text "TFT LCD screen"
+	(text "RVT50HQTFWCA0 LCD screen"
 		(exclude_from_sim no)
 		(at 149.86 24.13 0)
 		(effects
@@ -3223,6 +3223,17 @@
 				(justify left top)
 			)
 		)
+		(property "LCD documentation" "https://download.riverdi.com/RVT50HQTFWCA0/DS_RVT50HQTFWCA0%20V2.0A_Rev.1.1.pdf?_gl=1*nkotui*_gcl_au*MTM1MDU3OTk5Ny4xNzg2NDU0Mzc2Li0uLS4xNzg2NDU0MzgxLjE5ODgzMTQ2NTEuMTc4NjQ1NDM4MS4xNzg2NDU0Mzgx"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "84549e1f-2848-499a-a37e-a2ffb697be18")
 		)
@@ -3641,6 +3652,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCD documentation" "https://download.riverdi.com/RVT50HQTFWCA0/DS_RVT50HQTFWCA0%20V2.0A_Rev.1.1.pdf?_gl=1*nkotui*_gcl_au*MTM1MDU3OTk5Ny4xNzg2NDU0Mzc2Li0uLS4xNzg2NDU0MzgxLjE5ODgzMTQ2NTEuMTc4NjQ1NDM4MS4xNzg2NDU0Mzgx"
+			(at 165.1 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
