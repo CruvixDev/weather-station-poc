@@ -4513,7 +4513,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ESDA25P351U1M"
+		(property "Footprint" "weather-station-poc-fp:ESDA25P351U1M"
 			(at 10.16 -93.65 0)
 			(show_name no)
 			(do_not_autoplace no)

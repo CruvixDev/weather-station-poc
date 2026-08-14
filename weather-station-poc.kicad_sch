@@ -2529,7 +2529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f202372-60de-4470-b8fa-55f68b3d8f0f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 213.36 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2590,7 +2590,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2607,7 +2607,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5796154c-e936-4837-b929-6f65c564dd0c")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 213.36 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2668,7 +2668,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
