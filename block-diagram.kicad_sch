@@ -32,7 +32,7 @@
 		)
 		(uuid "3f25b049-bf76-4be8-b846-c73b84ac5f27")
 	)
-	(text "7628 FR DK = 4.4\n\nSo 0.3mm trace width => 54.9 ohms\nFor USB differentials pairs, 0.3mm trace width and 0.3mm spacing => 96.4 ohms (90 ohms +/- 10% for USB)\n\nCalculation according PCB way impedance calculator :\n(https://www.pcbway.com/pcb_prototype/impedance_calculator.html)"
+	(text "7628 FR DK = 4.4\n\nSo 0.35mm trace width => 49.98 ohms\nFor USB differentials pairs, 0.35mm trace width and 0.35mm spacing => 90.25 ohms (90 ohms +/- 10% for USB)\n\nCalculation according PCB way impedance calculator :\n( https://www.pcbway.com/pcb_prototype/impedance_calculator.html )"
 		(exclude_from_sim no)
 		(at 18.542 79.756 0)
 		(effects
