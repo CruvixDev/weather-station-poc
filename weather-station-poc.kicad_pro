@@ -640,14 +640,15 @@
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 12
       },
       {
         "name": "CAN",
         "pcb_color": "rgb(0, 0, 194)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "tuning_profile": "",
+        "wire_width": 14
       },
       {
         "name": "GND",
@@ -661,42 +662,56 @@
         "pcb_color": "rgb(194, 0, 194)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "tuning_profile": "",
+        "wire_width": 14
       },
       {
         "name": "LCD",
         "pcb_color": "rgb(0, 194, 0)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "tuning_profile": "",
+        "wire_width": 14
       },
       {
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "tuning_profile": "",
+        "wire_width": 20
       },
       {
         "name": "SPI",
         "pcb_color": "rgb(221, 133, 0)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "tuning_profile": "",
+        "wire_width": 14
       },
       {
         "name": "SWD",
         "pcb_color": "rgb(194, 194, 0)",
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "tuning_profile": "",
+        "wire_width": 14
       },
       {
         "name": "UART",
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "tuning_profile": "",
+        "wire_width": 14
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 14
       }
     ],
     "meta": {
@@ -1019,7 +1034,7 @@
         "uuid": "38eb53bb-294e-46e4-ad59-fd355ca373b9"
       }
     ],
-    "used_designators": "R1-24,#FLG1-5,IC1-9,L1-5,AE1,#PWR1-137,D1-3,C1-79,FB1,FID1-6,H1-8,J1-7,LED1-3,PS1,Q1,S1-2,TP1-8,U1-3,Y1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
