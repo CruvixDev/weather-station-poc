@@ -687,18 +687,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 99.06 77.47)
-		(end 196.85 114.3)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "bcc6b40b-7e9b-4db0-b2fb-07191a4f8c92")
-	)
 	(text "Debug"
 		(exclude_from_sim no)
 		(at 143.256 25.146 0)
@@ -709,31 +697,21 @@
 		)
 		(uuid "06db8011-19eb-4a80-9eb0-a5c302a9ac58")
 	)
-	(text "Communication interface connectors"
-		(exclude_from_sim no)
-		(at 116.586 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "93327ccc-2621-40b8-ab6d-844fb11a02e5")
-	)
 	(junction
-		(at 158.75 105.41)
+		(at 157.48 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f0338b6-a6d1-4a15-b7b6-b0c36f70f35a")
 	)
 	(junction
-		(at 158.75 97.79)
+		(at 157.48 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a97a271-3b55-402f-8830-61391b381974")
 	)
 	(wire
 		(pts
-			(xy 154.94 105.41) (xy 158.75 105.41)
+			(xy 153.67 116.84) (xy 157.48 116.84)
 		)
 		(stroke
 			(width 0)
@@ -743,7 +721,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 100.33) (xy 165.1 97.79)
+			(xy 163.83 111.76) (xy 163.83 109.22)
 		)
 		(stroke
 			(width 0)
@@ -753,7 +731,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 105.41) (xy 165.1 105.41)
+			(xy 157.48 116.84) (xy 163.83 116.84)
 		)
 		(stroke
 			(width 0)
@@ -763,7 +741,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 97.79) (xy 165.1 97.79)
+			(xy 157.48 109.22) (xy 163.83 109.22)
 		)
 		(stroke
 			(width 0)
@@ -773,7 +751,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 100.33) (xy 166.37 100.33)
+			(xy 163.83 111.76) (xy 165.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -783,7 +761,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 102.87) (xy 166.37 102.87)
+			(xy 163.83 114.3) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -793,7 +771,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 105.41) (xy 165.1 102.87)
+			(xy 163.83 116.84) (xy 163.83 114.3)
 		)
 		(stroke
 			(width 0)
@@ -803,7 +781,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 97.79) (xy 158.75 97.79)
+			(xy 153.67 109.22) (xy 157.48 109.22)
 		)
 		(stroke
 			(width 0)
@@ -813,7 +791,7 @@
 	)
 	(hierarchical_label "~{SS}_Debug"
 		(shape output)
-		(at 113.03 104.14 180)
+		(at 101.6 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -824,7 +802,7 @@
 	)
 	(hierarchical_label "SDA_Debug"
 		(shape bidirectional)
-		(at 153.67 83.82 180)
+		(at 165.1 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -835,7 +813,7 @@
 	)
 	(hierarchical_label "MOSI_Debug"
 		(shape output)
-		(at 113.03 96.52 180)
+		(at 101.6 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -846,7 +824,7 @@
 	)
 	(hierarchical_label "SCL_Debug"
 		(shape output)
-		(at 153.67 81.28 180)
+		(at 165.1 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -857,7 +835,7 @@
 	)
 	(hierarchical_label "CAN_Debug_P"
 		(shape bidirectional)
-		(at 154.94 97.79 180)
+		(at 153.67 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -868,7 +846,7 @@
 	)
 	(hierarchical_label "Rx_Debug"
 		(shape input)
-		(at 113.03 83.82 180)
+		(at 101.6 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -879,7 +857,7 @@
 	)
 	(hierarchical_label "SCLK_Debug"
 		(shape output)
-		(at 113.03 101.6 180)
+		(at 101.6 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -890,7 +868,7 @@
 	)
 	(hierarchical_label "Tx_Debug"
 		(shape output)
-		(at 113.03 81.28 180)
+		(at 101.6 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -901,7 +879,7 @@
 	)
 	(hierarchical_label "CAN_Debug_N"
 		(shape bidirectional)
-		(at 154.94 105.41 180)
+		(at 153.67 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -912,7 +890,7 @@
 	)
 	(hierarchical_label "MISO_Debug"
 		(shape input)
-		(at 113.03 99.06 180)
+		(at 101.6 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -923,7 +901,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 101.6 0)
+		(at 157.48 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -933,7 +911,7 @@
 		(dnp no)
 		(uuid "157dfb2b-d744-4176-8495-d9fb86edfdfd")
 		(property "Reference" "R24"
-			(at 162.052 102.616 0)
+			(at 160.782 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -943,7 +921,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 162.052 100.584 0)
+			(at 160.782 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -953,7 +931,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 156.972 101.6 90)
+			(at 155.702 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -964,7 +942,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116092.pdf"
-			(at 158.75 101.6 0)
+			(at 157.48 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -975,7 +953,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 101.6 0)
+			(at 157.48 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -986,7 +964,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 158.75 101.6 0)
+			(at 157.48 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -997,7 +975,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "560112116092 "
-			(at 158.75 101.6 0)
+			(at 157.48 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1024,7 +1002,7 @@
 	)
 	(symbol
 		(lib_id "weather-station-poc-sym:61300311121")
-		(at 153.67 81.28 0)
+		(at 165.1 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1035,7 +1013,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a9f354c-1233-434f-a9c3-3adb3d891d6b")
 		(property "Reference" "J4"
-			(at 170.18 82.5499 0)
+			(at 181.61 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1046,7 +1024,7 @@
 			)
 		)
 		(property "Value" "61300311121"
-			(at 170.18 85.0899 0)
+			(at 181.61 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1057,7 +1035,7 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:HDRV3W64P0X254_1X3_762X254X869P"
-			(at 170.18 176.2 0)
+			(at 181.61 168.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1069,7 +1047,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_61300311121+%28rev1%29.pdf"
-			(at 170.18 276.2 0)
+			(at 181.61 268.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1081,7 +1059,7 @@
 			)
 		)
 		(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
-			(at 153.67 81.28 0)
+			(at 165.1 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1092,7 +1070,7 @@
 			)
 		)
 		(property "Height" "8.69"
-			(at 170.18 476.2 0)
+			(at 181.61 468.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1104,7 +1082,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-61300311121"
-			(at 170.18 576.2 0)
+			(at 181.61 568.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1116,7 +1094,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
-			(at 170.18 676.2 0)
+			(at 181.61 668.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1128,7 +1106,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 170.18 776.2 0)
+			(at 181.61 768.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1140,7 +1118,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "61300311121"
-			(at 170.18 876.2 0)
+			(at 181.61 868.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1171,7 +1149,7 @@
 	)
 	(symbol
 		(lib_id "weather-station-poc-sym:61300311121")
-		(at 113.03 81.28 0)
+		(at 101.6 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1181,8 +1159,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eb1a641-0c52-4e79-b5cd-9ca7877328cd")
-		(property "Reference" "J2"
-			(at 129.54 82.5499 0)
+		(property "Reference" "J3"
+			(at 118.11 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1193,7 +1171,7 @@
 			)
 		)
 		(property "Value" "61300311121"
-			(at 129.54 85.0899 0)
+			(at 118.11 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1204,7 +1182,7 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:HDRV3W64P0X254_1X3_762X254X869P"
-			(at 129.54 176.2 0)
+			(at 118.11 206.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1216,7 +1194,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_61300311121+%28rev1%29.pdf"
-			(at 129.54 276.2 0)
+			(at 118.11 306.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1228,7 +1206,7 @@
 			)
 		)
 		(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
-			(at 113.03 81.28 0)
+			(at 101.6 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1239,7 +1217,7 @@
 			)
 		)
 		(property "Height" "8.69"
-			(at 129.54 476.2 0)
+			(at 118.11 506.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1251,7 +1229,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-61300311121"
-			(at 129.54 576.2 0)
+			(at 118.11 606.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1263,7 +1241,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
-			(at 129.54 676.2 0)
+			(at 118.11 706.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1275,7 +1253,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 129.54 776.2 0)
+			(at 118.11 806.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1287,7 +1265,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "61300311121"
-			(at 129.54 876.2 0)
+			(at 118.11 906.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1310,7 +1288,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/8a588a02-5ba4-4712-b770-7d9eb4e5d127"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1318,7 +1296,7 @@
 	)
 	(symbol
 		(lib_id "weather-station-poc-sym:61300311121")
-		(at 166.37 100.33 0)
+		(at 165.1 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1329,7 +1307,7 @@
 		(fields_autoplaced yes)
 		(uuid "25795bf0-1aaf-4437-bb9b-69322f9c033d")
 		(property "Reference" "J5"
-			(at 182.88 101.5999 0)
+			(at 181.61 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1340,7 +1318,7 @@
 			)
 		)
 		(property "Value" "61300311121"
-			(at 182.88 104.1399 0)
+			(at 181.61 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1351,7 +1329,7 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:HDRV3W64P0X254_1X3_762X254X869P"
-			(at 182.88 195.25 0)
+			(at 181.61 206.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1363,7 +1341,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_61300311121+%28rev1%29.pdf"
-			(at 182.88 295.25 0)
+			(at 181.61 306.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1375,7 +1353,7 @@
 			)
 		)
 		(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
-			(at 166.37 100.33 0)
+			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1386,7 +1364,7 @@
 			)
 		)
 		(property "Height" "8.69"
-			(at 182.88 495.25 0)
+			(at 181.61 506.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1398,7 +1376,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-61300311121"
-			(at 182.88 595.25 0)
+			(at 181.61 606.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1410,7 +1388,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
-			(at 182.88 695.25 0)
+			(at 181.61 706.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1422,7 +1400,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 182.88 795.25 0)
+			(at 181.61 806.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1434,7 +1412,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "61300311121"
-			(at 182.88 895.25 0)
+			(at 181.61 906.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1465,7 +1443,7 @@
 	)
 	(symbol
 		(lib_id "weather-station-poc-sym:61300511121")
-		(at 113.03 96.52 0)
+		(at 101.6 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1475,8 +1453,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c31c85a-da38-4d56-ac23-f0e511e4fbfd")
-		(property "Reference" "J3"
-			(at 129.54 100.3299 0)
+		(property "Reference" "J2"
+			(at 118.11 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1487,7 +1465,7 @@
 			)
 		)
 		(property "Value" "61300511121"
-			(at 129.54 102.8699 0)
+			(at 118.11 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1498,7 +1476,7 @@
 			)
 		)
 		(property "Footprint" "weather-station-poc-fp:HDRV5W64P0X254_1X5_1270X254X854P"
-			(at 129.54 191.44 0)
+			(at 118.11 168.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1510,7 +1488,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_61300511121+%28rev1%29.pdf"
-			(at 129.54 291.44 0)
+			(at 118.11 268.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1522,7 +1500,7 @@
 			)
 		)
 		(property "Description" "WR-PHD 2.54 mm Pin Header 5 pins, 1 row, straight, gold plating"
-			(at 113.03 96.52 0)
+			(at 101.6 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1533,7 +1511,7 @@
 			)
 		)
 		(property "Height" "8.54"
-			(at 129.54 491.44 0)
+			(at 118.11 468.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1545,7 +1523,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-61300511121"
-			(at 129.54 591.44 0)
+			(at 118.11 568.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1557,7 +1535,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300511121?qs=PhR8RmCirEZCsCRHq%252BvfRQ%3D%3D"
-			(at 129.54 691.44 0)
+			(at 118.11 668.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1569,7 +1547,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 129.54 791.44 0)
+			(at 118.11 768.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1581,7 +1559,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "61300511121"
-			(at 129.54 891.44 0)
+			(at 118.11 868.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1610,7 +1588,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/8a588a02-5ba4-4712-b770-7d9eb4e5d127"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1618,7 +1596,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 105.41 0)
+		(at 165.1 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1629,7 +1607,7 @@
 		(fields_autoplaced yes)
 		(uuid "75abd352-7fe0-4e30-aaf2-f282dbfb2886")
 		(property "Reference" "#PWR0125"
-			(at 166.37 111.76 0)
+			(at 165.1 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1640,7 +1618,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 110.49 0)
+			(at 165.1 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1650,7 +1628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 105.41 0)
+			(at 165.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1661,7 +1639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 105.41 0)
+			(at 165.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1672,7 +1650,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 105.41 0)
+			(at 165.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1696,7 +1674,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 106.68 0)
+		(at 101.6 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1706,8 +1684,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f95fe0-2927-48ca-85bc-7c13d7f746c4")
-		(property "Reference" "#PWR0123"
-			(at 113.03 113.03 0)
+		(property "Reference" "#PWR0122"
+			(at 101.6 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1718,7 +1696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 111.76 0)
+			(at 101.6 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1728,7 +1706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 106.68 0)
+			(at 101.6 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1739,7 +1717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 106.68 0)
+			(at 101.6 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1750,7 +1728,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 106.68 0)
+			(at 101.6 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1766,7 +1744,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/8a588a02-5ba4-4712-b770-7d9eb4e5d127"
-					(reference "#PWR0123")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -1774,7 +1752,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 86.36 0)
+		(at 165.1 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1785,7 +1763,7 @@
 		(fields_autoplaced yes)
 		(uuid "d241b12e-13f5-4ff5-b261-5cb8723502a6")
 		(property "Reference" "#PWR0124"
-			(at 153.67 92.71 0)
+			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1796,7 +1774,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 91.44 0)
+			(at 165.1 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1806,7 +1784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 86.36 0)
+			(at 165.1 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1817,7 +1795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 86.36 0)
+			(at 165.1 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1828,7 +1806,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 86.36 0)
+			(at 165.1 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1852,7 +1830,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 86.36 0)
+		(at 101.6 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1862,8 +1840,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb66dbfd-33ee-4936-a96c-d46a60be04ca")
-		(property "Reference" "#PWR0122"
-			(at 113.03 92.71 0)
+		(property "Reference" "#PWR0123"
+			(at 101.6 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1874,7 +1852,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 91.44 0)
+			(at 101.6 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1884,7 +1862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 86.36 0)
+			(at 101.6 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1895,7 +1873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 86.36 0)
+			(at 101.6 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1906,7 +1884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 86.36 0)
+			(at 101.6 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,7 +1900,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/8a588a02-5ba4-4712-b770-7d9eb4e5d127"
-					(reference "#PWR0122")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
