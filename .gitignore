@@ -1,13 +1,6 @@
-fp-info-cache
 /weather-station-poc-backups
-*.bak
-~weather-station-poc.kicad_sch.lck
-~weather-station-poc.kicad_pcb.lck
-\#auto_saved_files\#
-_autosave-weather-station-poc.kicad_sch
-fp-F34D.tmp
-.history/
-~weather-station-poc.kicad_pro.lck
 /manufacturing
-*.zip
+/.history
+/*.bak
+/*.lck
 weather-station-poc.kicad_prl
