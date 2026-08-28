@@ -5907,7 +5907,7 @@
 		)
 	)
 	(rectangle
-		(start 283.21 36.83)
+		(start 281.94 36.83)
 		(end 398.78 91.44)
 		(stroke
 			(width 0)
@@ -5931,7 +5931,7 @@
 		(uuid "989c7e88-9c2e-495a-b6d9-6828d677c3ce")
 	)
 	(rectangle
-		(start 283.21 97.79)
+		(start 281.94 97.79)
 		(end 363.22 127)
 		(stroke
 			(width 0)
@@ -5944,7 +5944,7 @@
 	)
 	(text "SWD connector (MIPI 10)"
 		(exclude_from_sim no)
-		(at 295.148 35.56 0)
+		(at 293.878 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5954,7 +5954,7 @@
 	)
 	(text "RGB parallel bus"
 		(exclude_from_sim no)
-		(at 291.084 96.52 0)
+		(at 289.814 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -149,22 +149,6 @@
         [
           "clearance|148300000|125950000|bd3a2369-57db-48ff-ad43-657afdaf0359|ff4200a7-8a15-4fd1-b7c6-1a5cbe37f58a",
           ""
-        ],
-        [
-          "clearance|148985000|117200000|40724249-398a-4503-9888-c0a5b4238173|27be597c-7f64-4474-ac21-21b437bb6e66",
-          ""
-        ],
-        [
-          "clearance|151435000|117200000|40724249-398a-4503-9888-c0a5b4238173|5e7a261f-aa3f-41e0-8d38-b8332b24c3cf",
-          ""
-        ],
-        [
-          "solder_mask_bridge|148985000|117200000|40724249-398a-4503-9888-c0a5b4238173|27be597c-7f64-4474-ac21-21b437bb6e66",
-          ""
-        ],
-        [
-          "solder_mask_bridge|151435000|117200000|40724249-398a-4503-9888-c0a5b4238173|5e7a261f-aa3f-41e0-8d38-b8332b24c3cf",
-          ""
         ]
       ],
       "meta": {
@@ -617,7 +601,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12,
+        "bus_width": 0,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -633,15 +617,14 @@
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 12
+        "wire_width": 0
       },
       {
         "name": "CAN",
         "pcb_color": "rgb(0, 0, 194)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 14
+        "tuning_profile": ""
       },
       {
         "name": "GND",
@@ -655,56 +638,51 @@
         "pcb_color": "rgb(194, 0, 194)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 14
+        "tuning_profile": ""
       },
       {
         "name": "LCD",
         "pcb_color": "rgb(0, 194, 0)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 14
+        "tuning_profile": ""
       },
       {
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 20
+        "tuning_profile": ""
       },
       {
         "name": "SPI",
         "pcb_color": "rgb(221, 133, 0)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 14
+        "tuning_profile": ""
       },
       {
         "name": "SWD",
         "pcb_color": "rgb(194, 194, 0)",
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 14
+        "tuning_profile": ""
       },
       {
         "name": "UART",
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 14
+        "tuning_profile": ""
       },
       {
+        "diff_pair_gap": 0.35,
+        "diff_pair_width": 0.35,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 14
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -812,6 +790,14 @@
       {
         "netclass": "I2C",
         "pattern": "/LCD/SDA_LCD"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/mcu/MCU_USB_*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/usb-c/D12_*"
       }
     ]
   },
@@ -1027,7 +1013,7 @@
         "uuid": "38eb53bb-294e-46e4-ad59-fd355ca373b9"
       }
     ],
-    "used_designators": "R1-24,#FLG1-5,D1-3,L1-5,AE1,#PWR1-137,C1-79,FB1,FID1-6,H1-8,IC1-9,J1-7,LED1-3,PS1,Q1,S1-2,TP1-8,U1-3,Y1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

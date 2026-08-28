@@ -4777,9 +4777,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_C_P" bidirectional
+		(pin "USB_P" bidirectional
 			(at 118.11 45.72 0)
-			(uuid "f8bd2388-6ee6-4750-8d8b-2e893dd47123")
+			(uuid "621d2bf1-9cdd-4d5d-af27-05d519a852f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,9 +4787,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_C_N" bidirectional
+		(pin "USB_N" bidirectional
 			(at 118.11 48.26 0)
-			(uuid "18cd484f-a855-4366-a073-e480889e7198")
+			(uuid "8462fc22-9c66-4988-a91c-40b306f30493")
 			(effects
 				(font
 					(size 1.27 1.27)

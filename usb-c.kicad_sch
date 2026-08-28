@@ -2704,7 +2704,7 @@
 	)
 	(text "ESD protection on USB-C data lines"
 		(exclude_from_sim no)
-		(at 82.55 113.03 0)
+		(at 82.296 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2727,6 +2727,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08f2cc51-afcc-4ffb-8d63-80b7a4036f25")
+	)
+	(junction
+		(at 160.02 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09d7ad6c-ca23-4328-885b-047594e808e5")
 	)
 	(junction
 		(at 111.76 93.98)
@@ -2825,6 +2831,12 @@
 		(uuid "89e76258-d142-4476-979a-0f7a6a2eacb5")
 	)
 	(junction
+		(at 160.02 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f3c74b1-5d23-48db-a5c2-30b1ccbff75b")
+	)
+	(junction
 		(at 111.76 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2837,10 +2849,10 @@
 		(uuid "94ec62ad-749a-4c80-be3a-629f130fae5c")
 	)
 	(junction
-		(at 153.67 106.68)
+		(at 151.13 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "99f40477-fae2-42a8-b220-8f8da3beba69")
+		(uuid "a903a50e-80fa-4b5c-8500-41d6afd3dc38")
 	)
 	(junction
 		(at 199.39 66.04)
@@ -2960,16 +2972,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 106.68) (xy 160.02 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "017e610b-2797-4716-978f-537047b05789")
-	)
-	(wire
-		(pts
 			(xy 111.76 86.36) (xy 111.76 88.9)
 		)
 		(stroke
@@ -2977,6 +2979,16 @@
 			(type default)
 		)
 		(uuid "05f6d611-0f59-4ced-9f67-6730db6124c7")
+	)
+	(wire
+		(pts
+			(xy 158.75 104.14) (xy 160.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075c0717-9cc8-4df7-a34f-59fae771c0c6")
 	)
 	(wire
 		(pts
@@ -3270,7 +3282,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 106.68) (xy 153.67 106.68)
+			(xy 144.78 106.68) (xy 151.13 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3287,6 +3299,16 @@
 			(type default)
 		)
 		(uuid "81f3d8ec-e28c-4c57-bc60-3c2a9b5365ae")
+	)
+	(wire
+		(pts
+			(xy 151.13 106.68) (xy 160.02 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f66420a-75ef-4a18-bb88-cb6c54a203fc")
 	)
 	(wire
 		(pts
@@ -3390,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 106.68) (xy 153.67 110.49)
+			(xy 151.13 106.68) (xy 151.13 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3510,6 +3532,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 109.22) (xy 160.02 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34a3200-9955-4988-bba5-66d0b9f7a651")
+	)
+	(wire
+		(pts
 			(xy 76.2 66.04) (xy 78.74 66.04)
 		)
 		(stroke
@@ -3558,7 +3590,7 @@
 		)
 		(uuid "fc95de3f-00b8-4fec-a3ea-f5ec7b0e194d")
 	)
-	(label "DN12"
+	(label "D12_N"
 		(at 111.76 71.12 0)
 		(effects
 			(font
@@ -3568,7 +3600,7 @@
 		)
 		(uuid "1e656a48-2f91-4762-a5a8-95238d9c8263")
 	)
-	(label "DP12"
+	(label "D12_P"
 		(at 111.76 68.58 0)
 		(effects
 			(font
@@ -3578,7 +3610,7 @@
 		)
 		(uuid "2c4aac33-1765-4c5c-b8e0-73a8f749fd69")
 	)
-	(label "DP12"
+	(label "D12_P"
 		(at 78.74 78.74 180)
 		(effects
 			(font
@@ -3588,7 +3620,7 @@
 		)
 		(uuid "33f05cdc-24ab-4257-a29a-a08316758a65")
 	)
-	(label "DN12"
+	(label "D12_N"
 		(at 78.74 81.28 180)
 		(effects
 			(font
@@ -3599,7 +3631,7 @@
 		(uuid "3a7d23db-f062-4bd6-845e-46466f4678d6")
 	)
 	(label "CC1c"
-		(at 160.02 104.14 180)
+		(at 158.75 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3629,7 +3661,7 @@
 		(uuid "a4c14fe2-8f4d-400b-8912-bc87a5aa7768")
 	)
 	(label "CC2c"
-		(at 160.02 109.22 180)
+		(at 158.75 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3648,7 +3680,7 @@
 		)
 		(uuid "c4fbe63c-8ea2-4582-9e8e-63adbf4ab4fb")
 	)
-	(label "DN12"
+	(label "D12_N"
 		(at 67.31 123.19 0)
 		(effects
 			(font
@@ -3658,7 +3690,7 @@
 		)
 		(uuid "d9b28220-0a1f-4c97-bcd1-e93b318beb05")
 	)
-	(label "DP12"
+	(label "D12_P"
 		(at 67.31 133.35 0)
 		(effects
 			(font
@@ -3688,7 +3720,7 @@
 		)
 		(uuid "f8db81c9-9313-405a-baaa-5d3038ce7428")
 	)
-	(hierarchical_label "USB_C_N"
+	(hierarchical_label "USB_N"
 		(shape bidirectional)
 		(at 113.03 125.73 0)
 		(effects
@@ -3732,7 +3764,7 @@
 		)
 		(uuid "fbc610be-92b5-4e8a-8c97-21298148d252")
 	)
-	(hierarchical_label "USB_C_P"
+	(hierarchical_label "USB_P"
 		(shape bidirectional)
 		(at 113.03 130.81 0)
 		(effects
@@ -5201,7 +5233,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 114.3 0)
+		(at 151.13 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5211,7 +5243,7 @@
 		(dnp no)
 		(uuid "541106fa-4c3f-4391-8f6c-44851e874871")
 		(property "Reference" "C2"
-			(at 148.082 114.3 0)
+			(at 145.542 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5222,7 +5254,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 147.32 116.586 0)
+			(at 144.78 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5233,7 +5265,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 154.6352 118.11 0)
+			(at 152.0952 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5244,7 +5276,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206020.pdf"
-			(at 153.67 114.3 0)
+			(at 151.13 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5255,7 +5287,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 153.67 114.3 0)
+			(at 151.13 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5266,7 +5298,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 153.67 114.3 0)
+			(at 151.13 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5277,7 +5309,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012206020"
-			(at 153.67 114.3 0)
+			(at 151.13 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +5717,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 118.11 0)
+		(at 151.13 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5696,7 +5728,7 @@
 		(fields_autoplaced yes)
 		(uuid "a13139e0-c46c-4268-9865-62f690e3e30b")
 		(property "Reference" "#PWR021"
-			(at 153.67 124.46 0)
+			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5707,7 +5739,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 123.19 0)
+			(at 151.13 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5717,7 +5749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 118.11 0)
+			(at 151.13 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5728,7 +5760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 118.11 0)
+			(at 151.13 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5739,7 +5771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 118.11 0)
+			(at 151.13 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
