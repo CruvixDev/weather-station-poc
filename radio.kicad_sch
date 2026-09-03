@@ -3727,7 +3727,6 @@
 		)
 		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/bd/26/62/81/3d/86/4d/15/DM00339133/files/DM00339133.pdf/jcr:content/translations/en.DM00339133.pdf"
 			(at 142.24 264.77 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

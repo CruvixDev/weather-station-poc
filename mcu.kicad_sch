@@ -17933,7 +17933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed08495b-ec21-4e5f-92f9-475c5491cd2d")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 104.14 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18017,7 +18017,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/5f00b1ab-9f48-4782-8810-a8d68b4e6a2f"
-					(reference "TP3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -18580,7 +18580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd6481d0-3d7e-43bd-9ca4-2cd855f67ef8")
-		(property "Reference" "TP4"
+		(property "Reference" "TP2"
 			(at 104.14 193.548 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18664,7 +18664,7 @@
 		(instances
 			(project "weather-station-poc"
 				(path "/38eb53bb-294e-46e4-ad59-fd355ca373b9/5f00b1ab-9f48-4782-8810-a8d68b4e6a2f"
-					(reference "TP4")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
