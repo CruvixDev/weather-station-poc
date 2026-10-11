@@ -791,7 +791,7 @@
 	)
 	(hierarchical_label "~{SS}_Debug"
 		(shape output)
-		(at 101.6 81.28 180)
+		(at 101.6 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -813,7 +813,7 @@
 	)
 	(hierarchical_label "MOSI_Debug"
 		(shape output)
-		(at 101.6 73.66 180)
+		(at 101.6 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -857,7 +857,7 @@
 	)
 	(hierarchical_label "SCLK_Debug"
 		(shape output)
-		(at 101.6 78.74 180)
+		(at 101.6 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -890,7 +890,7 @@
 	)
 	(hierarchical_label "MISO_Debug"
 		(shape input)
-		(at 101.6 76.2 180)
+		(at 101.6 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)

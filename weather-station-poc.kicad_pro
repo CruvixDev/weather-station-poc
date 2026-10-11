@@ -60,6 +60,11 @@
           "width": 0.0
         },
         {
+          "gap": 0.36,
+          "via_gap": 0.5,
+          "width": 0.1
+        },
+        {
           "gap": 0.163,
           "via_gap": 0.5,
           "width": 0.149
@@ -618,6 +623,8 @@
         "wire_width": 0
       },
       {
+        "diff_pair_gap": 0.36,
+        "diff_pair_width": 0.1,
         "name": "CAN",
         "pcb_color": "rgb(0, 0, 194)",
         "priority": 0,
